@@ -456,6 +456,30 @@
     </div>
 </div>  
 
+<div class="bg-dark-1">
+    <div class="mdle-xxx">
+        <h4>
+            Why iRCM Leads in Medical Revenue Cycle <br />Management Services
+        </h4>
+        <p>
+            iRCM provides unmatched expertise with comprehensive medical RCM solutions, <br/> ensuring faster payments, fewer errors, and efficient processes for healthcare providers.
+        </p>
+        <a class="cnt-btn">  Contact Us <i class="fas fa-arrow-right"></i></a>
+    </div>
+    <div class="row md-tr">
+        <div class="col-lg-6">
+            <div class="box-svg-100">
+
+            </div>
+            <div class="svg-contnt">
+                <h4>Expert Team Support</h4>
+                <p>Certified professionals managing billing, coding, and claim resolutions efficiently.</p>
+            </div>
+        </div>
+        <div class="col-lg-6"></div>
+    </div>
+</div>
+
 
 <!-- Testimonial Start -->
 <div class="test-black container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
