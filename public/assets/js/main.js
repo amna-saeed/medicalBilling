@@ -161,30 +161,49 @@
         }
     });
 
-$(document).ready(function () {
-  $(".testimonial-slider").owlCarousel({
-    autoplay: true,
-    autoplayTimeout: 4000,
-    autoplayHoverPause: true,
-    smartSpeed: 1000,
-    center: true,
-    loop: true,
-    margin: 20,
-    nav: true,
-    dots: false,
-    navText: [
-      '<i class="bi bi-arrow-left"></i>',
-      '<i class="bi bi-arrow-right"></i>'
-    ],
-    responsive: {
-      0: { items: 1 },
-      768: { items: 2 },
-      992: { items: 3 }
-    }
-  });
-});
+   $(document).ready(function () {
+        $(".testimonial-slider").owlCarousel({
+            autoplay: true,
+            autoplayTimeout: 1000, // <- this line is missing in your current code
+            smartSpeed: 1000,
+            center: true,
+            dots: false,
+            loop: true,
+            nav: false,
+            margin: 10,
+            navText: [
+            '<i class="bi bi-arrow-left"></i>',
+            '<i class="bi bi-arrow-right"></i>'
+            ],
+            responsive: {
+            0: { items: 1 },
+            768: { items: 2 },
+            992: { items: 3 }
+            }
+        });
+    });
 
 
+    $(document).ready(function () {
+        $(".med-srv-box-slider").owlCarousel({
+            autoplay: true,
+            smartSpeed: 1000,
+            center: true,
+            dots: false,
+            loop: true,
+            nav : false,
+            margin: 10,
+            navText: [
+            '<i class="bi bi-arrow-left"></i>',
+            '<i class="bi bi-arrow-right"></i>'
+            ],
+            responsive: {
+            0: { items: 1 },
+            768: { items: 2 },
+            992: { items: 3 }
+            }
+        });
+    });
 
     window.addEventListener('scroll', function () {
         const header = document.querySelector('.main-header');
@@ -253,6 +272,6 @@ $(document).ready(function () {
         });
     });
 
-    
+
 })(jQuery);
 

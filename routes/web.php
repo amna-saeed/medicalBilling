@@ -14,5 +14,9 @@ use App\Http\Controllers\HomeController;
 */
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
-Route::get('/medical-billing', [HomeController::class, 'MedicalHome'])->name('services.medical-billing');
-Route::get('/medical-credentialing', [HomeController::class, 'CredentialingHome'])->name('services.medical-credentialing');
+Route::get('/services.medical-billing', [HomeController::class, 'MedicalHome'])->name('services.medical-billing');
+Route::get('/services.medical-credentialing', [HomeController::class, 'CredentialingHome'])->name('services.medical-credentialing');
+Route::get('/services.medical-coding', [HomeController::class, 'mCodingHome'])->name('services.medical-coding');
+Route::get('/services.denial-management', [HomeController::class, 'DenialHome'])->name('services.denial-management');
+Route::get('/services.out-of-network-billing', [HomeController::class, 'NetworkHome'])->name('services.out-of-network-billing');
+Route::get('/services.revenue-cycle-management', [HomeController::class, 'RevenueHome'])->name('services.revenue-cycle-management');

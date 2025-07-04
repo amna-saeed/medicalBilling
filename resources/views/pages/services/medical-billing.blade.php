@@ -2,6 +2,7 @@
 @section('content')
 
 <div class="bg-service-detail">
+    <div id="particles-js"></div>
   <div class="service-overlay">
     <div class="container">
       <div class="row align-items-center">
@@ -109,6 +110,7 @@
     </div>
   </div>
 </div>
+
 <div class="ggle-box">
   <div class="ggle-left">
     <h2 class="ggle-head">Provider Enrollment and<br>Credentialing services</h2>
@@ -119,9 +121,10 @@
   </div>
 
   <div class="ggle-right">
-    <!-- Optional: Empty or add content -->
+   
   </div>
 </div>
+
 <div class="main-hero-content">
     <div class="row tp-1">
         <div class="col-lg-6">
@@ -608,7 +611,7 @@
 </div>
 
 <!-- Testimonial Start -->
-<div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+<div class="test-black container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
     <div class="container">
         <div class="text-center">
             <h6 class="review-head">Customer Feedback That Makes Us <br />Proud</h6>
@@ -641,6 +644,7 @@
         </div>
     </div>
 </div>
+
 <div class="bg-form-img">
     <div class="hero-text-form">
         <form class="custom-form container">
@@ -670,5 +674,71 @@
 
 <link href="{{ asset('assets/css/medical-service.css') }}" rel="stylesheet">
 
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+<script>
+      particlesJS("particles-js", {
+    "particles": {
+      "number": {
+        "value": 35,
+        "density": {
+          "enable": true,
+          "value_area": 800
+        }
+      },
+      "color": {
+        "value": "#313131"
+      },
+      "shape": {
+        "type": "circle"
+      },
+      "opacity": {
+        "value": 0.4,
+        "random": true
+      },
+      "size": {
+        "value": 4,         // medium size
+        "random": true,
+        "anim": {
+          "enable": true,
+          "speed": 2,
+          "size_min": 2,    // slightly bigger min size
+          "sync": false
+        }
+      },
+      "line_linked": {
+        "enable": true,
+        "distance": 150,
+        "color": "#fff",
+        "opacity": 0.6,
+        "width": 2.03       // slightly thicker lines
+      },
+      "move": {
+        "enable": true,
+        "speed": 6
+      }
+    },
+    "interactivity": {
+      "events": {
+        "onhover": {
+          "enable": true,
+          "mode": "grab"
+        }
+      },
+      "modes": {
+        "grab": {
+          "distance": 300,
+          "line_linked": {
+            "opacity": 0.8
+          }
+        }
+      }
+    },
+    "retina_detect": true
+  });
+
+</script>
+
+@stop
 @section('js')
 @endsection

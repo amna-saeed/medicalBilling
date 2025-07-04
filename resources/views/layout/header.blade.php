@@ -50,42 +50,42 @@
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
                 <div class="dropdown-menu fade-up m-0 dropdown-center-menu dropdown-center-3">
                   <div class="dropdown-grid dropdown-grid-3">
-                    <a href="booking.html" class="dropdown-item-custom">
+                    <a href="{{ route('services.medical-billing') }}" class="dropdown-item-custom">
                       <span class="icon-wrapper">
                         <img src="{{ asset('assets/appImg/internett(1).png') }}" class="icon-default" alt="" loading="lazy">
                         <img src="{{ asset('assets/appImg/interneticonblack -red.png') }}" class="icon-hover" alt="" loading="lazy">
                       </span>
                       Medical Billing
                     </a>
-                    <a href="team.html" class="dropdown-item-custom">
+                    <a href="{{ route('services.medical-credentialing') }}" class="dropdown-item-custom">
                       <span class="icon-wrapper">
                         <img src="{{ asset('assets/appImg/internett(1).png') }}" class="icon-default" alt="" loading="lazy">
                         <img src="{{ asset('assets/appImg/interneticonblack -red.png') }}" class="icon-hover" alt="" loading="lazy">
                       </span>
                       Medical Credentialing
                     </a>
-                    <a href="testimonial.html" class="dropdown-item-custom">
+                    <a href="{{ route('services.medical-coding') }}" class="dropdown-item-custom">
                        <span class="icon-wrapper">
                         <img src="{{ asset('assets/appImg/internett(1).png') }}" class="icon-default" alt="" loading="lazy">
                         <img src="{{ asset('assets/appImg/interneticonblack -red.png') }}" class="icon-hover" alt="" loading="lazy">
                       </span>
                       Medical Coding
                     </a>
-                    <a href="404.html" class="dropdown-item-custom">
+                    <a href="{{route('services.denial-management')}}" class="dropdown-item-custom">
                        <span class="icon-wrapper">
                         <img src="{{ asset('assets/appImg/internett(1).png') }}" class="icon-default" alt="" loading="lazy">
                         <img src="{{ asset('assets/appImg/interneticonblack -red.png') }}" class="icon-hover" alt="" loading="lazy">
                       </span>
                       Denial Management
                     </a>
-                    <a href="booking.html" class="dropdown-item-custom">
+                    <a href="{{route('services.out-of-network-billing')}}" class="dropdown-item-custom">
                         <span class="icon-wrapper">
                           <img src="{{ asset('assets/appImg/internett(1).png') }}" class="icon-default" alt="" loading="lazy">
                           <img src="{{ asset('assets/appImg/interneticonblack -red.png') }}" class="icon-hover" alt="" loading="lazy">
                         </span>
                       Out of Network
                     </a>
-                    <a href="team.html" class="dropdown-item-custom">
+                    <a href="{{route('services.revenue-cycle-management')}}" class="dropdown-item-custom">
                         <span class="icon-wrapper">
                           <img src="{{ asset('assets/appImg/internett(1).png') }}" class="icon-default" alt="" loading="lazy">
                           <img src="{{ asset('assets/appImg/interneticonblack -red.png') }}" class="icon-hover" alt="" loading="lazy">
