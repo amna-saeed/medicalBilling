@@ -10,8 +10,7 @@
                 <!-- Left Content -->
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="service-content text-white">
-                        <h4 class="title-main-2">Efficient Out of Network Services - Where Efficiency and Accuracy</h4>
-                        <h4 class="title-sub-2">Define Our Worth</h4>
+                        <h4 class="title-main-2">Efficient Out of Network Services - Where Efficiency and Accuracy Define Our Worth</h4>
                         <p class="description">
                             Efficient Out of Network Services - Where Efficiency and Accuracy Define Our Worth
                             Discover unparalleled efficiency and precision for your out-of-network services, ensuring seamless and accurate operations adapted to your needs.

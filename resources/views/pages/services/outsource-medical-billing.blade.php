@@ -9,9 +9,7 @@
         <!-- Left Content -->
         <div class="col-lg-6 mb-4 mb-lg-0">
           <div class="service-content text-white">
-            <h4 class="title-main">Optimize Your Revenue Cycle</h4>
-            <h4 class="title-sub"> with Expert Outsource</h4>
-            <h4 class="title-sub">Medical Billing Services!</h4>
+            <h4 class="title-main">Optimize Your Revenue Cycle with Expert Outsource Medical Billing Services!</h4>
             <p class="description">
               Supercharge your practice's revenue with our professional outsource medical billing services. Let us handle your billing complexities, ensuring financial efficiency while you focus on top-notch patient care
             </p>

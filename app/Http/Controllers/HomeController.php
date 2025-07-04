@@ -42,4 +42,8 @@ class HomeController extends Controller
     {
         return view('pages.services.outsource-medical-billing');
     }
+    public function ArHome()
+    {
+        return view('pages.services.ar-follow-up');
+    }
 }

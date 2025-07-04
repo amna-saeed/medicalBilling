@@ -111,7 +111,7 @@ p.paid-fstr{
     line-height: 46px;
 }
 h4.mdcl-headng {
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 700;
     color: #502e6d;
     margin: 0px;
@@ -551,9 +551,6 @@ h4.fw-bold {
 .text-part {
     margin-top: 7px;
 }
-
-
-
 .ue_pbullet_graphicel {
     background: #502e6d;
     padding: 11px 16px;
@@ -564,7 +561,7 @@ h4.fw-bold {
     width: 72px;
 }
 .circle-heading {
-       display: flex;
+    display: flex;
     align-items: center;
     font-weight: 700;
     font-size: 17px;
@@ -573,6 +570,40 @@ h4.fw-bold {
     text-align: left;
     line-height: 17px;
     width: 317px;
+}
+.one-box-des {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+  margin-top: 13px;
+}
+
+.one-box-des p {
+  font-size: 19px;
+  font-weight: 600;
+  color: #502E6D;
+  margin: 0;
+}
+.icon-specialtiesgeneral-surgery:before {
+    content: '\e805';
+}
+.one-icon {
+  width: 57px;
+  height: 57px;
+  flex-shrink: 0;
+}
+
+.circle-heading22 {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 17px;
+    color: #ffff;
+    margin-bottom: 6px;
+    text-align: left;
+    line-height: 17px;
+    width: 458px;
 }
 .circle-line {
     width: 46px;

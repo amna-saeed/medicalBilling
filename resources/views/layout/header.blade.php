@@ -52,8 +52,8 @@
                   <div class="dropdown-grid dropdown-grid-3">
                     <a href="{{ route('services.medical-billing') }}" class="dropdown-item-custom">
                       <span class="icon-wrapper">
-                        <img src="{{ asset('assets/appImg/internett(1).png') }}" class="icon-default" alt="" loading="lazy">
-                        <img src="{{ asset('assets/appImg/interneticonblack -red.png') }}" class="icon-hover" alt="" loading="lazy">
+                        <img src="{{ asset('assets/appImg/medical-reportwhite.png') }}" class="icon-default" alt="" loading="lazy">
+                        <img src="{{ asset('assets/appImg/medical-report-grey.png') }}" class="icon-hover" alt="" loading="lazy">
                       </span>
                       Medical Billing
                     </a>
@@ -106,7 +106,7 @@
                       </span>
                      Outsource Billing
                     </a>
-                    <a href="booking.html" class="dropdown-item-custom pd-rmve">
+                    <a href="{{route('services.ar-follow-up')}}" class="dropdown-item-custom pd-rmve">
                       <span class="icon-wrapper">
                         <img src="{{ asset('assets/appImg/internett(1).png') }}" class="icon-default" alt="" loading="lazy">
                         <img src="{{ asset('assets/appImg/interneticonblack -red.png') }}" class="icon-hover" alt="" loading="lazy">
