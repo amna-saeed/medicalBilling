@@ -34,4 +34,12 @@ class HomeController extends Controller
     {
         return view('pages.services.revenue-cycle-management');
     }
+     public function CounsltngHome()
+    {
+        return view('pages.services.medical-billing-consulting');
+    }
+    public function OutsourceHome()
+    {
+        return view('pages.services.outsource-medical-billing');
+    }
 }

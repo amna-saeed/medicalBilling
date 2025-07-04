@@ -92,14 +92,14 @@
                         </span>
                      Revenue Cycle
                     </a>
-                    <a href="testimonial.html" class="dropdown-item-custom pd-rmve">
+                    <a href="{{route('services.medical-billing-consulting')}}" class="dropdown-item-custom pd-rmve">
                       <span class="icon-wrapper">
                         <img src="{{ asset('assets/appImg/internett(1).png') }}" class="icon-default" alt="" loading="lazy">
                         <img src="{{ asset('assets/appImg/interneticonblack -red.png') }}" class="icon-hover" alt="" loading="lazy">
                       </span>
                       Medical Consulting
                     </a>
-                    <a href="404.html" class="dropdown-item-custom pd-rmve">
+                    <a href="{{route('services.outsource-medical-billing')}}" class="dropdown-item-custom pd-rmve">
                       <span class="icon-wrapper">
                         <img src="{{ asset('assets/appImg/internett(1).png') }}" class="icon-default" alt="" loading="lazy">
                         <img src="{{ asset('assets/appImg/interneticonblack -red.png') }}" class="icon-hover" alt="" loading="lazy">

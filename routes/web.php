@@ -20,3 +20,5 @@ Route::get('/services.medical-coding', [HomeController::class, 'mCodingHome'])->
 Route::get('/services.denial-management', [HomeController::class, 'DenialHome'])->name('services.denial-management');
 Route::get('/services.out-of-network-billing', [HomeController::class, 'NetworkHome'])->name('services.out-of-network-billing');
 Route::get('/services.revenue-cycle-management', [HomeController::class, 'RevenueHome'])->name('services.revenue-cycle-management');
+Route::get('/services.medical-billing-consulting', [HomeController::class, 'CounsltngHome'])->name('services.medical-billing-consulting');
+Route::get('/services.outsource-medical-billing', [HomeController::class, 'OutsourceHome'])->name('services.outsource-medical-billing');
