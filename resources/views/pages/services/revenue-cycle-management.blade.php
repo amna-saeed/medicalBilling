@@ -464,20 +464,68 @@
         <p>
             iRCM provides unmatched expertise with comprehensive medical RCM solutions, <br/> ensuring faster payments, fewer errors, and efficient processes for healthcare providers.
         </p>
-        <a class="cnt-btn">  Contact Us <i class="fas fa-arrow-right"></i></a>
     </div>
-    <div class="row md-tr">
-        <div class="col-lg-6">
-            <div class="box-svg-100">
+    <div class="container">
+        <div class="row md-tr">
+            <div class="col-lg-6">
+                <div class="svg-wrapper d-flex align-items-start">
+                    <!-- Left: Image with line -->
+                    <div class="box-svg-100 text-center me-3">
+                    <img src="{{asset('assets/appImg/7-Dedicated-Support-1.svg')}}" alt="" class="img-svg mb-2" />
+                    </div>
 
+                    <!-- Right: Text -->
+                    <div class="svg-contnt">
+                    <h4>Expert Team Support</h4>
+                    <p>Certified professionals managing billing, coding, and claim resolutions efficiently.</p>
+                    </div>
+                </div>
             </div>
-            <div class="svg-contnt">
-                <h4>Expert Team Support</h4>
-                <p>Certified professionals managing billing, coding, and claim resolutions efficiently.</p>
+            <div class="col-lg-6">
+                <div class="mrgn-left-100 svg-wrapper d-flex align-items-start">
+                    <!-- Left: Image with line -->
+                    <div class="box-svg-100 text-center me-3">
+                        <img src="{{asset('assets/appImg/Technological-Advancements.svg')}}" alt="" class="img-svg" />
+                    </div>
+
+                    <!-- Right: Text -->
+                    <div class="svg-contnt">
+                        <h4>Advanced Automation Tools</h4>
+                        <p>Cutting-edge AI for error reduction and denial management.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="svg-wrapper d-flex align-items-start">
+                    <!-- Left: Image with line -->
+                    <div class="box-svg-100 text-center me-3">
+                        <img src="{{asset('assets/appImg/Budget-Friendly-Solutions.svg')}}" alt="" class="img-svg" />
+                    </div>
+
+                    <!-- Right: Text -->
+                    <div class="svg-contnt">
+                        <h4>End-to-End Solutions</h4>
+                        <p>Comprehensive front and back-office revenue cycle management services.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="mrgn-left-100 svg-wrapper d-flex align-items-start">
+                    <!-- Left: Image with line -->
+                    <div class="box-svg-100 text-center me-3">
+                        <img src="{{asset('assets/appImg/Patient-Satisfaction.svg')}}" alt="" class="img-svg" />
+                    </div>
+
+                    <!-- Right: Text -->
+                    <div class="svg-contnt">
+                        <h4>Improved Patient Experience</h4>
+                        <p>Easy billing, payment options, and transparent communication with patients.</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="col-lg-6"></div>
     </div>
+ 
 </div>
 
 

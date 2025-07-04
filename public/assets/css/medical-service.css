@@ -694,6 +694,49 @@ h4.fw-bold {
   padding: 0;
   margin: 0;
 }
+.svg-wrapper {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 25px;
+}
+
+.box-svg-100 {
+    flex-shrink: 0;
+    border-right: 2px solid #673AB7;
+    padding-right: 22px;
+}
+.mdle-xxx h4 {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0px 0px 12px;
+}
+.mrgn-left-100{
+    margin-left: 70px;
+}
+.mdle-xxx p {
+    font-size: 17px;
+    font-weight: 200;
+    margin-bottom: 55px;
+}
+.img-svg {
+    width: 60px;
+    height: auto;
+    display: block;
+    margin-top: 12px;
+}
+.svg-contnt {
+    text-align: left;
+    margin-left: 11px;
+}
+.svg-contnt h4 {
+    margin: 0px 0px 11px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.svg-contnt p {
+    font-size: 16px;
+}
+
 a.billing-bg {
     display: inline-block;
     background: #502e6d;

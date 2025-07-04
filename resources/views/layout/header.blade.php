@@ -9,7 +9,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mx-auto nav-links">
-           <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+           <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
               <div class="nav-item dropdown">
                   <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Our Company</a>
                   <div class="dropdown-menu fade-up m-0">
