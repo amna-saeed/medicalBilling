@@ -301,7 +301,6 @@
     </div>
 </div>
 
-
 <div class="bg-dark-1">
     <div class="box-txt-mdle">
         <h4>
@@ -529,67 +528,10 @@
 </div>
 
 
-<!-- Testimonial Start -->
-<div class="test-black container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="container">
-        <div class="text-center">
-            <h6 class="review-head">Customer Feedback That Makes Us <br />Proud</h6>
-            <p class="test-para">Don't just take our word for it - see what our happy clients are saying about our personalized medical billing services.</p>
-        </div>
+@include('components.testimonial')
+@include('components.bgForm')
 
-        <div class="owl-carousel testimonial-slider position-relative wow fadeInUp" data-wow-delay="0.1s">
-            <div class="testimonial-box">
-                <div class="testimonial-header">
-                    <div class="user-info">
-                        <img src="{{asset('assets/appImg/unnamed.png')}}" alt="User" class="user-img" />
-                        <div class="user-meta">
-                            <h6 class="user-name">Mark Daco</h6>
-                            <span class="review-date">2024-10-11</span>
-                        </div>
-                    </div>
-                    <img src="{{asset('assets/appImg/icon.svg')}}" alt="Google" class="google-logo" />
-                </div>
 
-                <div class="testimonial-rating">
-                    <span class="stars">★★★★★</span>
-                    <i class="fa fa-check-circle verified-icon"></i>
-                </div>
-
-                <p class="testimonial-text">
-                    I recently had the pleasure of working with iRCM (shout out to Jenny, Emma, Sarah) and I highly recommend them without reservation. From start to finish,...
-                </p>
-                <a href="#" class="read-more">Read more</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="bg-form-img">
-    <div class="hero-text-form">
-        <form class="custom-form container">
-            <div class="row g-3">
-                <div class="col-md-6">
-                    <input type="text" class="custom-input form-control" placeholder="Full Name" required>
-                </div>
-                <div class="col-md-6">
-                    <input type="email" class="custom-input form-control" placeholder="Email Address" required>
-                </div>
-                <div class="col-md-6">
-                    <input type="tel" class="custom-input form-control" placeholder="Phone Number" required>
-                </div>
-                <div class="col-md-6">
-                    <input type="text" class="custom-input form-control" placeholder="Business Name" required>
-                </div>
-                <div class="col-12">
-                    <textarea class="custom-textarea form-control" rows="4" placeholder="Your Message" required></textarea>
-                </div>
-                <div class="col-12 text-center">
-                    <button type="submit" class="custom-btn btn btn-primary">Send Message</button>
-                </div>
-            </div>
-        </form>
-    </div>
-</div>
 <link href="{{ asset('assets/css/medical-service.css') }}" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 

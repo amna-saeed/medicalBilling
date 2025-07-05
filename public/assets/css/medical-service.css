@@ -552,14 +552,213 @@ h4.fw-bold {
     margin-top: 7px;
 }
 .ue_pbullet_graphicel {
-    background: #502e6d;
-    padding: 11px 16px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 72px;
+  background: #502e6d;
+  padding: 11px 16px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 72px;
 }
+
+.bg-spcialities-shades {
+  background: url(../appImg/CorroHealth-Hero-Audience-Engaged.webp) ;
+ background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+  min-height: 400px;
+}
+.bg-spcialities-shades::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(0deg, #100906 0%, rgba(94, 17, 77, 0.4) 35%);
+  z-index: 1;
+  pointer-events: none;
+}
+.gridz-boxes {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.one-xx {
+  background-color: #100906;
+  color: #fff;
+  padding: 21px 12px;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  transition: transform 0.7s ease;
+  height: 160px;
+  border: 1px solid #502e6d;
+  box-shadow: 0px 2px 18px -4px #502e6d;
+}
+
+.one-xx p,
+.one-xx svg {
+  transition: opacity 0.7s ease;
+}
+
+.one-xx:hover {
+  transform: scale(1.07);
+}
+.one-xx svg {
+    width: 60px;
+}
+.one-xx::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: #502e6d;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+  z-index: 1;
+}
+.one-xx:hover::before {
+  opacity: 1;
+}
+.one-xx:hover p,
+.one-xx:hover svg {
+  opacity: 0;
+}
+.one-xx p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 23px;
+    margin-top: 10px;
+}
+.show-xx {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  z-index: 2;
+  text-align: center;
+  transition: opacity 0.7s ease;
+  padding: 12px 0px;
+  width: 139px;
+}
+
+.one-xx:hover .show-xx {
+  opacity: 1;
+}
+.show-xx h4 {
+    font-size: 16px;
+    padding: 0px !important;
+    text-align: center;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+@media (max-width: 992px) {
+  .gridz-boxes {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  }
+}
+@media (max-width: 576px) {
+  .gridz-boxes {
+    grid-template-columns: repeat(1, 1fr); /* 1 column */
+  }
+}
+h4.sng-hed {
+  margin: 30px 0px 10px;
+  font-size: 31px;
+  font-weight: 800;
+  color: #502e6d;
+}
+
+p.fnts-pra{
+  color: #434343;
+  font-size: 19px;
+  font-weight: 600;
+}
+.mdx-form {
+    text-align: center;
+}
+.input-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 430px;
+    margin: 0 auto;
+}
+
+.user-formz {
+  width: 100%;
+  padding: 4px 45px 8px 15px;
+  font-size: 16px;
+  border-radius: 33px;
+  border: 2px solid #502e6d;
+  height: 60px;
+  margin-top: 18px;
+
+}
+.submit-icon-btn {
+    position: absolute;
+    top: 39%;
+    right: 10px;
+    transform: rotate(-31deg);
+    background: none;
+    border: none;
+    font-size: 28px;
+    color: #502e6d;
+    cursor: pointer;
+    line-height: 1;
+    padding: 0;
+}
+h4.hdz-new {
+    font-size: 30px;
+    font-weight: 600;
+}
+.center-cntnt-100 h4 {
+    text-align: center;
+    margin: 100px 0px 24px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #502e6d;
+}
+.center-cntnt-100 p {
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    color: #434343;
+}
+.row.mr-xxx {
+    margin: 40px 0px 11px 0px;
+}
+img.left-img-xx {
+  width: 100%;
+}
+.shades-opacity::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:rgb(12 8 8 / 44%);
+  z-index: 2;
+  pointer-events: none;
+}
+.shades-opacity .container {
+  position: relative;
+  z-index: 3;
+}
+.box-mdz-half h4 {
+    margin: 0px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+}
+.bg-black-shadesxx {
+  background: #100906;
+  height: 160vh;
+  padding: 52px 0px 0px;
+}
+/* end */
 .circle-heading {
     display: flex;
     align-items: center;

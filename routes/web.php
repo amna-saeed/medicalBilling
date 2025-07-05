@@ -23,3 +23,7 @@ Route::get('/services.revenue-cycle-management', [HomeController::class, 'Revenu
 Route::get('/services.medical-billing-consulting', [HomeController::class, 'CounsltngHome'])->name('services.medical-billing-consulting');
 Route::get('/services.outsource-medical-billing', [HomeController::class, 'OutsourceHome'])->name('services.outsource-medical-billing');
 Route::get('/services.ar-follow-up', [HomeController::class, 'ArHome'])->name('services.ar-follow-up');
+Route::get('/specialities', [HomeController::class, 'SpecialitiesHome'])->name('specialities');
+
+
+

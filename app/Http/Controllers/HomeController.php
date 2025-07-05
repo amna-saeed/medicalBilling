@@ -46,4 +46,8 @@ class HomeController extends Controller
     {
         return view('pages.services.ar-follow-up');
     }
+    public function SpecialitiesHome()
+    {
+        return view('pages.specialities');
+    }
 }
