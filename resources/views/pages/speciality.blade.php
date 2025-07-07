@@ -2,24 +2,25 @@
 @section('content')
 <link href="{{ asset('assets/css/medical-service.css') }}" rel="stylesheet">
 
+
     <div class="bg-spcialities-shades">
         <div class="shades-opacity">
-        <div id="particles-js"></div>
-        <div class="container">
-            <div class="row align-items-center">
+          <div id="particles-js"></div>
+          <div class="container">
+              <div class="row align-items-center">
                 <!-- Left Content -->
                 <div class="col-lg-12 mb-5 mb-lg-0">
                     <div class="service-content text-white">
-                        <h4 class="title-main-2">We offer medical billing services for most specialties</h4>
+                        <h4 class="title-main-2">We offer {{ $slug }} services across a wide range of specialties</h4>
                         <p class="description-spcialities">
                            From cardiology to pediatrics, our expert billing services cover most medical fields to ensure your claims are processed efficiently and accurately 
                         </p>
                     </div>
                 </div>
-            </div>
+              </div>
+          </div>
         </div>
     </div>
-</div>
 <div class="bg-black-shadesxx">
     <div class="box-mdz-halfz-head-200">
         <h4>If there is a code, then there is a claim</h4>
