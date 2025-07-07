@@ -50,4 +50,12 @@ class HomeController extends Controller
     {
         return view('pages.specialities');
     }
+    public function ContactHome()
+    {
+        return view('pages.contact-us');
+    }
+    public function ContHome()
+    {
+        return view('pages.contact-2');
+    }
 }

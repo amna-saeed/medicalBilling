@@ -8,12 +8,11 @@
         <div class="container">
             <div class="row align-items-center">
                 <!-- Left Content -->
-                <div class="col-lg-6 mb-4 mb-lg-0">
+                <div class="col-lg-12 mb-5 mb-lg-0">
                     <div class="service-content text-white">
-                        <h4 class="title-main-2">Customized Medical Coding</h4>
-                        <h4 class="title-sub-2">Services to Meet Your Specific Requirements</h4>
-                        <p class="description">
-                            Experience top-notch medical coding services diligently adapted to meet your specific requirements. Ensure accuracy and compliance in healthcare documentation with our customized coding solutions
+                        <h4 class="title-main-2">We offer medical billing services for most specialties</h4>
+                        <p class="description-spcialities">
+                           From cardiology to pediatrics, our expert billing services cover most medical fields to ensure your claims are processed efficiently and accurately 
                         </p>
                     </div>
                 </div>
@@ -22,7 +21,7 @@
     </div>
 </div>
 <div class="bg-black-shadesxx">
-    <div class="box-mdz-half">
+    <div class="box-mdz-halfz-head-200">
         <h4>If there is a code, then there is a claim</h4>
         <div class="container">
           <div class="gridz-boxes">
@@ -375,10 +374,15 @@
 @include('components.testimonial')
 
 <link href="{{ asset('assets/css/medical-service.css') }}" rel="stylesheet">
+
+<style>
+  input.user-formz::placeholder{
+    color: black !important; 
+  }
+</style>
+
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-
 <script>
-
   particlesJS("particles-js", {
     "particles": {
       "number": {
@@ -438,7 +442,6 @@
     },
     "retina_detect": true
   });
-
 </script>
 
 @stop

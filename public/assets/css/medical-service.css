@@ -30,6 +30,58 @@
 ::placeholder{
     color: #fff;
 }
+button.btn.sbmt-xx {
+    background: transparent;
+    width: 141px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 31px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+.form-box-1 {
+    background-image: radial-gradient(ellipse at bottom right, #5e174d87 0%, #362e6d73 44%, #e91e633b 68%), url(../appImg/Tech-Background-Neutral-1.webp);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid;
+    border-radius: 12px;
+    padding: 20px 20px;
+    
+}
+.form-box-1 {
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #502e6d;
+    border-radius: 12px;
+    padding: 12px 20px;
+    box-shadow: 0px 2px 18px -4px #502E6D;
+    
+}
+
+.main-black-shades-xx {
+  background: url(../appImg/Tech-Background-Neutral-1.webp) no-repeat center center/cover;
+  padding: 50px 25px;
+  position: relative;
+  height: 88vh;
+  overflow: hidden;
+}
+
+.overlay-8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(180deg, #2a0b27 0%, #160a18b0 35%);
+    z-index: 2;
+    pointer-events: none;
+}
+.row.tp-pp {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
 .custom-input:focus,
 .custom-textarea:focus {
   border-color: #0d6efd;
@@ -753,10 +805,21 @@ img.left-img-xx {
     font-weight: 600;
     color: #fff;
 }
+.box-mdz-halfz-head-200 h4 {
+    margin: 10px 0px 15px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+}
 .bg-black-shadesxx {
   background: #100906;
-  height: 160vh;
+  height:167vh;
   padding: 52px 0px 0px;
+}
+.show-xx h4
+ {
+    font-size: 17px;
 }
 /* end */
 .circle-heading {
@@ -856,6 +919,26 @@ img.left-img-xx {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.bg-service-contact {
+  background: url('../appImg/ircm-contact-us.webp') no-repeat center center / cover;
+  min-height: 65vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.service-overlay-7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, #2a0b27 0%, #2c0d25ad 35%);
+    z-index: 1;
+}
+.icon.icon-phone-call1::before, .icon.icon-phone-call1::before {
+  content: "\ea53";
 }
 .service-overlay {
     position: absolute;
@@ -1118,6 +1201,14 @@ a.billing-bg:hover {
     width: 480px;
     text-align: justify;
 }
+.description-spcialities {
+    font-size: 15px;
+    margin-bottom: 17px;
+    line-height: 1.4;
+    width: auto;
+    text-align: justify;
+    margin-top: 15px;
+}
 .expert-call {
     font-size: 15px;
     display: inline-block;
@@ -1347,6 +1438,17 @@ form {
   padding: 3px 20px 7px 144px;
   color: #fff;
 }
+i.fa.fa-phone.fx-xx {
+    font-size: 29px;
+    transform: rotate(92deg);
+}
+.ggle-left-2 {
+     flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 3px 22px 7px 246px;
+    color: #fff;
+}
 .row.mrg-20 {
   margin-top: 46px;
 }
@@ -1354,6 +1456,34 @@ form {
     width: 1%;
     min-width: 29px;
     background-color: #2a0b27;
+}
+.right-cont-11 p {
+    color: #434343;
+    font-weight: 600;
+    font-size: 17px;
+}
+.right-cont-11 {
+    text-align: left;
+}
+span.elementskit-info-box-title {
+    color: #434343;
+    font-weight: 800;
+    font-size: 20px;
+}
+.set-phonez {
+    display: -webkit-box;
+    justify-content: revert-layer;
+    padding-left: 11%;
+    position: relative;
+    top: 15px;
+}
+i.fa.fa-phone.fx-xx {
+    font-size: 29px;
+    transform: rotate(98deg);
+    margin-right: 21px;
+    margin-bottom: 0px;
+    margin-top: 13px;
+    color: #502e6d;
 }
 .ggle-head {
   font-size: 34px !important;

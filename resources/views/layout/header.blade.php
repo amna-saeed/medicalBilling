@@ -16,29 +16,29 @@
                     <div class="dropdown-grid dropdown-grid-2">
                       <a href="booking.html" class="dropdown-item-custom">
                         <span class="icon-wrapper">
-                          <img src="{{ asset('assets/appImg/internett(1).png') }}" class="icon-default" alt="" loading="lazy">
-                          <img src="{{ asset('assets/appImg/interneticonblack -red.png') }}" class="icon-hover" alt="" loading="lazy">
+                          <img src="{{ asset('assets/appImg/Story.png') }}" class="icon-default" alt="" loading="lazy">
+                          <img src="{{ asset('assets/appImg/Story_.png') }}" class="icon-hover" alt="" loading="lazy">
                         </span>
                         Our Story
                       </a>
                       <a href="booking.html" class="dropdown-item-custom">
                         <span class="icon-wrapper">
-                          <img src="{{ asset('assets/appImg/internett(1).png') }}" class="icon-default" alt="" loading="lazy">
-                          <img src="{{ asset('assets/appImg/interneticonblack -red.png') }}" class="icon-hover" alt="" loading="lazy">
+                          <img src="{{ asset('assets/appImg/about.png') }}" class="icon-default" alt="" loading="lazy">
+                          <img src="{{ asset('assets/appImg/about_.png') }}" class="icon-hover" alt="" loading="lazy">
                         </span>
                         About Us
                       </a>
                       <a href="booking.html" class="dropdown-item-custom pd-rmve">
                         <span class="icon-wrapper">
-                          <img src="{{ asset('assets/appImg/internett(1).png') }}" class="icon-default" alt="" loading="lazy">
-                          <img src="{{ asset('assets/appImg/interneticonblack -red.png') }}" class="icon-hover" alt="" loading="lazy">
+                          <img src="{{ asset('assets/appImg/privacy.png') }}" class="icon-default" alt="" loading="lazy">
+                          <img src="{{ asset('assets/appImg/privacy_.png') }}" class="icon-hover" alt="" loading="lazy">
                         </span>
                         privacy-policy
                       </a>
                       <a href="booking.html" class="dropdown-item-custom pd-rmve">
                         <span class="icon-wrapper">
-                          <img src="{{ asset('assets/appImg/internett(1).png') }}" class="icon-default" alt="" loading="lazy">
-                          <img src="{{ asset('assets/appImg/interneticonblack -red.png') }}" class="icon-hover" alt="" loading="lazy">
+                          <img src="{{ asset('assets/appImg/terms.png') }}" class="icon-default" alt="" loading="lazy">
+                          <img src="{{ asset('assets/appImg/terms_.png') }}" class="icon-hover" alt="" loading="lazy">
                         </span>
                        Terms and Conditions
                       </a>
@@ -125,113 +125,113 @@
                   <div class="dropdown-grid dropdown-grid-4 fade-up m-0">
                     <a href="" class="dropdown-item-custom {{ request()->is('specialities/orthopedic') ? 'active' : '' }}">
                       <span class="icon-wrapper">
-                        <img src="{{ asset('assets/appImg/internett(1).png') }}" class="icon-default" alt="" loading="lazy">
-                        <img src="{{ asset('assets/appImg/interneticonblack -red.png') }}" class="icon-hover" alt="" loading="lazy">
+                        <img src="{{ asset('assets/appImg/ophathamology.png') }}" class="icon-default" alt="" loading="lazy">
+                        <img src="{{ asset('assets/appImg/ophathamology_.png') }}" class="icon-hover" alt="" loading="lazy">
                       </span>
                       Orthopedic Billing
                     </a>
                     <a href="{{ route('specialities') }}" class="dropdown-item-custom {{request()->routeIs('specialities') ? 'active' : '' }} ">
                       <span class="icon-wrapper">
-                        <img src="{{ asset('assets/appImg/internett(1).png') }}" class="icon-default" alt="" loading="lazy">
-                        <img src="{{ asset('assets/appImg/interneticonblack -red.png') }}" class="icon-hover" alt="" loading="lazy">
+                        <img src="{{ asset('assets/appImg/urology.png') }}" class="icon-default" alt="" loading="lazy">
+                        <img src="{{ asset('assets/appImg/urology_.png') }}" class="icon-hover" alt="" loading="lazy">
                       </span>
                      Urology Billing
                     </a>
                     <a href="{{ route('specialities') }}" class="dropdown-item-custom" {{request()->routeIs('specialities') ? 'active' : '' }} ">
                       <span class="icon-wrapper">
-                        <img src="{{ asset('assets/appImg/internett(1).png') }}" class="icon-default" alt="" loading="lazy">
-                        <img src="{{ asset('assets/appImg/interneticonblack -red.png') }}" class="icon-hover" alt="" loading="lazy">
+                        <img src="{{ asset('assets/appImg/dental.png') }}" class="icon-default" alt="" loading="lazy">
+                        <img src="{{ asset('assets/appImg/dental_.png') }}" class="icon-hover" alt="" loading="lazy">
                       </span>
                       Dental Billing
                     </a>
                     <a href="{{ route('specialities') }}" class="dropdown-item-custom" {{request()->routeIs('specialities') ? 'active' : '' }} ">
                        <span class="icon-wrapper">
-                        <img src="{{ asset('assets/appImg/internett(1).png') }}" class="icon-default" alt="" loading="lazy">
-                        <img src="{{ asset('assets/appImg/interneticonblack -red.png') }}" class="icon-hover" alt="" loading="lazy">
+                        <img src="{{ asset('assets/appImg/pathology.png') }}" class="icon-default" alt="" loading="lazy">
+                        <img src="{{ asset('assets/appImg/pathology_.png') }}" class="icon-hover" alt="" loading="lazy">
                       </span>
                     Pathology Billing
                     </a>
                     <a href="{{ route('specialities') }}" class="dropdown-item-custom" {{request()->routeIs('specialities') ? 'active' : '' }} ">
                         <span class="icon-wrapper">
-                          <img src="{{ asset('assets/appImg/internett(1).png') }}" class="icon-default" alt="" loading="lazy">
-                          <img src="{{ asset('assets/appImg/interneticonblack -red.png') }}" class="icon-hover" alt="" loading="lazy">
+                          <img src="{{ asset('assets/appImg/menta.png') }}" class="icon-default" alt="" loading="lazy">
+                          <img src="{{ asset('assets/appImg/mental_.png') }}" class="icon-hover" alt="" loading="lazy">
                         </span>
                       Mental Health
                     </a>
                     <a href="{{ route('specialities') }}" class="dropdown-item-custom" {{request()->routeIs('specialities') ? 'active' : '' }} ">
                         <span class="icon-wrapper">
-                          <img src="{{ asset('assets/appImg/internett(1).png') }}" class="icon-default" alt="" loading="lazy">
-                          <img src="{{ asset('assets/appImg/interneticonblack -red.png') }}" class="icon-hover" alt="" loading="lazy">
+                          <img src="{{ asset('assets/appImg/radialogy.png') }}" class="icon-default" alt="" loading="lazy">
+                          <img src="{{ asset('assets/appImg/radialogy_.png') }}" class="icon-hover" alt="" loading="lazy">
                         </span>
                     Radiology Billing
                     </a>
                     <a href="{{ route('specialities') }}" class="dropdown-item-custom {{request()->routeIs('specialities') ? 'active' : '' }} ">
                       <span class="icon-wrapper">
-                        <img src="{{ asset('assets/appImg/internett(1).png') }}" class="icon-default" alt="" loading="lazy">
-                        <img src="{{ asset('assets/appImg/interneticonblack -red.png') }}" class="icon-hover" alt="" loading="lazy">
+                        <img src="{{ asset('assets/appImg/cardialogy.png') }}" class="icon-default" alt="" loading="lazy">
+                        <img src="{{ asset('assets/appImg/cardialogy_.png') }}" class="icon-hover" alt="" loading="lazy">
                       </span>
                      Cardiology Billing
                     </a>
                     <a href="{{ route('specialities') }}" class="dropdown-item-custom" {{request()->routeIs('specialities') ? 'active' : '' }} ">
                       <span class="icon-wrapper">
-                        <img src="{{ asset('assets/appImg/internett(1).png') }}" class="icon-default" alt="" loading="lazy">
-                        <img src="{{ asset('assets/appImg/interneticonblack -red.png') }}" class="icon-hover" alt="" loading="lazy">
+                        <img src="{{ asset('assets/appImg/urology.png') }}" class="icon-default" alt="" loading="lazy">
+                        <img src="{{ asset('assets/appImg/urology_.png') }}" class="icon-hover" alt="" loading="lazy">
                       </span>
                       Neurology Billing
                     </a>
                     <a href="{{ route('specialities') }}" class="dropdown-item-custom" {{request()->routeIs('specialities') ? 'active' : '' }} ">
                       <span class="icon-wrapper">
-                        <img src="{{ asset('assets/appImg/internett(1).png') }}" class="icon-default" alt="" loading="lazy">
-                        <img src="{{ asset('assets/appImg/interneticonblack -red.png') }}" class="icon-hover" alt="" loading="lazy">
+                        <img src="{{ asset('assets/appImg/neourosurgery.png') }}" class="icon-default" alt="" loading="lazy">
+                        <img src="{{ asset('assets/appImg/neourosurgery_.png') }}" class="icon-hover" alt="" loading="lazy">
                       </span>
                       Neurosurgery billing
                     </a>
                     <a href="{{ route('specialities') }}" class="dropdown-item-custom {{request()->routeIs('specialities') ? 'active' : '' }} ">
                       <span class="icon-wrapper">
-                        <img src="{{ asset('assets/appImg/internett(1).png') }}" class="icon-default" alt="" loading="lazy">
-                        <img src="{{ asset('assets/appImg/interneticonblack -red.png') }}" class="icon-hover" alt="" loading="lazy">
+                        <img src="{{ asset('assets/appImg/dermatology.png') }}" class="icon-default" alt="" loading="lazy">
+                        <img src="{{ asset('assets/appImg/dermatology_.png') }}" class="icon-hover" alt="" loading="lazy">
                       </span>
                     Dermatology Billing
                     </a>
                     <a href="{{ route('specialities') }}" class="dropdown-item-custom {{request()->routeIs('specialities') ? 'active' : '' }} ">
                       <span class="icon-wrapper">
-                        <img src="{{ asset('assets/appImg/internett(1).png') }}" class="icon-default" alt="" loading="lazy">
-                        <img src="{{ asset('assets/appImg/interneticonblack -red.png') }}" class="icon-hover" alt="" loading="lazy">
+                        <img src="{{ asset('assets/appImg/rehab.png') }}" class="icon-default" alt="" loading="lazy">
+                        <img src="{{ asset('assets/appImg/rehab_.png') }}" class="icon-hover" alt="" loading="lazy">
                       </span>
                       Rehab Billing
                     </a>
                     <a href="{{ route('specialities') }}" class="dropdown-item-custom {{request()->routeIs('specialities') ? 'active' : '' }} ">
                       <span class="icon-wrapper">
-                        <img src="{{ asset('assets/appImg/internett(1).png') }}" class="icon-default" alt="" loading="lazy">
-                        <img src="{{ asset('assets/appImg/interneticonblack -red.png') }}" class="icon-hover" alt="" loading="lazy">
+                        <img src="{{ asset('assets/appImg/allergyand Immonology.png') }}" class="icon-default" alt="" loading="lazy">
+                        <img src="{{ asset('assets/appImg/allergyand Immonology_.png') }}" class="icon-hover" alt="" loading="lazy">
                       </span>
                       Allergy & Immunology
                     </a>
                     <a href="{{ route('specialities') }}" class="dropdown-item-custom {{request()->routeIs('specialities') ? 'active' : '' }} ">
                       <span class="icon-wrapper">
-                        <img src="{{ asset('assets/appImg/internett(1).png') }}" class="icon-default" alt="" loading="lazy">
-                        <img src="{{ asset('assets/appImg/interneticonblack -red.png') }}" class="icon-hover" alt="" loading="lazy">
+                        <img src="{{ asset('assets/appImg/pediatric.png') }}" class="icon-default" alt="" loading="lazy">
+                        <img src="{{ asset('assets/appImg/pediatric_.png') }}" class="icon-hover" alt="" loading="lazy">
                       </span>
                       Pediatric Billing
                     </a>
                     <a href="{{ route('specialities') }}" class="dropdown-item-custom {{request()->routeIs('specialities') ? 'active' : '' }} ">
                       <span class="icon-wrapper">
-                        <img src="{{ asset('assets/appImg/internett(1).png') }}" class="icon-default" alt="" loading="lazy">
-                        <img src="{{ asset('assets/appImg/interneticonblack -red.png') }}" class="icon-hover" alt="" loading="lazy">
+                        <img src="{{ asset('assets/appImg/nephrology.png') }}" class="icon-default" alt="" loading="lazy">
+                        <img src="{{ asset('assets/appImg/nephrology_.png') }}" class="icon-hover" alt="" loading="lazy">
                       </span>
                       Nephrology Billing
                     </a>
                     <a href="{{ route('specialities') }}" class="dropdown-item-custom {{request()->routeIs('specialities') ? 'active' : '' }} ">
                       <span class="icon-wrapper">
-                        <img src="{{ asset('assets/appImg/internett(1).png') }}" class="icon-default" alt="" loading="lazy">
-                        <img src="{{ asset('assets/appImg/interneticonblack -red.png') }}" class="icon-hover" alt="" loading="lazy">
+                        <img src="{{ asset('assets/appImg/ophathamology.png') }}" class="icon-default" alt="" loading="lazy">
+                        <img src="{{ asset('assets/appImg/ophathamology_.png') }}" class="icon-hover" alt="" loading="lazy">
                       </span>
                       Ophthalmology Billing
                     </a>
                     <a href="{{ route('specialities') }}" class="dropdown-item-custom {{request()->routeIs('specialities') ? 'active' : '' }} ">
                       <span class="icon-wrapper">
-                        <img src="{{ asset('assets/appImg/internett(1).png') }}" class="icon-default" alt="" loading="lazy">
-                        <img src="{{ asset('assets/appImg/interneticonblack -red.png') }}" class="icon-hover" alt="" loading="lazy">
+                        <img src="{{ asset('assets/appImg/geriatics.png') }}" class="icon-default" alt="" loading="lazy">
+                        <img src="{{ asset('assets/appImg/geriatics_.png') }}" class="icon-hover" alt="" loading="lazy">
                       </span>
                       Geriatrics Billing
                     </a>
@@ -248,7 +248,7 @@
                       <a href="404.html" class="dropdown-item">404 Page</a>
                   </div>
               </div>
-              <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+              <li class="nav-item"><a href="{{route('contact-us')}}" class="nav-link">Contact</a></li>
           </ul>
           <a href="#" class="header-btn-100 btn btn-primary rounded-pill px-3 ml-lg-3">Let’s Talk</a>
         </div>

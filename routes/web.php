@@ -24,6 +24,8 @@ Route::get('/services.medical-billing-consulting', [HomeController::class, 'Coun
 Route::get('/services.outsource-medical-billing', [HomeController::class, 'OutsourceHome'])->name('services.outsource-medical-billing');
 Route::get('/services.ar-follow-up', [HomeController::class, 'ArHome'])->name('services.ar-follow-up');
 Route::get('/specialities', [HomeController::class, 'SpecialitiesHome'])->name('specialities');
+Route::get('/contact-us', [HomeController::class, 'ContactHome'])->name('contact-us');
+Route::get('/contact-2', [HomeController::class, 'ContHome'])->name('contact-2');
 
 
 
