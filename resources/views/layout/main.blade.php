@@ -4,9 +4,13 @@
 @include('layout.head')
 
 <body>
-    {{-- <div class="se-pre-con">
-        <div class="loader"></div>
-    </div> --}}
+
+  <!-- Spinner Only Covers Loading -->
+    <div class="me-loader" id="meLoader">
+        <div class="loader spinner-border text-light" role="status">
+           <span class="visually-hidden"> <img src="{{asset('assets/appImg/ajax-loader.gif')}}"  /> </span>
+        </div>
+    </div>
 
     @include('layout.header')
 
@@ -15,8 +19,7 @@
     @include('layout.footer')
 
     @include('layout.js')
+
 </body>
 
 </html>
-
-
