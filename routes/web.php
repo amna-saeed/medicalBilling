@@ -22,10 +22,10 @@ Route::get('/services.denial-management', [HomeController::class, 'DenialHome'])
 Route::get('/services.out-of-network-billing', [HomeController::class, 'NetworkHome'])->name('services.out-of-network-billing');
 Route::get('/services.revenue-cycle-management', [HomeController::class, 'RevenueHome'])->name('services.revenue-cycle-management');
 Route::get('/services.medical-billing-consulting', [HomeController::class, 'CounsltngHome'])->name('services.medical-billing-consulting');
-Route::get('/services.outsource-medical-billing', [HomeController::class, 'OutsourceHome'])->name('services.outsource-medical-billing');
+Route::get('/services.medical-transcription-service', [HomeController::class, 'OutsourceHome'])->name('services.medical-transcription-service');
 Route::get('/services.ar-follow-up', [HomeController::class, 'ArHome'])->name('services.ar-follow-up');
 Route::get('/contact-us', [HomeController::class, 'ContactHome'])->name('contact-us');
-Route::get('/contact-2', [HomeController::class, 'ContHome'])->name('contact-2');
+Route::get('/about-us', [HomeController::class, 'aboutHome'])->name('about-us');
 
 // dynamic routes
 Route::get('/specialities/{slug}', [SpecialityController::class, 'show'])->name('specialities');

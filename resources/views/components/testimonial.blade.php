@@ -10,13 +10,13 @@
             <div class="testimonial-box">
                 <div class="testimonial-header">
                     <div class="user-info">
-                        <img src="{{asset('assets/appImg/unnamed.png')}}" alt="User" class="user-img" />
+                        <img src="{{asset('assets/appImg/unnamed.png')}}" alt="" loading="lazy" class="user-img" />
                         <div class="user-meta">
                             <h6 class="user-name">Mark Daco</h6>
                             <span class="review-date">2024-10-11</span>
                         </div>
                     </div>
-                    <img src="{{asset('assets/appImg/icon.svg')}}" alt="Google" class="google-logo" />
+                    <img src="{{asset('assets/appImg/icon.svg')}}" alt="" loading="lazy" class="google-logo" />
                 </div>
 
                 <div class="testimonial-rating">

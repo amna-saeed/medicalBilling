@@ -35,7 +35,7 @@
                             Get Free Audit
                             <span class="icon"><i class="fas fa-arrow-right icon-arrow"></i></span>
                         </a>
-                        <a href="#" class="btn-cont-detail">
+                        <a href="{{route('contact-us')}}" class="btn-cont-detail">
                             Contact Us
                             <span class="icon"><i class="fas fa-arrow-right icon-arrow"></i></span>
                         </a>
@@ -200,7 +200,7 @@
            satisfaction in our small practice medical<br />
             billing services
         </h4>
-        <a class="cnt-btn">  Contact Us <i class="fas fa-arrow-right"></i></a>
+        <a href="{{route('contact-us')}}" class="cnt-btn">  Contact Us <i class="fas fa-arrow-right"></i></a>
     </div>
 </div>
 
@@ -239,6 +239,7 @@
                                                 width="60px"
                                                 height="60px"
                                                 style="margin-top: 20px;"
+                                                loading="lazy"
                                             />
                                         </a>
                                     </div>
@@ -255,6 +256,7 @@
                                                 width="60px"
                                                 height="60px"
                                                 style="margin-top: 20px;"
+                                                loading="lazy"
                                             />
                                         </a>
                                     </div>
@@ -270,6 +272,7 @@
                                                 width="60px"
                                                 height="60px"
                                                 style="margin-top: 20px;"
+                                                loading="lazy"
                                             />
                                         </a>
                                     </div>
@@ -287,6 +290,7 @@
                                                 width="60px"
                                                 height="60px"
                                                 style="margin-top: 20px;"
+                                                loading="lazy"
                                             />
                                         </a>
                                     </div>
@@ -303,6 +307,7 @@
                                                 width="60px"
                                                 height="60px"
                                                 style="margin-top: 20px;"
+                                                loading="lazy"
                                             />
                                         </a>
                                     </div>
@@ -318,6 +323,7 @@
                                                 width="60px"
                                                 height="60px"
                                                 style="margin-top: 20px;"
+                                                loading="lazy"
                                             />
                                         </a>
                                     </div>
@@ -333,6 +339,7 @@
                                                 width="50px"
                                                 height="50px"
                                                 style="margin-top: 20px;"
+                                                loading="lazy"
                                             />
                                         </a>
                                     </div>
@@ -352,6 +359,7 @@
                                                 width="50px"
                                                 height="50px"
                                                 style="margin-top: 20px;"
+                                                loading="lazy"
                                             />
                                         </a>
                                     </div>
@@ -367,6 +375,7 @@
                                                 width="60px"
                                                 height="60px"
                                                 style="margin-top: 20px;"
+                                                loading="lazy"
                                             />
                                         </a>
                                     </div>
@@ -382,6 +391,7 @@
                                                 width="65px"
                                                 height="65px"
                                                 style="margin-top: 20px;"
+                                                loading="lazy"
                                             />
                                         </a>
                                     </div>
@@ -397,6 +407,7 @@
                                                 width="60px"
                                                 height="60px"
                                                 style="margin-top: 20px;"
+                                                loading="lazy"
                                             />
                                         </a>
                                     </div>
@@ -412,6 +423,7 @@
                                                 width="60px"
                                                 height="60px"
                                                 style="margin-top: 20px;"
+                                                loading="lazy"
                                             />
                                         </a>
                                     </div>
@@ -429,6 +441,7 @@
                                                 width="60px"
                                                 height="60px"
                                                 style="margin-top: 20px;"
+                                                loading="lazy"
                                             />
                                         </a>
                                     </div>
@@ -444,6 +457,7 @@
                                                 width="45px"
                                                 height="45px"
                                                 style="margin-top: 20px;"
+                                                loading="lazy"
                                             />
                                         </a>
                                     </div>
@@ -459,6 +473,7 @@
                                                 width="50px"
                                                 height="50px"
                                                 style="margin-top: 20px;"
+                                                loading="lazy"
                                             />
                                         </a>
                                     </div>
@@ -474,6 +489,7 @@
                                                 width="50px"
                                                 height="50px"
                                                 style="margin-top: 20px;"
+                                                loading="lazy"
                                             />
                                         </a>
                                     </div>
@@ -491,6 +507,7 @@
                                                 width="45px"
                                                 height="45px"
                                                 style="margin-top: 20px;"
+                                                loading="lazy"
                                             />
                                         </a>
                                     </div>
@@ -506,6 +523,7 @@
                                                 width="50px"
                                                 height="50px"
                                                 style="margin-top: 20px;"
+                                                loading="lazy"
                                             />
                                         </a>
                                     </div>
@@ -521,6 +539,7 @@
                                                 width="60px"
                                                 height="60px"
                                                 style="margin-top: 20px;"
+                                                loading="lazy"
                                             />
                                         </a>
                                     </div>
@@ -544,7 +563,7 @@
         <p class="chsng-para">Transparency and collaboration define our approach. We manage billing intricacies and provide revenue cycle insights. Our advanced systems secure your practice’s data. iRCM Inc offers more than billing – we’re your dedicated partner for financial success.</p>
         <div class="box-mdle-btn">
             <a class="cnt-btn">Get Free Audit <i class="fas fa-arrow-right"></i></a>
-            <a class="cnt-btn">Contact Us <i class="fas fa-arrow-right"></i></a>
+            <a href="{{route('contact-us')}}" class="cnt-btn">Contact Us <i class="fas fa-arrow-right"></i></a>
         </div>
     </div>
 </div>

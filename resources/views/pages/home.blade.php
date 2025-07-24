@@ -16,7 +16,7 @@
                 </div>
                 <div class="right-box">
                     <p>
-                    Redefining revenue cycle management in both fee-for-service and value-based care models, our unique blend of state-of-the-art technology, analytics, and tailored revenue cycle solutions drive financial resilience across the healthcare continuum.
+                      By utilizing technology, analytics, and personalized revenue cycle solutions, we aim to revolutionize the revenue-cycle management of both fee for service models and value-based care systems, while also fostering financial stability across the healthcare system.
                     </p>
                 </div>
             </div>

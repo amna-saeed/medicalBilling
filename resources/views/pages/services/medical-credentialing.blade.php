@@ -147,7 +147,7 @@
                                 Get Free Audit
                                 <span class="icon"><i class="fas fa-arrow-right icon-arrow"></i></span>
                             </a>
-                            <a href="#" class="btn-cont-detail">
+                            <a href="{{route('contact-us')}}" class="btn-cont-detail">
                                 Contact Us
                                 <span class="icon"><i class="fas fa-arrow-right icon-arrow"></i></span>
                             </a>
@@ -168,7 +168,7 @@
   </div>
 
   <div class="ggle-break">
-    <img src="{{ asset('assets/appImg/ircm-services-page-badge-1.svg') }}" alt="Badge" class="ggle-rvew" />
+    <img src="{{ asset('assets/appImg/ircm-services-page-badge-1.svg') }}" alt="" loading="lazy" class="ggle-rvew" />
   </div>
 
   <div class="ggle-right">
@@ -259,7 +259,7 @@
             </div>
             <!-- Middle Image -->
             <div class="col-lg-4 mb-4 mb-lg-0 d-flex justify-content-center">
-                <img src="{{asset('assets/appImg/Medical-Billing-Doctor-img.png')}}" alt="" class="img-fluid mdle-img" loading="lazy" />
+                <img src="{{asset('assets/appImg/Medical-Billing-Doctor-img.png')}}" alt="" loading="lazy" class="img-fluid mdle-img" loading="lazy" />
             </div>
             <!-- Right Box -->
             <div class="col-lg-4">
@@ -317,7 +317,7 @@
            Credentialing Services That Deliver<br />
            Satisfaction
         </h4>
-        <a class="cnt-btn">  Contact Us <i class="fas fa-arrow-right"></i></a>
+        <a href="{{route('contact-us')}}" class="cnt-btn">  Contact Us <i class="fas fa-arrow-right"></i></a>
     </div>
 </div>
 
@@ -491,7 +491,7 @@
                 </p>
                 <div class="box-mdle-btn">
                     <a class="cnt-btn">Get Free Audit <i class="fas fa-arrow-right"></i></a>
-                    <a class="cnt-btn">Contact Us <i class="fas fa-arrow-right"></i></a>
+                    <a href="{{route('contact-us')}}" class="cnt-btn">Contact Us <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>

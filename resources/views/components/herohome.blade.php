@@ -2,7 +2,7 @@
 <section class="hero-section">
   <div id="particles-js"></div>
   <div class="container hero-content">
-    <h1 class="display-4 font-weight-bold">Clinically Led Healthcare Analytics</h1>
+    <h1 class="display-4 font-weight-bold">Smart Option For A Healthier Revenue Cycle </h1>
     <p class="lead">Intelligent Technology to Improve Your Financial Health</p>
     <hr class="bg-white w-50 mx-auto my-4">
     <div class="services-list mb-3">
@@ -14,7 +14,7 @@
       <span>Claims Management</span>
       <span>Denials</span>
     </div>
-    <a href="#" class="btn btn-outline-light strategy-btn">
+    <a href="{{route('contact-us')}}" class="btn btn-outline-light strategy-btn">
       Book a Strategy Call
       <span class="icon"><i class="fas fa-arrow-right"></i></span>
     </a>

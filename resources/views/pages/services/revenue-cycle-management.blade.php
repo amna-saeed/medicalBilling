@@ -148,7 +148,7 @@
                                 Get Free Audit
                                 <span class="icon"><i class="fas fa-arrow-right icon-arrow"></i></span>
                             </a>
-                            <a href="#" class="btn-cont-detail">
+                            <a href="{{route('contact-us')}}" class="btn-cont-detail">
                                 Contact Us
                                 <span class="icon"><i class="fas fa-arrow-right icon-arrow"></i></span>
                             </a>
@@ -168,7 +168,7 @@
   </div>
 
   <div class="ggle-break">
-    <img src="{{ asset('assets/appImg/ircm-services-page-badge-1.svg') }}" alt="Badge" class="ggle-rvew" />
+    <img src="{{ asset('assets/appImg/ircm-services-page-badge-1.svg') }}" alt="" loading="lazy" class="ggle-rvew" />
   </div>
 
   <div class="ggle-right">
@@ -246,7 +246,7 @@
            Medical Services in the USA!<br />
           Secure 30% faster payments with iRCM, trusted by leading healthcare providers nationwide.
         </h4>
-        <a class="cnt-btn">  Contact Us <i class="fas fa-arrow-right"></i></a>
+        <a href="{{route('contact-us')}}" class="cnt-btn">  Contact Us <i class="fas fa-arrow-right"></i></a>
     </div>
 </div>
 
@@ -408,7 +408,7 @@
                 <div class="svg-wrapper d-flex align-items-start">
                     <!-- Left: Image with line -->
                     <div class="box-svg-100 text-center me-3">
-                    <img src="{{asset('assets/appImg/7-Dedicated-Support-1.svg')}}" alt="" class="img-svg mb-2" />
+                    <img src="{{asset('assets/appImg/7-Dedicated-Support-1.svg')}}" alt="" loading="lazy" class="img-svg mb-2" />
                     </div>
 
                     <!-- Right: Text -->
@@ -422,7 +422,7 @@
                 <div class="mrgn-left-100 svg-wrapper d-flex align-items-start">
                     <!-- Left: Image with line -->
                     <div class="box-svg-100 text-center me-3">
-                        <img src="{{asset('assets/appImg/Technological-Advancements.svg')}}" alt="" class="img-svg" />
+                        <img src="{{asset('assets/appImg/Technological-Advancements.svg')}}" alt="" loading="lazy" class="img-svg" />
                     </div>
 
                     <!-- Right: Text -->
@@ -436,7 +436,7 @@
                 <div class="svg-wrapper d-flex align-items-start">
                     <!-- Left: Image with line -->
                     <div class="box-svg-100 text-center me-3">
-                        <img src="{{asset('assets/appImg/Budget-Friendly-Solutions.svg')}}" alt="" class="img-svg" />
+                        <img src="{{asset('assets/appImg/Budget-Friendly-Solutions.svg')}}"alt="" loading="lazy" class="img-svg" />
                     </div>
 
                     <!-- Right: Text -->
@@ -450,7 +450,7 @@
                 <div class="mrgn-left-100 svg-wrapper d-flex align-items-start">
                     <!-- Left: Image with line -->
                     <div class="box-svg-100 text-center me-3">
-                        <img src="{{asset('assets/appImg/Patient-Satisfaction.svg')}}" alt="" class="img-svg" />
+                        <img src="{{asset('assets/appImg/Patient-Satisfaction.svg')}}" alt="" loading="lazy" class="img-svg" />
                     </div>
 
                     <!-- Right: Text -->

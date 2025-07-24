@@ -35,7 +35,7 @@
                 Get Free Audit
                 <span class="icon"><i class="fas fa-arrow-right icon-arrow"></i></span>
               </a>
-              <a href="#" class="btn-cont-detail">
+              <a href="{{route('contact-us')}}" class="btn-cont-detail">
                 Contact Us
                 <span class="icon"><i class="fas fa-arrow-right icon-arrow"></i></span>
               </a>
@@ -54,7 +54,7 @@
     </div>
 
     <div class="ggle-break">
-        <img src="{{ asset('assets/appImg/ircm-services-page-badge-1.svg') }}" alt="Badge" class="ggle-rvew" />
+        <img src="{{ asset('assets/appImg/ircm-services-page-badge-1.svg') }}" alt="Badge" class="ggle-rvew" loading="lazy"  />
     </div>
 
     <div class="ggle-right">
@@ -342,7 +342,7 @@
           Secure Timely Reimbursements with<br/>
            Dedicated AR Follow-Up Support<br />
         </h4>
-        <a class="cnt-btn">  Contact Us <i class="fas fa-arrow-right"></i></a>
+        <a href="{{route('contact-us')}}" class="cnt-btn">  Contact Us <i class="fas fa-arrow-right"></i></a>
     </div>
 </div>
 

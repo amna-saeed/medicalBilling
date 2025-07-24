@@ -12,7 +12,7 @@ class SpecialityController extends Controller
             'orthopedic' => 'Orthopedic Billing Content',
             'urology' => 'Urology Billing Content',
             'dental' => 'Dental Billing Content',
-            'PathologyBilling' => 'Pathology Billing Content',
+            'urgentcare' => 'Urgent Care Content',
             'MentalHealth' => 'Mental Health  Content',
             'RadiologyBilling' => 'Radiology Billing Content',
             'CardiologyBilling' => 'Cardiology Billing Content',
@@ -22,9 +22,9 @@ class SpecialityController extends Controller
             'RehabBilling' => 'Rehab Billing Content',
             'Allergy & Immunology' => 'Allergy & Immunology Billing Content',
             'PediatricBilling' => 'Pediatric Billing Content',
-            'OphthalmologyBilling' => 'Ophthalmology Billing Content',
+            'InternalMedicine' => 'Internal Medicine Billing Content',
             'PediatricBilling' => 'Pediatric Billing Content',
-            'GeriatricsBilling' => 'Geriatrics Billing Content',
+            'HospitalBilling' => 'Hospital Billing Content',
             'NephrologyBilling' => 'Nephrology Billing Content',
            
         ];

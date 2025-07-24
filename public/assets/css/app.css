@@ -139,7 +139,7 @@ html {
   z-index: 2;
   text-align: center;
   width: 100%;
-  max-width: 1170px;
+  max-width: 1255px;
   margin: 0 auto;
   top: -318px;
 }
@@ -206,7 +206,7 @@ html {
     margin-left: 4px;
 }
 .display-4 {
-  font-size: 74px;
+  font-size: 57px;
   font-weight: 300 !important;
   line-height: 1.6;
   font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;

@@ -148,7 +148,7 @@
                                 Get Free Audit
                                 <span class="icon"><i class="fas fa-arrow-right icon-arrow"></i></span>
                             </a>
-                            <a href="#" class="btn-cont-detail">
+                            <a href="{{route('contact-us')}}" class="btn-cont-detail">
                                 Contact Us
                                 <span class="icon"><i class="fas fa-arrow-right icon-arrow"></i></span>
                             </a>
@@ -168,7 +168,7 @@
   </div>
 
   <div class="ggle-break">
-    <img src="{{ asset('assets/appImg/ircm-services-page-badge-1.svg') }}" alt="Badge" class="ggle-rvew" />
+    <img src="{{ asset('assets/appImg/ircm-services-page-badge-1.svg') }}" alt="" loading="lazy" class="ggle-rvew" />
   </div>
 
   <div class="ggle-right">
@@ -493,7 +493,7 @@
            Medical Billing Consulting. Guaranteed<br />
          revenue growth for your practice
         </h4>
-        <a class="cnt-btn">  Contact Us <i class="fas fa-arrow-right"></i></a>
+       <a href="{{route('contact-us')}}" class="cnt-btn">  Contact Us <i class="fas fa-arrow-right"></i></a>
     </div>
 </div>
 

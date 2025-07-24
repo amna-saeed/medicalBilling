@@ -546,8 +546,9 @@ p.rvnue-para {
 h4.dual-underline{
     margin-top: 30px;
     color: #ffff;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 600;
+    margin-bottom: 13px;
 }
 h4.rcp-hos {
     font-size: 24px;
@@ -564,7 +565,7 @@ h4.icn-content {
 }
 .icn-content p {
     margin: 5px 0 0;
-    font-size: 15px;
+    font-size: 14px;
     color: #d2d1d1;
 }
 .text-purple {
@@ -920,6 +921,14 @@ img.left-img-xx {
   align-items: center;
   justify-content: center;
 }
+.bg-service-about{
+  background: url('../appImg/MicrosoftTeams-image-16.webp') no-repeat center center / cover;
+  min-height: 66vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .bg-service-contact {
   background: url('../appImg/ircm-contact-us.webp') no-repeat center center / cover;
   min-height: 65vh;
@@ -1056,6 +1065,19 @@ img.left-img-xx {
   font-size: 30px;
   font-weight: 600;
   margin: 0px 0px 12px;
+}
+.text-box-cont-about {
+    text-align: center;
+    width: 85%;
+    max-width: 100%;
+    margin: 30 auto;
+}
+p.about-para {
+    font-size: 17px;
+    font-weight: 500;
+    color: #434343;
+    text-align: justify;
+    line-height: 30px;
 }
 .mrgn-left-100{
     margin-left: 70px;

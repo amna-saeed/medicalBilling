@@ -40,7 +40,7 @@ class HomeController extends Controller
     }
     public function OutsourceHome()
     {
-        return view('pages.services.outsource-medical-billing');
+        return view('pages.services.medical-transcription-service');
     }
     public function ArHome()
     {
@@ -54,8 +54,9 @@ class HomeController extends Controller
     {
         return view('pages.contact-us');
     }
-    public function ContHome()
+    public function aboutHome()
     {
-        return view('pages.contact-2');
+        return view('pages.about-us');
     }
+   
 }
