@@ -20,7 +20,7 @@
                     loader.style.display = 'none';
                 }, 500); 
             }
-        }, 2000); 
+        }, 1000); 
     });
 
     // Initiate the wowjs

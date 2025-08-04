@@ -9,19 +9,19 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mx-auto nav-links">
-           <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="{{ route('home') }}" class="nav-link {{ request()->routeIs('home') ? 'active' : '' }}">Home</a></li>
               <div class="nav-item dropdown">
                   <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Our Company</a>
                   <div class="dropdown-menu fade-up m-0">
                     <div class="dropdown-grid dropdown-grid-2">
-                      <a href="{{route ('about-us')}}" class="dropdown-item-custom">
+                      <a href="{{ route('about-us')}}" class="dropdown-item-custom {{ request()->routeIs('about-us') ? 'active' : '' }}">
                         <span class="icon-wrapper">
                           <img src="{{ asset('assets/appImg/about.png') }}" class="icon-default" alt="" loading="lazy">
                           <img src="{{ asset('assets/appImg/about_.png') }}" class="icon-hover" alt="" loading="lazy">
                         </span>
                         About Us
                       </a>
-                      <a href="{{route('privacy-policy')}}" class="dropdown-item-custom pd-rmve">
+                      <a href="{{route('privacy-policy')}}" class="dropdown-item-custom {{ request()->routeIs('privacy-policy') ? 'active' : '' }}">
                         <span class="icon-wrapper">
                           <img src="{{ asset('assets/appImg/privacy.png') }}" class="icon-default" alt="" loading="lazy">
                           <img src="{{ asset('assets/appImg/privacy_.png') }}" class="icon-hover" alt="" loading="lazy">
@@ -246,7 +246,7 @@
                       <a href="404.html" class="dropdown-item">404 Page</a>
                   </div>  
               </div>
-              <li class="nav-item"><a href="{{route('contact-us')}}" class="nav-link">Contact</a></li>
+              <li class="nav-item"><a href="{{route('contact-us')}}" class="nav-link {{ request()->routeIs('contact-us') ? 'active' : '' }}">Contact</a></li>
           </ul>
           <a href="#" class="header-btn-100 btn btn-primary rounded-pill px-3 ml-lg-3">Let’s Talk</a>
         </div>
@@ -254,6 +254,34 @@
     </nav>
 </header>
 <style>
+a.nav-link.active {
+  color: #ffffff !important;
+  display: inline-block; /* ensure the element wraps text width */
+  position: relative;
+  padding-bottom: 6px; /* optional: create room for underline */
+}
+
+a.nav-link.active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, #1a111a, #502e6d);
+  border-radius: 2px;
+  pointer-events: none;
+}
+.nav-item.dropdown{
+  padding: 0.5rem 1rem;
+}
+.nav-item{
+  padding: 0.5rem 1rem;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 0px;
+  padding-left: 0px;
+}
 .dropdown-center-3 {
   left: 50% !important;
   transform: translateX(-40%) !important;
@@ -357,7 +385,7 @@
    border-bottom: 1px solid #502e6d;
 }
 
-.dropdown-grid-2 .dropdown-item-custom:nth-last-child(-n+2) {
+.dropdown-grid-2 .dropdown-item-custom:nth-last-child(-n+1) {
   border-bottom: none;
 }
 .dropdown-grid-4 .dropdown-item-custom {
