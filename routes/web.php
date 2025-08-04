@@ -26,6 +26,7 @@ Route::get('/services.medical-transcription-service', [HomeController::class, 'O
 Route::get('/services.ar-follow-up', [HomeController::class, 'ArHome'])->name('services.ar-follow-up');
 Route::get('/contact-us', [HomeController::class, 'ContactHome'])->name('contact-us');
 Route::get('/about-us', [HomeController::class, 'aboutHome'])->name('about-us');
+Route::get('/privacy-policy', [HomeController::class, 'privacyHome'])->name('privacy-policy');
 
 // dynamic routes
 Route::get('/specialities/{slug}', [SpecialityController::class, 'show'])->name('specialities');

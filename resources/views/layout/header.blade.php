@@ -14,14 +14,14 @@
                   <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Our Company</a>
                   <div class="dropdown-menu fade-up m-0">
                     <div class="dropdown-grid dropdown-grid-2">
-                      <a href="booking.html" class="dropdown-item-custom">
+                      <a href="{{route ('about-us')}}" class="dropdown-item-custom">
                         <span class="icon-wrapper">
                           <img src="{{ asset('assets/appImg/about.png') }}" class="icon-default" alt="" loading="lazy">
                           <img src="{{ asset('assets/appImg/about_.png') }}" class="icon-hover" alt="" loading="lazy">
                         </span>
                         About Us
                       </a>
-                      <a href="booking.html" class="dropdown-item-custom pd-rmve">
+                      <a href="{{route('privacy-policy')}}" class="dropdown-item-custom pd-rmve">
                         <span class="icon-wrapper">
                           <img src="{{ asset('assets/appImg/privacy.png') }}" class="icon-default" alt="" loading="lazy">
                           <img src="{{ asset('assets/appImg/privacy_.png') }}" class="icon-hover" alt="" loading="lazy">

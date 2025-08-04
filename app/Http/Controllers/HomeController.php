@@ -58,5 +58,9 @@ class HomeController extends Controller
     {
         return view('pages.about-us');
     }
+    public function privacyHome()
+    {
+        return view('pages.privacy-policy');
+    }
    
 }
