@@ -27,7 +27,7 @@ html {
     top: 0;
     height: 100%;
     width: 60%;
-    background: #502E6D;
+    background: #100906;
     z-index: -1;
     transition: 0.9s;
 }
@@ -39,7 +39,7 @@ html {
     right: 0;
     left: auto;
 }
-.me-loader .loader {
+/* .me-loader .loader {
     position: absolute;
     width: 80px;
     height: 80px;
@@ -51,6 +51,19 @@ html {
     top: 45%;
     transform: translateY(-45%);
     transition: 0.5s;
+} */
+.me-loader .loader {
+    position: absolute;
+    width: 325px;
+    height: 86px;
+    border-radius: 50%;
+    display: inline-block;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-45%);
+    transition: 0.5s;
 }
 .me-loader.me-loader-deactivate::before,
 .me-loader.me-loader-deactivate::after {
@@ -59,6 +72,10 @@ html {
 
 
 /* END */
+img.logo-web{
+  width: auto;
+}
+
 .main-header {
  position: fixed;
   top: 0;
@@ -125,8 +142,7 @@ html {
 .hero-section {
   position: relative;
   width: 100%;
-  height: 110vh;
-  background: url(../appImg/hero-home-bnr.jpg) no-repeat center center / cover;
+  background: url(../appImg/g3.png) no-repeat center center / cover;
   justify-content: center;
   color: white;
   overflow: hidden;
@@ -141,7 +157,7 @@ html {
   width: 100%;
   max-width: 1255px;
   margin: 0 auto;
-  top: -318px;
+  top: -265px;
 }
 
    
@@ -206,7 +222,7 @@ html {
     margin-left: 4px;
 }
 .display-4 {
-  font-size: 57px;
+  font-size: 56px;
   font-weight: 300 !important;
   line-height: 1.6;
   font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
@@ -533,4 +549,6 @@ a.start-200 {
 }
 a.navbar-brand.text-white.mb-0 {
   text-decoration: none;
+  margin-right: 0px !important;
+  width: 17.8%;
 }

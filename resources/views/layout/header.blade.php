@@ -2,7 +2,8 @@
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="navbar-container d-flex w-100 align-items-center justify-content-between">
         <a class="navbar-brand text-white mb-0" href="#">
-          <h1 class="m-0">Plumberz</h1>
+          <img src="{{asset('assets/appImg/white.svg')}}" alt="" loading="lazy" class="logo-web" />
+          {{-- <img src="{{asset('assets/appImg/black.svg')}}" alt="" loading="lazy" class="logo-web" /> --}}
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
           <span class="fa fa-bars"></span>
@@ -142,15 +143,15 @@
                     </a>
                     <a href="{{ route('specialities', 'urgentcare') }}" class="dropdown-item-custom" {{request()->routeIs('specialities/urgentcare') ? 'active' : '' }} ">
                        <span class="icon-wrapper">
-                        <img src="{{ asset('assets/appImg/pathology.png') }}" class="icon-default" alt="" loading="lazy">
-                        <img src="{{ asset('assets/appImg/pathology_.png') }}" class="icon-hover" alt="" loading="lazy">
+                        <img src="{{ asset('assets/appImg/urgent-care2.png') }}" class="icon-default" alt="" loading="lazy">
+                        <img src="{{ asset('assets/appImg/urgent-care1.png') }}" class="icon-hover" alt="" loading="lazy">
                       </span>
                       Urgent Care
                     </a>
                       <a href="{{ route('specialities', 'dental') }}" class="dropdown-item-custom {{ request()->is('specialities/dental') ? 'active' : '' }}">
                         <span class="icon-wrapper">
                           <img src="{{ asset('assets/appImg/dental.png') }}" class="icon-default" alt="">
-                          <img src="{{ asset('assets/appImg/dental_.png') }}" class="icon-hover" alt="">
+                          <img src="{{ asset('assets/appIm`g/dental_.png') }}" class="icon-hover" alt="">
                         </span>
                         Dental Billing
                       </a>
@@ -221,15 +222,15 @@
                     </a>
                     <a href="{{ route('specialities', 'InternalMedicine') }}" class="dropdown-item-custom {{request()->routeIs('specialities/InternalMedicine ') ? 'active' : '' }} ">
                       <span class="icon-wrapper">
-                        <img src="{{ asset('assets/appImg/ophathamology.png') }}" class="icon-default" alt="" loading="lazy">
-                        <img src="{{ asset('assets/appImg/ophathamology_.png') }}" class="icon-hover" alt="" loading="lazy">
+                        <img src="{{ asset('assets/appImg/internalmedicine1.png') }}" class="icon-default" alt="" loading="lazy">
+                        <img src="{{ asset('assets/appImg/internalmedicine2.png') }}" class="icon-hover" alt="" loading="lazy">
                       </span>
                       Internal Medicine
                     </a>
                     <a href="{{ route('specialities', 'HospitalBilling') }}" class="dropdown-item-custom {{request()->routeIs('specialities/HospitalBilling') ? 'active' : '' }} ">
                       <span class="icon-wrapper">
-                        <img src="{{ asset('assets/appImg/geriatics.png') }}" class="icon-default" alt="" loading="lazy">
-                        <img src="{{ asset('assets/appImg/geriatics_.png') }}" class="icon-hover" alt="" loading="lazy">
+                        <img src="{{ asset('assets/appImg/hospitalbilling2.png') }}" class="icon-default" alt="" loading="lazy">
+                        <img src="{{ asset('assets/appImg/hospitalbilling1.png') }}" class="icon-hover" alt="" loading="lazy">
                       </span>
                       Hospital Billing
                     </a>
@@ -268,7 +269,7 @@ a.nav-link.active::after {
   bottom: 0;
   width: 100%;
   height: 4px;
-  background: linear-gradient(90deg, #1a111a, #502e6d);
+  background: linear-gradient(90deg, #502e6d, #502e6d);
   border-radius: 2px;
   pointer-events: none;
 }

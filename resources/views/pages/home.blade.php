@@ -97,7 +97,7 @@
         </div>
     </div>
    
-    <div class="stats-section">
+    {{-- <div class="stats-section">
         <div class="stats-row">
             <div class="stats-box">
                 <div class="stats-value">300+</div>
@@ -119,7 +119,7 @@
                 <p class="stats-label">IN COMPLIANTLY RECOVERED REVENUE</p>
             </div>
         </div>
-    </div>
+    </div> --}}
 
     <div class="container my-3">
         <div class="row">
