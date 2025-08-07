@@ -12,7 +12,7 @@
 <script src="{{ asset('assets/css/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js') }}"></script>
 
 <!-- Template Main Javascript -->
-<script src="{{ asset('assets/js/main.js') }}"></script>
+<script src="{{ asset('assets/js/main.js') }}" defer></script>
 
 <script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js"></script>
 

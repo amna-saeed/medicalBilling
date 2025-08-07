@@ -6,9 +6,13 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="{{asset('assets/appImg/fevicon.svg')}}" rel="icon">
 
+    <link rel="preload" as="image" href="/appImg/home-hero.webp" />
+    
     <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
@@ -28,5 +32,6 @@
     <link href="{{ asset('assets/css/app.css') }}" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.css" />
-    
+      
+    <script src="{{ asset('assets/js/main.js') }}" defer></script>
 </head>

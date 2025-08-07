@@ -142,7 +142,7 @@ img.logo-web{
 .hero-section {
   position: relative;
   width: 100%;
-  background: url(../appImg/g3.png) no-repeat center center / cover;
+  background: url(../appImg/home-hero.webp) no-repeat center center / cover;
   justify-content: center;
   color: white;
   overflow: hidden;
