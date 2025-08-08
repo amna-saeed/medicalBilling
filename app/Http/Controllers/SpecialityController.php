@@ -11,9 +11,9 @@ class SpecialityController extends Controller
         $specialities = [
             'orthopedic' => 'Orthopedic Billing Content',
             'urology' => 'Urology Billing Content',
+            'MentalHealth' => 'Mental Health Content',
             'dental' => 'Dental Billing Content',
             'urgentcare' => 'Urgent Care Content',
-            'MentalHealth' => 'Mental Health  Content',
             'RadiologyBilling' => 'Radiology Billing Content',
             'CardiologyBilling' => 'Cardiology Billing Content',
             'NeurosurgeryBilling' => 'Neurosurgery Billing Content',

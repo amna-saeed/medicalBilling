@@ -200,7 +200,7 @@
            satisfaction in our small practice medical<br />
             billing services
         </h4>
-        <a href="{{route('contact-us')}}" class="cnt-btn">  Contact Us <i class="fas fa-arrow-right"></i></a>
+        <a href="{{route('contact-us')}}" class="cnt-btn-11">  Contact Us <i class="fas fa-arrow-right"></i></a>
     </div>
 </div>
 
@@ -563,7 +563,7 @@
         <p class="chsng-para">Transparency and collaboration define our approach. We manage billing intricacies and provide revenue cycle insights. Our advanced systems secure your practice’s data. iRCM Inc offers more than billing – we’re your dedicated partner for financial success.</p>
         <div class="box-mdle-btn">
             <a class="cnt-btn">Get Free Audit <i class="fas fa-arrow-right"></i></a>
-            <a href="{{route('contact-us')}}" class="cnt-btn">Contact Us <i class="fas fa-arrow-right"></i></a>
+            <a href="{{route('contact-us')}}" class="cnt-btn-11">Contact Us <i class="fas fa-arrow-right"></i></a>
         </div>
     </div>
 </div>

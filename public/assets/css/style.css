@@ -291,10 +291,14 @@ h4.slider-heding {
     border-radius: 35px;
     transition: .3s;
     margin-top: 5px;
+    background: #502e6d
 }
-
+img.logo-footer {
+    width: 56%;
+}
 .footer .btn.btn-social:hover {
-    color: var(--primary);
+    color: #f1f1f1 !important;
+    background: #9c3d6d !important;
 }
 
 .footer .btn.btn-link {

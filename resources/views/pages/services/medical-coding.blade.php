@@ -309,7 +309,7 @@
            Credentialing Services That Deliver<br />
            Satisfaction
         </h4>
-        <a href="{{route('contact-us')}}" class="cnt-btn">  Contact Us <i class="fas fa-arrow-right"></i></a>
+        <a href="{{route('contact-us')}}" class="cnt-btn-11">  Contact Us <i class="fas fa-arrow-right"></i></a>
     </div>
 </div>
 
@@ -816,7 +816,7 @@
                 </p>
                 <div class="box-mdle-btn">
                     <a class="cnt-btn">Get Free Audit <i class="fas fa-arrow-right"></i></a>
-                   <a href="{{route('contact-us')}}" class="cnt-btn">Contact Us <i class="fas fa-arrow-right"></i></a>
+                   <a href="{{route('contact-us')}}" class="cnt-btn-11">Contact Us <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>

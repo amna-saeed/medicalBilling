@@ -4,7 +4,7 @@
         <!-- Left Column -->
             <div class="col-lg-6 col-md-6 mt-0">
                 <a class="navbar-brand text-white mb-0" href="#">
-                <h1 class="m-0">Plumberz</h1>
+                 <img src="{{asset('assets/appImg/white.svg')}}" alt="" loading="lazy" class="logo-footer" />
                 </a>
             </div>
 
