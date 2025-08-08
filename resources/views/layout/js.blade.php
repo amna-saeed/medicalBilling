@@ -3,8 +3,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
 
 <script src="{{ asset('assets/css/lib/wow/wow.min.js') }}"></script>
-<script src="{{ asset('assets/css/lib/easing/easing.min.js') }}"></script>
-<script src="{{ asset('assets/css/lib/waypoints/waypoints.min.js') }}"></script>
 <script src="{{ asset('assets/css/lib/counterup/counterup.min.js') }}"></script>
 <script src="{{ asset('assets/css/lib/owlcarousel/owl.carousel.min.js') }}"></script>
 <script src="{{ asset('assets/css/lib/tempusdominus/js/moment.min.js') }}"></script>

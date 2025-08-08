@@ -269,7 +269,7 @@ a.nav-link.active::after {
   bottom: 0;
   width: 100%;
   height: 4px;
-  background: linear-gradient(90deg, #502e6d, #502e6d);
+  background: linear-gradient(90deg, #502e6d, #a23f6d);
   border-radius: 2px;
   pointer-events: none;
 }

@@ -200,11 +200,11 @@ ul.feature-list li svg {
   padding: 20px;
   border-radius: 12px;
   font-family: sans-serif;
-  box-shadow: 0px 2px 18px -4px #502E6D;
-  border-color: #502E6D;
+  box-shadow: 0px 2px 18px -4px #522e6d;
+  border-color: #82386d;
   border-radius: 9px;
   background: #100906;
-  border: 1px solid #502E6D;
+  border: 1px solid #9d3e6d;
 }
 .owl-item.cloned{
     padding: 4px !important;
@@ -412,7 +412,31 @@ ul.feature-list li svg {
     line-height: 1.3;
     margin-top: 0px;
 }
-.cnt-btn {
+a.cnt-btn-11 {
+    background-color: transparent;
+    color: #4254a4;
+    padding: 7px 16px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    border: 2px solid #4254a4;
+    font-size: 16px;
+    cursor: pointer;
+}
+a.cnt-btn-11:hover {
+  transform: scale(1.05);
+  background-color: #4254a4;
+  color: #fff;
+}
+
+a.cnt-btn-11 i {
+  font-size: 16px;
+}
+a.cnt-btn-audit {
     background-color: transparent;
     color: #502e6d;
     padding: 7px 16px;
@@ -427,15 +451,17 @@ ul.feature-list li svg {
     font-size: 16px;
     cursor: pointer;
 }
-.cnt-btn:hover {
+a.cnt-btn-audit:hover {
   transform: scale(1.05);
   background-color: #502e6d;
   color: #fff;
 }
-
-.cnt-btn i {
+a.cnt-btn-audit i {
   font-size: 16px;
 }
+
+
+
 /* --- Core Styling --- */
 .row.mr-top{
   margin-top: 75px;
@@ -627,7 +653,7 @@ h4.fw-bold {
     margin-top: 7px;
 }
 .ue_pbullet_graphicel {
-  background: #502e6d;
+  background: #973c6d;
   padding: 11px 16px;
   border-radius: 50%;
   display: flex;
@@ -661,17 +687,17 @@ h4.fw-bold {
 }
 
 .one-xx {
-  background-color: #100906;
-  color: #fff;
-  padding: 21px 12px;
-  border-radius: 10px;
-  position: relative;
-  text-align: center;
-  overflow: hidden;
-  transition: transform 0.7s ease;
-  height: 160px;
-  border: 1px solid #502e6d;
-  box-shadow: 0px 2px 18px -4px #502e6d;
+    background-color: #100906;
+    color: #fff;
+    padding: 21px 12px;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.7s ease;
+    height: 160px;
+    border: 1px solid #973c6d;
+    box-shadow: 0px 2px 18px -4px #502e6d;
 }
 
 .one-xx p,
@@ -686,13 +712,13 @@ h4.fw-bold {
     width: 60px;
 }
 .one-xx::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background-color: #502e6d;
-  opacity: 0;
-  transition: opacity 0.6s ease;
-  z-index: 1;
+      content: '';
+    position: absolute;
+    inset: 0;
+    background-color: #73356d;
+    opacity: 0;
+    transition: opacity 0.6s ease;
+    z-index: 1;
 }
 .one-xx:hover::before {
   opacity: 1;
@@ -973,7 +999,7 @@ img.left-img-xx {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(0deg, #2a0b27 0%, #2c0d25ad 35%);
+    background: linear-gradient(0deg, #2a0b27 0%, #190615d1 35%);
     z-index: 1;
 }
 .icon.icon-phone-call1::before, .icon.icon-phone-call1::before {
@@ -985,7 +1011,7 @@ img.left-img-xx {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(0deg, #2a0b27 0%, #2c0d25ad 35%);
+    background: linear-gradient(0deg, #2a0b27 0%, #190615d1 35%);
     z-index: 1;
 }
 
@@ -1036,7 +1062,7 @@ img.left-img-xx {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(0deg, #2a0b27 0%, #2c0d25ad 35%);
+    background: linear-gradient(0deg, #2a0b27 0%, #190615d1 35%);
     z-index: 1;
 }
 .service-overlay-5 {
@@ -1045,7 +1071,7 @@ img.left-img-xx {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(0deg, #2a0b27 0%, #2c0d25ad 35%);
+    background: linear-gradient(0deg, #2a0b27 0%, #190615d1 35%);
     z-index: 1;
 }
 .service-overlay-4 {
@@ -1063,7 +1089,7 @@ img.left-img-xx {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(0deg, #2a0b27 0%, #2c0d25ad 35%);
+  background: linear-gradient(0deg, #2a0b27 0%, #190615d1 35%);
   z-index: 1;
 }
 .service-overlay-2 {
@@ -1072,7 +1098,7 @@ img.left-img-xx {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(0deg, #2a0b27 0%, #2c0d25ad 35%);
+  background: linear-gradient(0deg, #2a0b27 0%, #190615d1 35%);
   z-index: 1;
 }
 .radus-crcle {

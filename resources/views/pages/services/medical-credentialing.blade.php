@@ -317,7 +317,7 @@
            Credentialing Services That Deliver<br />
            Satisfaction
         </h4>
-        <a href="{{route('contact-us')}}" class="cnt-btn">  Contact Us <i class="fas fa-arrow-right"></i></a>
+        <a href="{{route('contact-us')}}" class="cnt-btn-11">  Contact Us <i class="fas fa-arrow-right"></i></a>
     </div>
 </div>
 
@@ -490,8 +490,8 @@
                     At iRCM, we understand the vital role of credentialing documentation for healthcare professionals and organizations. Our team of industry experts handles all necessary paperwork and submissions to commercial insurance companies, Medicare, and Medicaid, not only processing applications but also focusing on minimizing revenue losses, reducing denial rates, and identifying provider trends to enhance efficiency.
                 </p>
                 <div class="box-mdle-btn">
-                    <a class="cnt-btn">Get Free Audit <i class="fas fa-arrow-right"></i></a>
-                    <a href="{{route('contact-us')}}" class="cnt-btn">Contact Us <i class="fas fa-arrow-right"></i></a>
+                    <a class="cnt-btn-audit">Get Free Audit <i class="fas fa-arrow-right"></i></a>
+                    <a href="{{route('contact-us')}}" class="cnt-btn-11">Contact Us <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>

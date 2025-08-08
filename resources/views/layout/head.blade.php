@@ -20,7 +20,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheets -->
-    <link href="{{ asset('assets/css/lib/animate/animate.min.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css') }}" rel="stylesheet" />
 
@@ -32,6 +31,4 @@
     <link href="{{ asset('assets/css/app.css') }}" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.css" />
-      
-    <script src="{{ asset('assets/js/main.js') }}" defer></script>
 </head>
