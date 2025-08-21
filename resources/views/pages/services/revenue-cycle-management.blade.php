@@ -1,6 +1,5 @@
 @extends('layout.main')
 @section('content')
-<link href="{{ asset('assets/css/medical-service.css') }}" rel="stylesheet">
 
 <div class="bg-service-detail-revenue">
     <div id="particles-js"></div>
@@ -13,7 +12,7 @@
                         <h4 class="title-main-2">Reliable Medical Revenue Cycle</h4>
                         <h4 class="title-sub-2">Management Services That Deliver Results</h4>
                         <p class="description">
-                            Over 90% of our clients report a 25% increase in revenue efficiency. As a trusted leader in revenue cycle management, iRCM simplifies billing and accelerates reimbursements.
+                            Over 90% of our clients report a 25% increase in revenue efficiency. As a trusted leader in revenue cycle management, ReviveHP simplifies billing and accelerates reimbursements.
                         </p>
 
                         <ul class="feature-list">
@@ -180,7 +179,7 @@
     <div class="row tp-1">
         <div class="col-lg-6">
             <div class="box-half-100">
-                <h4 class="mdcl-headng">RCM in Healthcare Doesn’t Have to Be Complicated— We’re Here to Help</h4>
+                <h4 class="mdcl-headng">ReviveHP in Healthcare Doesn’t Have to Be Complicated— We’re Here to Help</h4>
                 <div class="txt-box-1">
                     <p class="para">
                     Healthcare revenue cycle management (RCM) is the process of managing the financial aspects of patient care, starting from appointment scheduling to collecting payments. It includes billing, insurance claim handling, and ensuring accurate payments, making it essential for the financial success of healthcare providers.
@@ -193,14 +192,14 @@
                         <li class="crcle-fnt">Ensuring systems work together to find missing revenue</li>
                     </ul>
                     <p>
-                        iRCM, a leading healthcare revenue cycle management company, helps providers overcome challenges by improving payment cycles, reducing denials, and ensuring seamless operations. Trust us to handle complexities while you focus on quality patient care.
+                        ReviveHP, a leading healthcare revenue cycle management company, helps providers overcome challenges by improving payment cycles, reducing denials, and ensuring seamless operations. Trust us to handle complexities while you focus on quality patient care.
                     </p>
                 </div>
             </div>
         </div>
         <div class="col-lg-6">
             <div class="grid-box-1">
-                <img src="{{asset('assets/appImg/RCM-in-Healthcare-Doesnt-Have-to-Be-Complicated—Were-Here-to-Help.webp')}}" alt="" loading="lazy" />    
+                <img src="{{asset('assets/appImg/revenue-cycle-management.webp')}}" alt="" loading="lazy" />    
             </div>
         </div>
     </div>
@@ -225,7 +224,7 @@
                     </div>
                     <div class="col-lg-6">
                         <h4 class="rvnu-mngmnt">Revenue Cycle Management Focused on Faster Payments and Fewer Errors</h4>
-                        <p class="rvnue-para">iRCM provides key benefits for healthcare providers, including streamlined billing, reduced errors, and faster payment cycles. By partnering with iRCM, practices can maximize reimbursements, reduce administrative burdens, and improve claims acceptance rates. Our solutions enhance efficiency, allowing providers to focus more on patient care while maintaining financial stability.</p>
+                        <p class="rvnue-para">ReviveHP provides key benefits for healthcare providers, including streamlined billing, reduced errors, and faster payment cycles. By partnering with ReviveHP, practices can maximize reimbursements, reduce administrative burdens, and improve claims acceptance rates. Our solutions enhance efficiency, allowing providers to focus more on patient care while maintaining financial stability.</p>
                          <ul class="radus-crcle">
                             <li class="rnve-fnt">Ensure secure and HIPAA-compliant processes</li>
                             <li class="rnve-fnt">Provide easy billing and payment options</li>
@@ -242,9 +241,9 @@
 <div class="bg-dark-1">
     <div class="box-txt-mdle">
         <h4>
-           Achieve Faster Payments Using Expert RCM<br/>
+           Achieve Faster Payments Using Expert ReviveHP<br/>
            Medical Services in the USA!<br />
-          Secure 30% faster payments with iRCM, trusted by leading healthcare providers nationwide.
+          Secure 30% faster payments with ReviveHP, trusted by leading healthcare providers nationwide.
         </h4>
         <a href="{{route('contact-us')}}" class="cnt-btn">  Contact Us <i class="fas fa-arrow-right"></i></a>
     </div>
@@ -338,7 +337,7 @@
 <div class="container py-4">
     <!-- Buttons -->
     <div class="mb-4 text-center">
-        <button class="btn btn-hosptal me-2" onclick="showRow('hospital')">Hospital RCM Services</button>
+        <button class="btn btn-hosptal me-2" onclick="showRow('hospital')">Hospital ReviveHP Services</button>
         <button class="btn btn-physician" onclick="showRow('physician')">Physician Revenue Cycle Management Services</button>
     </div>
 
@@ -346,7 +345,7 @@
     <div id="hospital-row" class="row">
         <div class="col-md-6">
             <div class="phyc-box">
-                <h4 class="rcp-hos">Hospital RCM Services</h4>
+                <h4 class="rcp-hos">Hospital ReviveHP Services</h4>
                 <ul class="radus-crcle">
                     <li class="crcle-fnt">End-to-End Revenue Management: Comprehensive front and back-end solutions, including billing, coding, and collections.</li>
                     <li class="crcle-fnt">AR and Denial Resolution: Reduce claim denials and accelerate cash flow with expert teams and automation.</li>
@@ -396,10 +395,10 @@
 <div class="bg-dark-1">
     <div class="mdle-xxx">
         <h4>
-            Why iRCM Leads in Medical Revenue Cycle <br />Management Services
+            Why ReviveHP Leads in Medical Revenue Cycle <br />Management Services
         </h4>
         <p>
-            iRCM provides unmatched expertise with comprehensive medical RCM solutions, <br/> ensuring faster payments, fewer errors, and efficient processes for healthcare providers.
+            ReviveHP provides unmatched expertise with comprehensive medical ReviveHP solutions, <br/> ensuring faster payments, fewer errors, and efficient processes for healthcare providers.
         </p>
     </div>
     <div class="container">
@@ -466,7 +465,6 @@
 </div>
 
 
-@include('components.testimonial')
 @include('components.bgForm')
 
 

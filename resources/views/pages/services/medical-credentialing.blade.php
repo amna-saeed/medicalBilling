@@ -1,6 +1,5 @@
 @extends('layout.main')
 @section('content')
-<link href="{{ asset('assets/css/medical-service.css') }}" rel="stylesheet">
 <div class="bg-service-detail-cre">
     <div id="particles-js"></div>
     <div class="service-overlay-2">
@@ -187,7 +186,7 @@
                         The Provider enrollment and credentialing process can be a time-consuming process, but it’s worth it! you require efficient medical credentialing services to move forward with this process. Board certifications, malpractice insurance, and professional references are required, and the information must be up-to date and accurate. There are many steps to complete, and it can make you feel like you’re on your own.
                     </p>
                     <p class="md-para">
-                        iRCM credentialing experts not only keep up with the changing insurance requirements but also save our clients precious time by handling all the necessary paperwork and regular follow-ups. iRCM lets you stay ahead and updated on the latest changes in the healthcare industry, so you can be confident that you are meeting all the requirements.
+                        ReviveHP credentialing experts not only keep up with the changing insurance requirements but also save our clients precious time by handling all the necessary paperwork and regular follow-ups. ReviveHP lets you stay ahead and updated on the latest changes in the healthcare industry, so you can be confident that you are meeting all the requirements.
                     </p>
                 </div>
             </div>
@@ -258,11 +257,11 @@
                 </div>
             </div>
             <!-- Middle Image -->
-            <div class="col-lg-4 mb-4 mb-lg-0 d-flex justify-content-center">
-                <img src="{{asset('assets/appImg/Medical-Billing-Doctor-img.png')}}" alt="" loading="lazy" class="img-fluid mdle-img" loading="lazy" />
+            <div class="col-lg-3 mb-4 mb-lg-0 d-flex justify-content-center">
+                {{-- <img src="{{asset('assets/appImg/Medical-Billing-Doctor-img.png')}}" alt="" loading="lazy" class="img-fluid mdle-img" loading="lazy" /> --}}
             </div>
             <!-- Right Box -->
-            <div class="col-lg-4">
+            <div class="col-lg-5">
                 <div class="line-wrap" id="opo-h">
                     <div class="icon-part">
                         <div class="ue_pbullet_graphicel">
@@ -288,7 +287,7 @@
                             <span class="circle-line"></span>
                             <span>IPA Enrollment</span>
                         </div>
-                        <p class="para-left mt-2">iRCM experts provide a streamlined process to enroll new healthcare providers into IPA's</p>
+                        <p class="para-left mt-2">ReviveHP experts provide a streamlined process to enroll new healthcare providers into IPA's</p>
                     </div>
                 </div>
                 <div class="line-wrap">
@@ -328,7 +327,7 @@
                 <p class="med-2">Accelerate Your Enrollment Journey</p>
                 <h4 class="mdcl-headng">Physician Credentialing Services</h4>
                 <p class="para-sldr-200">
-                    Credentialing for physicians is an intricate and demanding process, demanding extensive documentation and the ongoing responsibility of maintaining licenses and adhering to state regulations. This complexity can be burdensome.At iRCM, we specialize in simplifying physician credentialing.
+                    Credentialing for physicians is an intricate and demanding process, demanding extensive documentation and the ongoing responsibility of maintaining licenses and adhering to state regulations. This complexity can be burdensome.At ReviveHP, we specialize in simplifying physician credentialing.
                 </p>
                 <p class="para-sldr-200">
                     Our comprehensive solution evaluates credentials, offers valuable care quality enhancements, saves time and resources, and ensures compliance with state laws. Whether it’s Medicare, CAQH, or payer application delays, count on us for expert assistance in navigating these challenges effectively.
@@ -475,30 +474,25 @@
     </div>
 </div>
 
-<div class="row">
-    <div class="col-lg-12 p-0">
-        <div class="bg-mix-1">
-            <div class="hero-text-box">
-                <p>Leave the medical credentialing to us</p>
-                <h4>
-                    Why Choose iRCM Inc
-                </h4>
-                <p class="mix-mdz">
-                    If you’re seeking a partner to ensure your credentials remain up-to-date, manage your contact details, maintain your membership status, and advocate for you when needed, iRCM is the solution you’ve been looking for. Our medical credentialing services provide peace of mind through a thorough and personalized approach. We assess your unique needs and apply to top regional payers diligently.
-                </p>
-                <p class="mix-mdz">
-                    At iRCM, we understand the vital role of credentialing documentation for healthcare professionals and organizations. Our team of industry experts handles all necessary paperwork and submissions to commercial insurance companies, Medicare, and Medicaid, not only processing applications but also focusing on minimizing revenue losses, reducing denial rates, and identifying provider trends to enhance efficiency.
-                </p>
-                <div class="box-mdle-btn">
-                    <a class="cnt-btn-audit">Get Free Audit <i class="fas fa-arrow-right"></i></a>
-                    <a href="{{route('contact-us')}}" class="cnt-btn-11">Contact Us <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </div>
+<div class="bg-dark-img">
+    <div class="hero-text-box">
+        <p>Leave the medical credentialing to us</p>
+        <h4>
+            Why Choose ReviveHP Inc
+        </h4>
+        <p class="chsng-para">  If you’re seeking a partner to ensure your credentials remain up-to-date, manage your contact details, maintain your membership status, and advocate for you when needed, ReviveHP is the solution you’ve been looking for. Our medical credentialing services provide peace of mind through a thorough and personalized approach. We assess your unique needs and apply to top regional payers diligently.
+        </p>
+        <p class="chsng-para">
+            At ReviveHP, we understand the vital role of credentialing documentation for healthcare professionals and organizations. Our team of industry experts handles all necessary paperwork and submissions to commercial insurance companies, Medicare, and Medicaid, not only processing applications but also focusing on minimizing revenue losses, reducing denial rates, and identifying provider trends to enhance efficiency.
+
+        </p>
+        <div class="box-mdle-btn">
+            <a class="cnt-btn">Get Free Audit <i class="fas fa-arrow-right"></i></a>
+            <a href="{{route('contact-us')}}" class="cnt-btn-11">Contact Us <i class="fas fa-arrow-right"></i></a>
         </div>
     </div>
 </div>
 
-@include('components.testimonial')
 @include('components.bgForm')
 
 

@@ -142,15 +142,15 @@ img.logo-web{
     pointer-events: none;
 }
 .hero-section {
-  position: relative;
-  width: 100%;
-  background: url(../appImg/home-hero.webp) no-repeat center center / cover;
-  justify-content: center;
-  color: white;
-  overflow: hidden;
-  padding-top: 582px;
-  background-attachment: local;
-  height: 100vh;
+    position: relative;
+    width: 100%;
+    background: url(../appImg/home-hero.webp) no-repeat center center / cover;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+    padding-top: 582px;
+    background-attachment: local;
+    height: 100vh;
 }
 .hero-content {
   position: relative;
@@ -320,12 +320,31 @@ img.logo-web{
 .req-btn.full-zoom {
   transform: scale(1.6);
 }   
-.bg-slider-img{
-  background: linear-gradient(135deg, #100906 52%, #502e6d 99%), url(../appImg/tablet-reflection-copy.webp) no-repeat center center / cover;
-  height: 495px;
-  background-blend-mode: lighten;
-  padding: 25px 0px;
+
+.bg-slider-img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: block;
+    background-image: linear-gradient(0deg, #100906 0%, rgb(8 4 7 / 35%) 35%);
+    pointer-events: none;
 }
+.bg-slider-img {
+    position: relative;
+    width: 100%;
+    background: url(../appImg/home-hero.webp) no-repeat center center / cover;
+    justify-content: center;
+    overflow: hidden;
+     padding: 32px 0px;
+    background-attachment: local;
+    height: 495px;
+    margin-bottom: 35px;
+}
+
 a.et_pb_button.dipi-carousel-button {
   font-size: 17px;
 }
@@ -419,7 +438,7 @@ p.financial-txt {
 .accordion-header .icon {
   font-size: 20px;
   transition: transform 0.3s ease, background-color 0.3s ease;
-  background-color: rgb(80 46 109);
+  background-color: rgb(162 63 109);
   border-radius: 50%;
   padding: 3px;
   width: 27px;

@@ -10,7 +10,7 @@
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="service-content text-white">
                         <h4 class="title-main">Efficient Medical Billing</h4>
-                        <h4 class="title-sub">Services for Small Practices</h4>
+                        <h4 class="title-sub">Services for Small Practices & Hospital</h4>
                         <p class="description">
                             Refine your small practice with our premium medical billing services, focusing on efficiency and revenue growth. Contact us or start your free trial now.
                         </p>
@@ -71,12 +71,12 @@
             <h4 class="mdcl-headng">Affordable Medical Billing Services</h4>
             <div class="txt-box-1">
                 <p>Managing medical billing in small practices can be demanding. Understanding complex insurance requirements, staying updated on billing codes, and guaranteeing timely reimbursements are all vital aspects that should not overshadow patient care.</p>
-                <p class="md-para">iRCM offers an affordable solution through our specialized medical billing services for small practices. We simplify the billing process, prioritize prompt reimbursements, and ensure compliance with regulations, enabling you to fully concentrate on providing exceptional patient care.</p>
+                <p class="md-para">ReviveHP offers an affordable solution through our specialized medical billing services for small practices. We simplify the billing process, prioritize prompt reimbursements, and ensure compliance with regulations, enabling you to fully concentrate on providing exceptional patient care.</p>
             </div>
         </div>
         <div class="col-lg-6">
             <div class="grid-box-1">
-                <img src="{{asset('assets/appImg/Affordable-Medical-Billing-Services-Img.webp')}}" alt="" loading="lazy" />    
+                <img src="{{asset('assets/appImg/medical-billing.webp')}}" alt="" loading="lazy" />    
             </div>
         </div>
     </div>
@@ -86,9 +86,9 @@
     <div class="container">
         <div class="text-center mb-5">
             <p class="text-purple fw-semibold">Pioneering Excellence in Medical Billing</p>
-            <h4 class="fw-bold">The iRCM Approach to Medical <br /> Billing Excellence</h4>
+            <h4 class="fw-bold">The ReviveHP Approach to Medical <br /> Billing Excellence</h4>
             <p class="ircm-para">
-                Experience a new dimension of medical billing with iRCM’s proven approach,<br />
+                Experience a new dimension of medical billing with ReviveHP proven approach,<br />
                 designed to empower your practice while delivering exceptional patient care.
             </p>
         </div>
@@ -141,11 +141,11 @@
                 </div>
             </div>
             <!-- Middle Image -->
-            <div class="col-lg-4 mb-4 mb-lg-0 d-flex justify-content-center">
-                <img src="{{asset('assets/appImg/Medical-Billing-Doctor-img.png')}}" alt="" class="img-fluid mdle-img" loading="lazy" />
+            <div class="col-lg-3 mb-4 mb-lg-0 d-flex justify-content-center">
+                {{-- <img src="{{asset('assets/appImg/Medical-Billing-Doctor-img.png')}}" alt="" class="img-fluid mdle-img" loading="lazy" /> --}}
             </div>
             <!-- Right Box -->
-            <div class="col-lg-4">
+            <div class="col-lg-5">
                 <div class="line-wrap" id="opo-h">
                     <div class="icon-part">
                         <div class="ue_pbullet_graphicel">
@@ -219,7 +219,7 @@
                             Getting your claim paid timely and avoiding denials can be a huge challenge for healthcare providers. Insurance companies are often slow to process claims and can deny them for various reasons, making the reimbursement
                             process even more complicated. With an experienced medical billing company, you no longer have to be concerned about timely payments or denials.</p>
                         <p class="md-para"> 
-                            iRCM offers specialty-specified billing services that enable you to get paid 2x faster. Our team of experts understands the complexities of medical coding regulations and will ensure your claims are submitted accurately
+                            ReviveHP offers specialty-specified billing services that enable you to get paid 2x faster. Our team of experts understands the complexities of medical coding regulations and will ensure your claims are submitted accurately
                             and quickly. With the help of innovative technology, we provide real-time feedback to reduce denials and speed up the reimbursement process.
                         </p>
                     </div>
@@ -555,8 +555,8 @@
 <div class="bg-dark-img">
     <div class="hero-text-box">
         <p>Seize Success: Make a Remarkable Move</p>
-        <h4>Choosing iRCM Inc: A Remarkable Move</h4>
-        <p class="chsng-para">iRCM delivers private practice billing services for practices of all sizes. Whether you run a small clinic or a large medical 
+        <h4>Choosing ReviveHP Inc: A Remarkable Move</h4>
+        <p class="chsng-para">ReviveHP delivers private practice billing services for practices of all sizes. Whether you run a small clinic or a large medical 
             center, our precision meets your unique billing needs. Our strength lies in staying current with healthcare changes, handling regulations, coding, 
             and compliance for your financial well-being.
         </p>
@@ -568,7 +568,6 @@
     </div>
 </div>
 
-@include('components.testimonial')
 @include('components.bgForm')
 
 

@@ -77,7 +77,7 @@
         </div>
         <div class="col-lg-6">
             <div class="grid-box-1">
-                <img src="{{asset('assets/appImg/Outsource-Medical-Billing-Image.jpg')}}" alt="" loading="lazy" />    
+                <img src="{{asset('assets/appImg/Medical-Transcription-Services.webp')}}" alt="" loading="lazy" />    
             </div>
         </div>
     </div>
@@ -674,30 +674,6 @@
     </div>
 </div> --}}
 
-{{-- <div class="main-hero-content">
-    <div class="row tp-1">
-        <div class="col-lg-6">
-            <div class="grid-box-1">
-                <img src="{{asset('assets/appImg/Why-Outsource-Your-Medical-Billing-to-iRCM.webp')}}" alt="" loading="lazy" />    
-            </div>
-        </div>
-        <div class="col-lg-6">
-            <p class="med-2">Your Catalyst for Billing Growth</p>
-            <h4 class="mdcl-headng">Why Outsource Your</h4>
-            <h4 class="mdcl-headng">Medical Billing to iRCM</h4>
-            <div class="txt-box-1">
-                <p>
-                    Outsourcing your billing services to iRCM offers a transformative solution to elevate your practice’s financial health. Our team of experts specializes in physician billing services, ensuring accurate and efficient claim submissions, optimized revenue cycles, and reduced claim denials. By entrusting your billing to iRCM, you can focus on what matters most – your patients – while we streamline your revenue management
-                </p>
-                <p class="md-para">
-                  Discover how iRCM’s expertise can revolutionize your billing operations, propel your practice toward growth, and enable you to thrive in today’s competitive healthcare landscape. Join the many satisfied doctors who have already harnessed the power of iRCM’s billing services and experience unparalleled billing efficiency and revenue growth. With iRCM as your billing partner, the future of your practice is brighter than ever.
-                </p>
-            </div>
-        </div>
-    </div>
-</div> --}}
-
-@include('components.testimonial')
 @include('components.bgForm')
 
 

@@ -190,7 +190,7 @@
                        The absence of effective billing solutions for out of network doctors has led a path to persistent challenges. Finding a reliable out of network billing specialist who can ensure providers to get the deserved payment for their services is becoming a serious issue nowadays.
                     </p>
                     <p>
-                        This makes them think about investing in medical billing companies for out of network providers who can help them get rid of these problems. You don’t need to look for multiple choices when you can partner with iRCM, which is providing industry-leading out of network reimbursement services.
+                        This makes them think about investing in medical billing companies for out of network providers who can help them get rid of these problems. You don’t need to look for multiple choices when you can partner with ReviveHP, which is providing industry-leading out of network reimbursement services.
                     </p>
                     <a class="expert-call">Talk to an expert<i class="fas fa-arrow-right"></i></a>
                 </div>
@@ -198,7 +198,7 @@
         </div>
         <div class="col-lg-6">
             <div class="grid-box-1">
-                <img src="{{asset('assets/appImg/Out-of-Network-Billing-Services-Image-Image-1.jpg')}}" alt="" loading="lazy" />    
+                <img src="{{asset('assets/appImg/out-of-network.webp')}}" alt="" loading="lazy" />    
             </div>
         </div>
     </div>
@@ -506,13 +506,13 @@
                 <h4 class="mdcl-headng">Management Made Easy</h4>
                 <div class="txt-box-1">
                     <p class="para">
-                      Providers face challenges managing out-of-network claims due to insurance companies’ delay tactics and underpayments. These issues create financial strain, diverting focus from patient care to claim negotiations. Outsourcing to specialists like iRCM Inc ensures fair reimbursement, freeing up providers to concentrate solely on patient well-being.
+                      Providers face challenges managing out-of-network claims due to insurance companies’ delay tactics and underpayments. These issues create financial strain, diverting focus from patient care to claim negotiations. Outsourcing to specialists like ReviveHP Inc ensures fair reimbursement, freeing up providers to concentrate solely on patient well-being.
                     </p>
                     <p class="md-para">
-                       iRCM Inc excels in out-of-network billing, managing complexities and negotiating with insurance payers on providers’ behalf. Their experienced team tracks claims meticulously, ensuring rightful charges are recovered. By partnering with iRCM Inc, providers reclaim valuable time, allowing them to focus on quality care.
+                       ReviveHP Inc excels in out-of-network billing, managing complexities and negotiating with insurance payers on providers’ behalf. Their experienced team tracks claims meticulously, ensuring rightful charges are recovered. By partnering with ReviveHP Inc, providers reclaim valuable time, allowing them to focus on quality care.
                     </p>
                     <p>
-                       Entrusting iRCM Inc with out-of-network billing needs grants providers access to skilled negotiators and dedicated billers. With a proven track record in the US healthcare industry, iRCM Inc streamlines claim management, maximizes revenue, and upholds providers’ commitment to exceptional patient care.
+                       Entrusting ReviveHP Inc with out-of-network billing needs grants providers access to skilled negotiators and dedicated billers. With a proven track record in the US healthcare industry, ReviveHP Inc streamlines claim management, maximizes revenue, and upholds providers’ commitment to exceptional patient care.
                     </p>
                 </div>
             </div>
@@ -525,13 +525,13 @@
         <div class="col-lg-6">
             <div class="box-half-100">
                 <p class="med-2">Your Claims, Our Expertise</p>
-                <h4 class="mdcl-headng">Why Choose IRCM Claim Processing Services</h4>
+                <h4 class="mdcl-headng">Why Choose ReviveHP Claim Processing Services</h4>
                 <div class="txt-box-1">
                     <p class="para">
-                      Selecting iRCM Inc for out-of-network billing ensures a seamless experience. Our services cover same-day enrollment, appeals, and payer negotiations, streamlining the process. Certified billers and coders optimize reimbursements, while EHR/EMR integration and real-time payment tracking simplify complexities, providing transparent insights into your revenue.
+                      Selecting ReviveHP Inc for out-of-network billing ensures a seamless experience. Our services cover same-day enrollment, appeals, and payer negotiations, streamlining the process. Certified billers and coders optimize reimbursements, while EHR/EMR integration and real-time payment tracking simplify complexities, providing transparent insights into your revenue.
                     </p>
                     <p class="md-para">
-                        At iRCM Inc, we prioritize your financial success. With a focus on simplifying the billing process, we navigate intricate networks of insurance carriers, creating a smooth path for your reimbursements. Our commitment to excellence is reflected in our proactive approach to denials, appeals, and negotiations. By choosing us, you empower your practice with a dedicated partner dedicated to optimizing your revenue potential.
+                        At ReviveHP Inc, we prioritize your financial success. With a focus on simplifying the billing process, we navigate intricate networks of insurance carriers, creating a smooth path for your reimbursements. Our commitment to excellence is reflected in our proactive approach to denials, appeals, and negotiations. By choosing us, you empower your practice with a dedicated partner dedicated to optimizing your revenue potential.
                     </p>
                 </div>
             </div>
@@ -544,7 +544,6 @@
     </div>
 </div>
 
-@include('components.testimonial')
 @include('components.bgForm')
 
 

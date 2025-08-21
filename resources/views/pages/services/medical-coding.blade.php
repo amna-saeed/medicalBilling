@@ -184,17 +184,17 @@
                 <h4 class="mdcl-headng">Medical Coding Consulting Services</h4>
                 <div class="txt-box-1">
                     <p class="para">
-                       Struggling to elevate your medical practice’s revenue? Accurate medical billing and coding are fundamental to financial success. iRCM ensures compliance with the latest CPT and ICD-10 codes and updated CMS guidelines, mitigating penalties and audit risks. We establish a solid foundation for your billing and coding processes, differentiating between thriving practices and those struggling financially.
+                       Struggling to elevate your medical practice’s revenue? Accurate medical billing and coding are fundamental to financial success. ReviveHP ensures compliance with the latest CPT and ICD-10 codes and updated CMS guidelines, mitigating penalties and audit risks. We establish a solid foundation for your billing and coding processes, differentiating between thriving practices and those struggling financially.
                     </p>
                     <p class="md-para">
-                      As a premier medical coding company, we bring unmatched industry expertise to the table. Our services focus on minimizing denials, optimizing revenue cycle management, and enhancing collections. At iRCM Inc, our deep understanding of medical coding’s pivotal role empowers us to resolve reimbursement disparities. Through meticulous medical coding consulting, we address discrepancies in your reimbursement and coding procedures, tailoring our services to meet each client’s specific needs
+                      As a premier medical coding company, we bring unmatched industry expertise to the table. Our services focus on minimizing denials, optimizing revenue cycle management, and enhancing collections. At ReviveHP Inc, our deep understanding of medical coding’s pivotal role empowers us to resolve reimbursement disparities. Through meticulous medical coding consulting, we address discrepancies in your reimbursement and coding procedures, tailoring our services to meet each client’s specific needs
                     </p>
                 </div>
             </div>
         </div>
         <div class="col-lg-6">
             <div class="grid-box-1">
-                <img src="{{asset('assets/appImg/Medical-Coding-Img.jpg')}}" alt="" loading="lazy" />    
+                <img src="{{asset('assets/appImg/medical-coding.webp')}}" alt="" loading="lazy" />    
             </div>
         </div>
     </div>
@@ -204,7 +204,7 @@
     <div class="container">
         <div class="text-center mb-5">
             <p class="text-purple fw-semibold">Reduce coding errors by 50%</p>
-            <h4 class="fw-bold">iRCM Medical Billing and Coding <br /> Services</h4>
+            <h4 class="fw-bold">ReviveHP Medical Billing and Coding <br /> Services</h4>
         </div>
         <div class="row mr-top">
             <div class="col-lg-4">
@@ -232,7 +232,7 @@
                     <div class="icn-content">
                         <h4 class="dual-underline">Audits for External Coding</h4>
                         <p>
-                           iRCM providers you expert medical coding audit services for precise CPT and ICD-10 coding
+                           ReviveHP providers you expert medical coding audit services for precise CPT and ICD-10 coding
                         </p>
                     </div>
                 </div>
@@ -320,10 +320,10 @@
                 <p class="med-2">Trust us to maximize your coding accuracy</p>
                 <h4 class="mdcl-headng">Get the Most Accurate Medical Coding and Billing</h4>
                 <p class="para-sldr-200">
-                    iRCM is a trusted provider, offering precise medical coding and billing services. With certified coders skilled in ICD-10, CPT, and HCPCS coding, we uphold industry standards. Our commitment to accuracy makes us a reliable partner for healthcare organizations, ensuring financial health. Stay ahead with our expertise, adapting to the dynamic healthcare landscape, and optimizing collections while reducing denials.
+                    ReviveHP is a trusted provider, offering precise medical coding and billing services. With certified coders skilled in ICD-10, CPT, and HCPCS coding, we uphold industry standards. Our commitment to accuracy makes us a reliable partner for healthcare organizations, ensuring financial health. Stay ahead with our expertise, adapting to the dynamic healthcare landscape, and optimizing collections while reducing denials.
                 </p>
                 <p class="para-sldr-200">
-                    In the domain of revenue cycle management, iRCM offers comprehensive support, covering coding, billing, denials management, and auditing. We prioritize timely and accurate record coding, shielding your practice from costly errors and penalties. By entrusting us, you empower your practice to maximize revenue and enhance financial outcomes. Rely on iRCM to navigate healthcare complexities, securing your financial success amid industry evolution.
+                    In the domain of revenue cycle management, ReviveHP offers comprehensive support, covering coding, billing, denials management, and auditing. We prioritize timely and accurate record coding, shielding your practice from costly errors and penalties. By entrusting us, you empower your practice to maximize revenue and enhance financial outcomes. Rely on ReviveHP to navigate healthcare complexities, securing your financial success amid industry evolution.
                 </p>
             </div>
             <div class="row mdx-mrr">
@@ -800,32 +800,26 @@
     </div>
 </div>
 
-<div class="row">
-    <div class="col-lg-12 p-0">
-        <div class="bg-mix-1">
-            <div class="hero-text-box">
-                <p>Leave the medical credentialing to us</p>
-                <h4>
-                    Why Choose iRCM Inc
-                </h4>
-                <p class="mix-mdz">
-                    If you’re seeking a partner to ensure your credentials remain up-to-date, manage your contact details, maintain your membership status, and advocate for you when needed, iRCM is the solution you’ve been looking for. Our medical credentialing services provide peace of mind through a thorough and personalized approach. We assess your unique needs and apply to top regional payers diligently.
-                </p>
-                <p class="mix-mdz">
-                    At iRCM, we understand the vital role of credentialing documentation for healthcare professionals and organizations. Our team of industry experts handles all necessary paperwork and submissions to commercial insurance companies, Medicare, and Medicaid, not only processing applications but also focusing on minimizing revenue losses, reducing denial rates, and identifying provider trends to enhance efficiency.
-                </p>
-                <div class="box-mdle-btn">
-                    <a class="cnt-btn">Get Free Audit <i class="fas fa-arrow-right"></i></a>
-                   <a href="{{route('contact-us')}}" class="cnt-btn-11">Contact Us <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </div>
+<div class="bg-dark-img">
+    <div class="hero-text-box">
+        <p>Leave the medical credentialing to us</p>
+        <h4>
+            Why Choose ReviveHP Inc
+        </h4>
+        <p class="chsng-para">  If you’re seeking a partner to ensure your credentials remain up-to-date, manage your contact details, maintain your membership status, and advocate for you when needed, ReviveHP is the solution you’ve been looking for. Our medical credentialing services provide peace of mind through a thorough and personalized approach. We assess your unique needs and apply to top regional payers diligently.
+        </p>
+        <p class="chsng-para">
+            At ReviveHP, we understand the vital role of credentialing documentation for healthcare professionals and organizations. Our team of industry experts handles all necessary paperwork and submissions to commercial insurance companies, Medicare, and Medicaid, not only processing applications but also focusing on minimizing revenue losses, reducing denial rates, and identifying provider trends to enhance efficiency.
+
+        </p>
+        <div class="box-mdle-btn">
+            <a class="cnt-btn">Get Free Audit <i class="fas fa-arrow-right"></i></a>
+            <a href="{{route('contact-us')}}" class="cnt-btn-11">Contact Us <i class="fas fa-arrow-right"></i></a>
         </div>
     </div>
 </div>
 
-@include('components.testimonial')
 @include('components.bgForm')
-
 
 
 <link href="{{ asset('assets/css/medical-service.css') }}" rel="stylesheet">

@@ -167,13 +167,13 @@ p.test-para {
 }
 
 p.med-2{
-    color: #00AF97;
+    color: #9c3d6d;
     font-size: 16px;
     font-weight: 700;
     margin: 6px 0px 18px;
 }
 p.paid-fstr{
-    color: #00AF97;
+    color: #9c3d6d;
     font-size: 16px;
     font-weight: 700;
     margin: 0px 0px 4px;
@@ -283,7 +283,7 @@ ul.feature-list li svg {
 
 /*  */
 .bg-dark-img {
-    background: radial-gradient(circle at center, #502e6d 0%, #100906 99%);
+    background: linear-gradient(0deg, #100906 0%, rgb(8 4 7 / 35%) 35%), url(../appImg/home-hero.webp) no-repeat center center / cover;;
     min-height: auto;
     display: flex;
     align-items: start;
@@ -300,18 +300,20 @@ ul.feature-list li svg {
     font-weight: 700;
     margin-bottom: 16px;
     margin-top: 0px;
+    color: #ffff;
 }
 .chsng-para{
     font-size: 17px !important;
-    font-weight: 500 !important;
-    line-height: 27px !important;
+    font-weight: 300 !important;
+    line-height: 34px !important;
     text-align: center !important;
-    color: rgb(196 196 196);
+    color: rgb(196 196 196) !important;
 }
 .hero-text-box p {
     font-size: 16px;
     margin-bottom: 2px;
     font-weight: 600;
+    color: #973c6d;
 }
 .box-mdle-btn {
   margin-top: 25px;
@@ -500,7 +502,7 @@ a.cnt-btn-audit i {
 .timeline li {
     padding: 14px 24px;
     margin-bottom: 20px;
-    border-left: 3px solid #673AB7;
+    border-left: 3px solid #a13e6d;
     position: relative;
     transition: 0.3s;
     list-style: none;
@@ -517,7 +519,7 @@ a.cnt-btn-audit i {
   left: -9px;
   width: 15px;
   height: 15px;
-  background-color: #673AB7;
+  background-color: #a13e6d;
   border-radius: 50%;
 }
 .row.align-items-center
@@ -800,7 +802,7 @@ p.fnts-pra{
   padding: 4px 45px 8px 15px;
   font-size: 16px;
   border-radius: 33px;
-  border: 2px solid #00AF97;
+  border: 2px solid #9c3d6d;
   height: 60px;
   margin-top: 18px;
 }
@@ -812,7 +814,7 @@ p.fnts-pra{
     background: none;
     border: none;
     font-size: 28px;
-    color: #00af97;
+    color: #9c3d6d;
     cursor: pointer;
     line-height: 1;
     padding: 0;
@@ -1216,13 +1218,13 @@ a.billing-bg:hover {
 /* Base button style (transparent) */
 .btn-hosptal,
 .btn-physician {
-  background-color: transparent;
-  color: #4254A4;
-  border: 2px solid #4254A4;
-  border-radius: 7px;
-  padding: 8px 14px;
-  font-size: 15px;
-  transition: 0.3s ease;
+background-color: transparent;
+    color: #9d3e6d;
+    border: 1px solid #9d3e6d;
+    border-radius: 7px;
+    padding: 8px 14px;
+    font-size: 15px;
+    transition: 0.3s ease;
 }
 
 
@@ -1245,7 +1247,7 @@ a.billing-bg:hover {
   top: 0;
   width: 24px;
   height: 24px;
-  background-color: #502e6d;
+  background-color: #a7406d;
   color: #fff;
   border-radius: 50%;
   font-size: 14px;
@@ -1269,7 +1271,7 @@ a.billing-bg:hover {
   top: 0;
   width: 24px;
   height: 24px;
-  background-color: #502e6d;
+  background-color: #a13e6d;
   color: #fff;
   border-radius: 50%;
   font-size: 14px;
@@ -1282,7 +1284,7 @@ a.billing-bg:hover {
     max-width: 1100px;
     margin: auto;
     text-align: left;
-    margin-top: 200px;
+    margin-top: 190px;
 }
 .title-main {
     font-size: 37px;
@@ -1303,7 +1305,7 @@ a.billing-bg:hover {
     line-height: 39px;
 }
 .title-sub {
-    font-size: 37px;
+    font-size: 36px;
     margin-bottom: 8px;
     margin-top: 0px;
     font-weight: 700;
@@ -1372,7 +1374,7 @@ a.billing-bg:hover {
   height: 28px;
 }
 .highlight {
-    color: #00AF97;
+    color:#9c3d6d;
     font-size: 18px;
     font-weight: 600;
 }
@@ -1663,17 +1665,10 @@ p.mix-mdz{
     text-align: center !important;
     color: #fff !important;
 }
-.bg-mix-1{
-    background: radial-gradient(circle at center, #240b1c 0%, #100906 99%) !important;
-    margin-top: 40px;
-    padding: 22px 0px 0px;
-    text-align: center;
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    padding: 27px 20px;
-    color: #fff;
-}       
+.sldez-box-100
+ {
+    margin-bottom: 35px;
+}
 .med-srv-title h4{
     font-size: 22px;
     color: #ffff;

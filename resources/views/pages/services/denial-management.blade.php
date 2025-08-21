@@ -195,7 +195,7 @@
         </div>
         <div class="col-lg-6">
             <div class="grid-box-1">
-                <img src="{{asset('assets/appImg/Maximize-Profits-Image.jpg')}}" alt="" loading="lazy" />    
+                <img src="{{asset('assets/appImg/Denial-Management.webp')}}" alt="" loading="lazy" />    
             </div>
         </div>
     </div>
@@ -205,7 +205,7 @@
     <div class="container">
         <div class="text-center mb-5">
             <p class="text-purple fw-semibold">Redefining Denial Management</p>
-            <h4 class="fw-bold">iRCM Proven Healthcare Denial<br /> Management Process</h4>
+            <h4 class="fw-bold">ReviveHP Proven Healthcare Denial<br /> Management Process</h4>
         </div>
         <div class="row mr-top">
             <div class="col-lg-4">
@@ -330,10 +330,10 @@
                        Small and mid-sized practices suffer greatly due to insurance denials as they lack the resources and expertise to identify and manage denials effectively. They already have enough on their plate and denial management in medical billing can be very time-consuming and cumbersome process. Certainly, they can’t let insurance denials eat away at profits.
                     </p>
                     <p class="md-para">
-                        By placing a comprehensive denial management system small practices and hospitals can experience an improved revenue cycle process. iRCM has a proven hospital denial management solution to help hospitals increase their reimbursements and maximize profits. We don’t stop there – we also provide detailed data insights take proactive measures against denials in medical billing.
+                        By placing a comprehensive denial management system small practices and hospitals can experience an improved revenue cycle process. ReviveHP has a proven hospital denial management solution to help hospitals increase their reimbursements and maximize profits. We don’t stop there – we also provide detailed data insights take proactive measures against denials in medical billing.
                     </p>
                     <p>
-                        Partnering with iRCM, small practices & hospitals can benefit from an expert team of Denial Management specialists who will evaluate your practice’s current denial management process and develop a custom strategy to help you identify and resolve denials quickly and efficiently. 
+                        Partnering with ReviveHP, small practices & hospitals can benefit from an expert team of Denial Management specialists who will evaluate your practice’s current denial management process and develop a custom strategy to help you identify and resolve denials quickly and efficiently. 
                     </p>
                 </div>
             </div>
@@ -346,10 +346,10 @@
         <div class="col-lg-6">
             <div class="box-half-100">
                 <p class="med-2">From Denials to Dollars</p>
-                <h4 class="mdcl-headng">Why choose iRCM Denial Management Services</h4>
+                <h4 class="mdcl-headng">Why choose ReviveHP Denial Management Services</h4>
                 <div class="txt-box-1">
                     <p class="para">
-                       iRCM firmly believes that effective denial management is key for practice profitability. Our industry-leading services and expert team of Denial Management specialists will help you save time, optimize cash flow and recover lost earnings due to denials. We fight insurance claims on your behalf and help you receive the reimbursements you deserve.
+                       ReviveHP firmly believes that effective denial management is key for practice profitability. Our industry-leading services and expert team of Denial Management specialists will help you save time, optimize cash flow and recover lost earnings due to denials. We fight insurance claims on your behalf and help you receive the reimbursements you deserve.
                     </p>
                     <p class="md-para">
                         Your time and effort will be saved if you get a follow-up right. So, we not only submit a claim but also take proactive follow-up steps to avoid any denials. Our dedicated team tracks every outstanding insurance claim that has passed 30 days so you don’t have to worry about lost revenue.
@@ -368,7 +368,6 @@
     </div>
 </div>
 
-@include('components.testimonial')
 @include('components.bgForm')
 
 

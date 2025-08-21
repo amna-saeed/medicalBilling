@@ -12,7 +12,7 @@
             <h4 class="title-main">Professional AR Follow-Up</h4>
             <h4 class="title-sub">& Management Services</h4>
             <p class="description">
-                iRCM offers expert AR follow-up for medical services, helping healthcare organizations recover overdue payments from insurance carriers efficiently. We enable providers to focus on patient care while ensuring timely reimbursements and a healthy cash flow.
+                ReviveHP offers expert AR follow-up for medical services, helping healthcare organizations recover overdue payments from insurance carriers efficiently. We enable providers to focus on patient care while ensuring timely reimbursements and a healthy cash flow.
             </p>
 
             <ul class="feature-list">
@@ -82,7 +82,7 @@
         </div>
         <div class="col-lg-6">
             <div class="grid-box-1">
-                <img src="{{asset('assets/appImg/AR-Follow-Up-Image-1.jpg')}}" alt="" loading="lazy" />    
+                <img src="{{asset('assets/appImg/AR-Follow-up.webp')}}" alt="" loading="lazy" />    
             </div>
         </div>
     </div>
@@ -91,7 +91,7 @@
 <div class="bg-light-2 pt-4">
     <div class="container">
         <div class="text-center mb-5">
-            <h4 class="fw-bold">iRCM’s AR Follow-Up Services That <br />Help You Get Paid on Time</h4>
+            <h4 class="fw-bold">ReviveHP AR Follow-Up Services That <br />Help You Get Paid on Time</h4>
         </div>
         <div class="row mr-top">
             <div class="col-lg-4">
@@ -271,19 +271,19 @@
                             <g clip-path="url(#clip0_4879_678)">
                                 <path
                                     d="M49.9408 46.0494L46.3073 37.5712C45.9539 36.7466 45.3218 36.102 44.5491 35.7244C45.2018 35.0627 45.6055 34.1549 45.6055 33.1543V14.3066C45.6055 12.2873 43.9627 10.6445 41.9434 10.6445H39.1651C37.384 4.50283 31.7082 0 25 0C18.2918 0 12.616 4.50283 10.8349 10.6445H8.05664C6.0373 10.6445 4.39453 12.2873 4.39453 14.3066V22.2656C4.39453 22.6702 4.72236 22.998 5.12695 22.998C5.53154 22.998 5.85938 22.6702 5.85938 22.2656V14.3066C5.85938 13.0951 6.84512 12.1094 8.05664 12.1094H10.4903C10.3353 12.9651 10.2539 13.8463 10.2539 14.7461C10.2539 22.8771 16.8689 29.4922 25 29.4922C33.1311 29.4922 39.7461 22.8771 39.7461 14.7461C39.7461 13.8463 39.6647 12.9651 39.5097 12.1094H41.9434C43.1549 12.1094 44.1406 13.0951 44.1406 14.3066V33.1543C44.1406 34.3658 43.1549 35.3516 41.9434 35.3516H8.05664C6.84512 35.3516 5.85938 34.3658 5.85938 33.1543V25.1953C5.85938 24.7907 5.53154 24.4629 5.12695 24.4629C4.72236 24.4629 4.39453 24.7907 4.39453 25.1953V33.1543C4.39453 34.1549 4.79824 35.0627 5.45088 35.7243C4.67822 36.1019 4.04609 36.7466 3.69268 37.5711L0.0591797 46.0494C0.0201172 46.1405 0 46.2387 0 46.3379C0 48.3572 1.64277 50 3.66211 50H46.3379C48.3572 50 50 48.3572 50 46.3379C50 46.2387 49.9799 46.1405 49.9408 46.0494ZM25 28.0273C17.6768 28.0273 11.7188 22.0693 11.7188 14.7461C11.7188 7.42285 17.6768 1.46484 25 1.46484C32.3232 1.46484 38.2812 7.42285 38.2812 14.7461C38.2812 22.0693 32.3232 28.0273 25 28.0273ZM5.03916 38.1481C5.38584 37.3392 6.17871 36.8164 7.05879 36.8164H42.9412C43.8214 36.8164 44.6142 37.3392 44.9609 38.1481L48.1568 45.6055H1.84316L5.03916 38.1481ZM28.6621 47.0703V48.5352H21.3379V47.0703H28.6621ZM1.59141 47.0703H19.873V48.5352H3.66211C2.70742 48.5352 1.89385 47.9227 1.59141 47.0703ZM46.3379 48.5352H30.127V47.0703H48.4086C48.1062 47.9227 47.2926 48.5352 46.3379 48.5352Z"
-                                    fill="#264468"
+                                    fill="#fff"
                                 ></path>
                                 <path
                                     d="M5.80279 42.6758H44.1963C44.4425 42.6758 44.6722 42.5521 44.8079 42.3466C44.9434 42.1411 44.9666 41.8812 44.8696 41.6549L43.614 38.7252C43.4986 38.4559 43.2337 38.2812 42.9408 38.2812H7.05826C6.76529 38.2812 6.50044 38.4559 6.38501 38.7252L5.12955 41.6549C5.03257 41.8812 5.05572 42.1411 5.19126 42.3466C5.32691 42.5521 5.5565 42.6758 5.80279 42.6758ZM7.54126 39.7461H42.4579L43.0857 41.2109H6.91353L7.54126 39.7461Z"
-                                    fill="#264468"
+                                    fill="#fff"
                                 ></path>
                                 <path
                                     d="M30.7963 6.48623C30.7706 6.26416 30.645 6.06592 30.4552 5.94795C28.8196 4.93174 26.9333 4.39453 25 4.39453C19.2922 4.39453 14.6484 9.03828 14.6484 14.7461C14.6484 16.6792 15.1855 18.5656 16.2019 20.2013C16.3198 20.3911 16.518 20.5167 16.7401 20.5424C16.7682 20.5455 16.7961 20.5472 16.8239 20.5472C17.0171 20.5472 17.2037 20.4708 17.3419 20.3327L30.5866 7.08799C30.7446 6.92988 30.8219 6.7082 30.7963 6.48623ZM16.9948 18.6081C16.416 17.4095 16.1133 16.0911 16.1133 14.7461C16.1133 9.8459 20.0998 5.85938 25 5.85938C26.3451 5.85938 27.6635 6.16211 28.862 6.74092L16.9948 18.6081Z"
-                                    fill="#264468"
+                                    fill="#fff"
                                 ></path>
                                 <path
                                     d="M33.2602 8.94988C33.0386 8.92518 32.8166 9.00144 32.6584 9.15955L19.4137 22.4043C19.2557 22.5624 19.1785 22.7841 19.204 23.006C19.2297 23.2281 19.3553 23.4263 19.5452 23.5443C21.1807 24.5605 23.067 25.0977 25.0003 25.0977C30.7081 25.0977 35.3519 20.454 35.3519 14.7462C35.3519 12.8129 34.8147 10.9265 33.7985 9.291C33.6805 9.10105 33.4823 8.97547 33.2602 8.94988ZM25.0003 23.6329C23.6552 23.6329 22.3368 23.3302 21.1383 22.7513L33.0055 10.8842C33.5843 12.0827 33.887 13.4011 33.887 14.7462C33.887 19.6464 29.9005 23.6329 25.0003 23.6329Z"
-                                    fill="#264468"
+                                    fill="#fff"
                                 ></path>
                             </g>
                             <defs>
@@ -523,7 +523,7 @@
                             <span class="circle-line"></span>
                             <span>Address denied claims effectively</span>
                         </div>
-                        <p class="para-left mt-2">iRCM experts provide a streamlined process to enroll new healthcare providers into IPA's</p>
+                        <p class="para-left mt-2">ReviveHP experts provide a streamlined process to enroll new healthcare providers into IPA's</p>
                     </div>
                 </div>
             </div>
@@ -534,13 +534,13 @@
 <div class="main-hero-content">
     <div class="row tp-1">
         <div class="col-lg-6">
-            <h4 class="mdcl-headng">Achieve Financial Success with iRCM’s AR Follow-Up Solutions</h4>
+            <h4 class="mdcl-headng">Achieve Financial Success with ReviveHP AR Follow-Up Solutions</h4>
             <div class="txt-box-1">
                 <p>
-                With iRCM’s medical billing accounts receivable follow-up solutions, your practice can streamline reimbursement processes and cut costs. Our expert team manages claims efficiently, ensuring you receive payments promptly and maintain a healthy cash flow.   
+                With ReviveHP medical billing accounts receivable follow-up solutions, your practice can streamline reimbursement processes and cut costs. Our expert team manages claims efficiently, ensuring you receive payments promptly and maintain a healthy cash flow.   
                 </p>
                 <p class="md-para">
-                    Outsourcing AR follow-up reduces overhead expenses and addresses denied claims with precision, minimizing payment delays. iRCM’s in-depth knowledge of insurance policies enhances every step, maximizing reimbursements and supporting your financial stability.
+                    Outsourcing AR follow-up reduces overhead expenses and addresses denied claims with precision, minimizing payment delays. ReviveHP in-depth knowledge of insurance policies enhances every step, maximizing reimbursements and supporting your financial stability.
                 </p>
                 <p>
                     We utilize advanced technology and proven strategies to track and resolve outstanding claims, reducing the administrative burden on your staff. This allows your team to concentrate on patient care & ensure faster collections, and improve overall financial performance.
@@ -555,7 +555,6 @@
     </div>
 </div>
 
-@include('components.testimonial')
 @include('components.bgForm')
 
 <link href="{{ asset('assets/css/medical-service.css') }}" rel="stylesheet">

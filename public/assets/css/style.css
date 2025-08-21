@@ -207,7 +207,7 @@ html {
     transition: .5s;
 }
 .testimonial-carousel .owl-item:hover .testimonial-text {
-  background-color: #2817105e !important;
+  background-color: #ab406d1c !important;
     height: 220px;
 }
 a.et_pb_button.dipi-carousel-button {
@@ -291,14 +291,14 @@ h4.slider-heding {
     border-radius: 35px;
     transition: .3s;
     margin-top: 5px;
-    background: #502e6d
+    background: #9c3d6d;
 }
 img.logo-footer {
     width: 56%;
 }
 .footer .btn.btn-social:hover {
     color: #f1f1f1 !important;
-    background: #9c3d6d !important;
+    background: #502e6d !important;
 }
 
 .footer .btn.btn-link {

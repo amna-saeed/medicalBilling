@@ -193,7 +193,7 @@
         </div>
         <div class="col-lg-6">
             <div class="grid-box-1">
-                <img src="{{asset('assets/appImg/Strategic-Medical-Billing-Consultancy-Image.jpg')}}" alt="" loading="lazy" />    
+                <img src="{{asset('assets/appImg/medical-consulting.webp')}}" alt="" loading="lazy" />    
             </div>
         </div>
     </div>
@@ -509,7 +509,7 @@
                             That’s why we’re here to offer solutions designed to empower your revenue performance. From reducing claim denials to optimizing coding practices and improving reimbursement rates, our dedicated consultants have the expertise and solutions you need to supercharge your revenue performance. 
                         </p>
                         <p class="rvnue-para">
-                            At iRCM our consultants will assess your current processes, identify bottlenecks, and implement efficient solutions that streamline your billing operations. From enhancing coding accuracy to streamlining claim submissions, we’ll customize our strategies to address your specific challenges. Take control of your billing operations today and witness the transformative power of efficiency meeting excellence.
+                            At ReviveHP our consultants will assess your current processes, identify bottlenecks, and implement efficient solutions that streamline your billing operations. From enhancing coding accuracy to streamlining claim submissions, we’ll customize our strategies to address your specific challenges. Take control of your billing operations today and witness the transformative power of efficiency meeting excellence.
                         </p>
                     </div>
                     <div class="col-lg-6">
@@ -536,10 +536,10 @@
     <div class="row tp-1">
         <div class="col-lg-6">
             <div class="box-half-100">
-                <h4 class="mdcl-headng">Why Choose iRCM’s Billing <br />& Coding Consultants</h4>
+                <h4 class="mdcl-headng">Why Choose ReviveHP Billing <br />& Coding Consultants</h4>
                 <div class="txt-box-1">
                     <p class="para">
-                      At iRCM, we believe in building strong partnerships with our clients. We collaborate closely with your team, working together to achieve your practice’s unique goals. Our medical billing consultants are committed to open communication, ongoing support, and regular progress updates, ensuring you’re informed and empowered throughout the entire transformation process.
+                      At ReviveHP, we believe in building strong partnerships with our clients. We collaborate closely with your team, working together to achieve your practice’s unique goals. Our medical billing consultants are committed to open communication, ongoing support, and regular progress updates, ensuring you’re informed and empowered throughout the entire transformation process.
                     </p>
                     <p class="md-para">
                         We specialize in revolutionizing the way healthcare providers manage their billing processes, ensuring optimal performance and financial prosperity. With our comprehensive expertise and innovative approach, we are committed to transforming your billing operations and positioning your practice for long-term success
@@ -555,7 +555,6 @@
     </div>
 </div>
 
-@include('components.testimonial')
 @include('components.bgForm')
 
 
