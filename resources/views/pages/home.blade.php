@@ -23,7 +23,7 @@
         </div>
     </div>
     <div class="bg-dark-light-pur" id="meeting-section">
-        <a href="#" class="req-btn" id="zoom-btn">Request a meeting</a>
+        <a href="{{route('contact-us')}}" class="req-btn" id="zoom-btn">Request a meeting</a>
     </div>
     
     <!-- Service Start -->
@@ -130,7 +130,7 @@
                         We bridge the gap between providers and payers, fostering collaboration to maximize financial outcomes
                         and creating a win-win for all.
                     </p>
-                    <a href="" class="start-200">Get Started  <span class="icon"><i class="fas fa-arrow-right"></i></span></a>
+                    <a href="{{route('contact-us')}}" class="start-200">Get Started  <span class="icon"><i class="fas fa-arrow-right"></i></span></a>
                 </div>
                 <div class="col-lg-6 col-md-12 box-right">
                     <div class="accordion-item">

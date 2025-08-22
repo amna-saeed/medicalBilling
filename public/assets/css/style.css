@@ -325,7 +325,29 @@ img.logo-footer {
     text-align: center;
     width: 100%;
 }
-
+.spc-xx{
+    gap: 60px;
+}
 .footer .copyright a {
     color: var(--light);
+}
+@media (min-width: 320px) and (max-width: 525px) {
+    img.logo-footer {
+        width: 60%;
+        margin-bottom: 25px;
+    }
+    .padng-ftr-none{
+        padding: 0px !important;
+    }   
+    .cnetrz-xx{
+        text-align: center;
+    }
+    .spc-xx{
+        gap: 12px;
+    }
+    .footer-policy {
+        margin: 0px !important;
+        padding-top: 10px;
+        font-size: 12px;
+    }
 }

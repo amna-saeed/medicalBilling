@@ -2,14 +2,14 @@
     <div class="container">
         <div class="row g-5">
         <!-- Left Column -->
-            <div class="col-lg-6 col-md-6 mt-0">
+            <div class="col-lg-6 col-md-6 mt-0 cnetrz-xx">
                 <a class="navbar-brand text-white mb-0" href="#">
                  <img src="{{asset('assets/appImg/white.svg')}}" alt="" loading="lazy" class="logo-footer" />
                 </a>
             </div>
 
-            <div class="col-lg-6 col-md-6 d-flex flex-column align-items-lg-center align-items-center text-lg-center text-start mt-0">
-                <div class="d-flex flex-wrap gap-5">
+            <div class="col-lg-6 col-md-6 d-flex flex-column align-items-lg-center align-items-center text-lg-center text-start mt-0 padng-ftr-none">
+                <div class="d-flex flex-wrap spc-xx">
                     <a class="btn btn-link text-white p-0" href="">Terms & Conditions</a>
                     <a class="btn btn-link text-white p-0" href="">Privacy Policy</a>
                     <a class="btn btn-link text-white p-0" href="">About Us</a>

@@ -90,10 +90,6 @@ img.logo-web{
   padding: 0px;
 }
 
-.navbar {
-  background-color: transparent !important;
-}
-
 .navbar .nav-link,
 .navbar .navbar-brand h1 {
   color: white;
@@ -572,4 +568,101 @@ a.navbar-brand.text-white.mb-0 {
   text-decoration: none;
   margin-right: 0px !important;
   width: 17.8%;
+}
+
+@media (min-width: 320px) and (max-width: 525px) {
+  .hero-section{
+    padding-top: 320px;
+    height: 67vh;
+  }
+  .display-4 {
+    font-size: 26px;
+    font-weight: 300 !important;
+    margin: 0px 0px 8px;
+  }
+  .lead {
+    font-size: 24px;
+    font-weight: 200 !important;
+  }
+  .services-list.mb-3{
+    text-align: justify;
+  }
+  .services-list span {
+    display: inline;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .btn-outline-light{
+    font-size: 16px;
+    border: 1px solid #fff;
+    font-weight: 300;
+  }
+  .left-box h2 {
+    font-size: 27px;
+    font-weight: 400;
+    left: 15px;
+  }
+  .bg-full-100 {
+    padding: 35px 0;
+    height: 440px;
+  }
+  .two-box-row {
+    display: grid;
+    gap: 30px;
+  }
+  .left-box h2 {
+    font-size: 27px;
+    font-weight: 400;
+    margin: 0px 0px;
+    top: -5px;
+  }
+  .right-box p {
+      font-size: 16px;
+      line-height: 1.9;
+  }
+
+  h4.reven-box {
+    padding: 10px;
+    font-size: 25px;
+  }
+  .bg-slider-img {
+    padding: 56px 0px;
+    height: 440px;
+    margin-bottom: 35px;
+  }
+  h6.financial-head {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 27px;
+  }
+  p.financial-txt {
+    width: auto;
+    font-size: 16px;
+  }
+  a.start-200 {
+    font-size: 14px;
+    padding: 7px 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  .accordion-header {
+    font-size: 16px;
+  }
+  .accordion-header .icon {
+    font-size: 19px;
+    padding: 3px;
+    width: 23px;
+    height: 23px;
+  }
+  .accordion-content p {
+    color: #555;
+    font-size: 16px;
+    width: auto;
+    text-align: justify;
+  }
+  .me-loader .loader {
+    position: absolute;
+    width: 240px;
+    height: 133px;
+  }
 }

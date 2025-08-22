@@ -898,9 +898,9 @@ img.left-img-xx {
 }
 
 .one-box-des p {
-  font-size: 19px;
+  font-size: 17px;
   font-weight: 600;
-  color: #502E6D;
+  color: #434343;
   margin: 0;
 }
 .icon-specialtiesgeneral-surgery:before {
@@ -1121,7 +1121,7 @@ img.left-img-xx {
 
 .box-svg-100 {
   flex-shrink: 0;
-  border-right: 2px solid #673AB7;
+  border-right: 2px solid #9d3e6d;
   padding-right: 22px;
 }
 .mdle-xxx h4 {
@@ -1214,6 +1214,9 @@ a.billing-bg {
 }
 a.billing-bg:hover {
   transform: scale(1.05);
+}
+img.iconz-arrow-100 {
+  width: 37px;
 }
 /* Base button style (transparent) */
 .btn-hosptal,

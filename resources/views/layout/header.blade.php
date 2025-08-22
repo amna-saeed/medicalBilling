@@ -255,7 +255,229 @@
       </div>
     </nav>
 </header>
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top bp-navbar">
+  <div class="container">
+      <a class="bp-brand" href="#">
+         <img src="{{asset('assets/appImg/white.svg')}}" alt="" loading="lazy" />
+      </a>
+      <button class="navbar-toggler bp-toggler" type="button" data-toggle="collapse" data-target="#bpNav" aria-controls="bpNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="bp-hamburger"></span>
+          <span class="bp-hamburger"></span>
+          <span class="bp-hamburger"></span>
+      </button>
+
+      <div class="collapse navbar-collapse bp-collapse" id="bpNav">
+          <ul class="navbar-nav ml-auto bp-nav">
+              <li class="bp-item active">
+                  <a class="bp-link" href="#">Home</a>
+              </li>
+              <li class="bp-item">
+                  <a class="bp-link" href="#">Our Company</a>
+              </li>
+              <li class="bp-item">
+                  <a class="bp-link" href="#">Services</a>
+              </li>
+              <li class="bp-item">
+                  <a class="bp-link" href="#">Specialities</a>
+              </li>
+              <li class="bp-item">
+                  <a class="bp-link" href="#">Resources</a>
+              </li>
+              <li class="bp-item">
+                  <a class="bp-link" href="#">Contact</a>
+              </li>
+              <li class="bp-item dropdown bp-specialities">
+                <a class="bp-link dropdown-toggle" href="#" id="bpSpecialitiesDropdown"
+                  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Specialities
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="bpSpecialitiesDropdown">
+                  <li><a class="dropdown-item inner-resp" href="#">Web Development</a></li>
+                  <li><a class="dropdown-item inner-resp" href="#">App Development</a></li>
+                  <li><a class="dropdown-item inner-resp" href="#">UI/UX Design</a></li>
+                </ul>
+              </li>
+          </ul>
+      </div>
+  </div>
+</nav>
+
+
 <style>
+a.dropdown-item.inner-resp{
+      display: block;
+    width: 100%;
+    padding: .29rem 1.9rem;
+    clear: both;
+    font-weight: 400;
+    color: #ededed;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+ .bp-navbar {
+    background: #050304 !important;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 0.6rem 0rem;
+    transition: all 0.3s ease;
+    border-bottom: 1px solid #7f7f7f;
+}
+.dropdown-menu {
+    color: #ffff !important;
+    text-align: left;
+    list-style: none;
+    background-clip: padding-box;
+    border: 1px solid rgb(22 12 30);
+    background-image: radial-gradient(circle at center, #502e6d 0%, #100906 99%) !important;
+}
+.dropdown-menu.show {
+  max-height: 500px; /* big enough for menu */
+  opacity: 1;
+}
+.bp-brand {
+  font-weight: 700;
+  color: #fff !important;
+  display: flex;
+  align-items: center;
+  width: 125px;
+}
+
+  .bp-link {
+     color: rgba(255, 255, 255, 0.85) !important;
+    font-weight: 400;
+    padding: 0.8rem 1.2rem !important;
+    margin: 0 2px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    font-size: 15px;
+}
+
+  .bp-link:hover {
+      color: #fff !important;
+      transform: translateY(-2px);
+  }
+
+  .bp-link.active {
+      /* background-color: rgba(255, 255, 255, 0.15); */
+      color: rgb(177 49 104) !important;
+  }
+
+  .bp-toggler {
+      border: none;
+      padding: 0.5rem;
+      outline: none;
+      width: 47px;
+      height: 40px;
+      position: relative;
+      transition: all 0.3s ease;
+  }
+
+  .bp-toggler:focus {
+      outline: none;
+      box-shadow: none;
+  }
+
+  /* Custom hamburger icon */
+  .bp-hamburger {
+      display: block;
+      position: absolute;
+      height: 3px;
+      width: 25px;
+      background: white;
+      border-radius: 2px;
+      left: 11px;
+      transition: all 0.3s ease;
+  }
+
+  .bp-hamburger:nth-child(1) {
+      top: 12px;
+  }
+
+  .bp-hamburger:nth-child(2) {
+      top: 18.5px;
+      opacity: 1;
+  }
+
+  .bp-hamburger:nth-child(3) {
+      top: 24px;
+  }
+
+  /* Transform hamburger into close icon when navbar is open */
+  .bp-toggler[aria-expanded="true"] .bp-hamburger:nth-child(1) {
+      transform: rotate(45deg);
+      top: 18.5px;
+  }
+
+  .bp-toggler[aria-expanded="true"] .bp-hamburger:nth-child(2) {
+      opacity: 0;
+  }
+
+  .bp-toggler[aria-expanded="true"] .bp-hamburger:nth-child(3) {
+      transform: rotate(-45deg);
+      top: 18.5px;
+  }
+
+  .bp-btn {
+      background: linear-gradient(90deg, #2c3e50, #4a6491);
+      border: none;
+  }
+
+  .bp-btn:hover {
+      background: linear-gradient(90deg, #4a6491, #2c3e50);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Animation for the mobile menu */
+  @media (max-width: 991.98px) {
+    .bp-collapse {
+        position: fixed;
+        top: 70px;
+        left: 0;
+        padding: 15px;
+        width: 100%;
+        background: linear-gradient(90deg, #2c3e50, #4a6491);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+        transition: all 0.3s ease;
+        transform: translateY(-10px);
+        opacity: 0;
+        visibility: hidden;
+        display: block !important;
+    }
+
+    .bp-collapse.show {
+      transform: translateY(0);
+      opacity: 1;
+      visibility: visible;
+      background-image: linear-gradient(180deg, rgba(94, 94, 94, 0) 5%, #100906 100%) !important;
+      box-shadow: rgb(80, 46, 109) 0px 12px 18px -6px;
+      background-color: #1f1525 !important;
+      color: #ffff;
+    }
+    }
+
+    .bp-nav {
+        margin-top: 10px;
+    }
+
+    .bp-item {
+        margin-bottom: 11px;
+    }
+
+/*  */
+ header.main-header{
+    display: block;
+  }
+nav.navbar.navbar-expand-lg.navbar-dark.fixed-top.bp-navbar{
+    display: none;
+  }
+
 a.nav-link.active {
   color: #ffffff !important;
   display: inline-block; /* ensure the element wraps text width */
@@ -438,4 +660,54 @@ a.dropdown-item-custom.pd-rmve{
   height: 58px;
 }
 
+@media (min-width: 320px) and (max-width: 525px) {
+  header.main-header{
+    display: none;
+  }
+  nav.navbar.navbar-expand-lg.navbar-dark.fixed-top.bp-navbar{
+    display: block;
+  }
+}
 </style>
+
+   <!-- Bootstrap 4 JS Dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+
+    
+   {{-- <script>
+  $(document).ready(function() {
+      // Toggle hamburger
+      $('.bp-toggler').on('click', function() {
+          const isExpanded = $(this).attr('aria-expanded') === 'true';
+          $(this).attr('aria-expanded', !isExpanded);
+      });
+
+      // Close menu on link click
+      $('.bp-link').on('click', function() {
+          $('.bp-collapse').collapse('hide');
+          $('.bp-toggler').attr('aria-expanded', 'false');
+      });
+  });
+</script> --}}
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll('.nav-item.dropdown .dropdown-toggle').forEach(function (toggle) {
+      toggle.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        // Close other open dropdowns inside navbar
+        this.closest('.navbar-nav')
+            .querySelectorAll('.dropdown-menu.show')
+            .forEach(menu => menu.classList.remove('show'));
+
+        // Toggle current dropdown
+        let dropdownMenu = this.nextElementSibling;
+        dropdownMenu.classList.toggle('show');
+      });
+    });
+  });
+</script>
+
