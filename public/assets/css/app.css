@@ -39,19 +39,10 @@ html {
     right: 0;
     left: auto;
 }
-/* .me-loader .loader {
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    display: inline-block;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    top: 45%;
-    transform: translateY(-45%);
-    transition: 0.5s;
-} */
+a{
+  text-decoration: none;
+}
+
 .me-loader .loader {
     position: absolute;
     width: 325px;
@@ -183,7 +174,9 @@ img.logo-web{
   height: 100%;
   z-index: 1;
 }
-
+#particles-js canvas {
+  will-change: transform;
+}
 
 .services-list span {
   margin: 0 5px;
@@ -544,6 +537,7 @@ a.start-200 {
   padding: 7px 20px !important;
   font-size: 15px;
   font-weight: 500;
+  border-radius: 54px;
 }
 
 ::-webkit-scrollbar {

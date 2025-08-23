@@ -45,7 +45,7 @@
 
     {{-- Bootstrap core CSS (safer: blocking). If you already inline critical CSS, you can swap to preload like app.css --}}
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
-
+    
     {{-- Site CSS (async to reduce render-blocking) --}}
     <link rel="preload" href="{{ asset('assets/css/app.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="{{ asset('assets/css/app.css') }}"></noscript>

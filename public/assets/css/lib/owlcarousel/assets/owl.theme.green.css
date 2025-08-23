@@ -6,6 +6,12 @@
 /*
  * 	Green theme - Owl Carousel CSS File
  */
+
+.owl-carousel,
+.owl-stage,
+.owl-item {
+  will-change: transform;
+} 
 .owl-theme .owl-nav {
   margin-top: 10px;
   text-align: center;

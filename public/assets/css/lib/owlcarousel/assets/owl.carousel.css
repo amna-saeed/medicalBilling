@@ -6,6 +6,12 @@
 /*
  *  Owl Carousel - Core
  */
+
+ .owl-carousel,
+.owl-stage,
+.owl-item {
+  will-change: transform;
+}
 .owl-carousel {
   display: none;
   width: 100%;

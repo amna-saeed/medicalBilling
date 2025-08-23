@@ -89,5 +89,20 @@
     },
     "retina_detect": true
   });
+
+   // Debounce expensive reflows on resize
+  let resizeTimer;
+  window.addEventListener("resize", () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(() => {
+      // Re-init particles canvas to fit new size
+      if (window.pJSDom && window.pJSDom.length) {
+        window.pJSDom[0].pJS.fn.particlesRefresh();
+      }
+
+      // 👉 If you also have OwlCarousel, you could re-trigger refresh here too
+      // $('.owl-carousel').trigger('refresh.owl.carousel');
+    }, 150);
+  });
 </script>
 

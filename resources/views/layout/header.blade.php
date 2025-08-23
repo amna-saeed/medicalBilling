@@ -3,7 +3,6 @@
       <div class="navbar-container d-flex w-100 align-items-center justify-content-between">
         <a class="navbar-brand text-white mb-0" href="#">
           <img src="{{asset('assets/appImg/white.svg')}}" alt="" loading="lazy" class="logo-web" />
-          {{-- <img src="{{asset('assets/appImg/black.svg')}}" alt="" loading="lazy" class="logo-web" /> --}}
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
           <span class="fa fa-bars"></span>
