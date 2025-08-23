@@ -7,6 +7,7 @@
     <link rel="icon" href="{{ asset('assets/appImg/fevicon.svg') }}">
 
     {{-- Preload hero image (fix path) --}}
+    <link rel="preload" as="image" href="{{ asset('assets/appImg/home-hero.webp') }}" fetchpriority="high">
     <link rel="preload" as="image" href="{{ asset('assets/appImg/home-hero.webp') }}"/>
 
     {{-- Preconnect/DNS-prefetch for fonts & CDNs --}}

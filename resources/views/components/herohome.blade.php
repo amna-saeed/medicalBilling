@@ -21,6 +21,11 @@
 
   </div>
 
+   <img src="{{ asset('assets/appImg/home-hero.webp') }}" 
+       alt="Revive Health Partners" 
+       fetchpriority="high" 
+       decoding="async" 
+       style="display:none;" />
 
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 <script>
