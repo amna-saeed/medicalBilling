@@ -5,9 +5,6 @@
 <script src="{{ asset('assets/css/lib/wow/wow.min.js') }}"></script>
 <script src="{{ asset('assets/css/lib/counterup/counterup.min.js') }}"></script>
 <script src="{{ asset('assets/css/lib/owlcarousel/owl.carousel.min.js') }}"></script>
-<script src="{{ asset('assets/css/lib/tempusdominus/js/moment.min.js') }}"></script>
-<script src="{{ asset('assets/css/lib/tempusdominus/js/moment-timezone.min.js') }}"></script>
-<script src="{{ asset('assets/css/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js') }}"></script>
 
 <!-- Template Main Javascript -->
 <script src="{{ asset('assets/js/main.js') }}" defer></script>
