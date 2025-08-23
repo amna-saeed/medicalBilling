@@ -1391,6 +1391,7 @@ background-color: transparent;
   border: 2px solid #502e6d;
   padding: 11px 13px;
   height: 42px;
+  cursor: pointer;
 }
 .detail-btn-100:hover {
   background-color: #f9f6f4;
@@ -1447,15 +1448,12 @@ background-color: transparent;
 }
 @media (max-width: 576px) {
     .title-main {
-        font-size: 28px;
+      font-size: 28px;
+      font-weight: 500;
     }
     .title-sub {
         font-size: 20px;
-    }
-    .feature-list li {
-        font-size: 14px;
-        flex-direction: column;
-        align-items: flex-start;
+      font-weight: 500;
     }
 }
 
@@ -1643,24 +1641,6 @@ i.fa.fa-phone.fx-xx {
   height: auto;
 }
 
-@media (max-width: 768px) {
-  .ggle-box {
-    flex-direction: column;
-  }
-
-  .ggle-left,
-  .ggle-right,
-  .ggle-break {
-    flex: none;
-    width: 100%;
-    padding: 20px;
-    clip-path: none;
-  }
-
-  .ggle-break {
-    justify-content: center;
-  }
-}
 p.mix-mdz{
     font-size: 17px !important;
     font-weight: 300 !important;
@@ -1752,4 +1732,181 @@ p.para-sldr-200{
 }
 .grid-box-1 img {
     width: 100%;
+}
+
+@media (min-width: 320px) and (max-width: 525px) {
+  .service-content{
+    margin-top: 0px;
+  }
+  .description {
+    font-size: 15px;
+    margin-bottom: 17px;
+    line-height: 1.6;
+    width: auto;
+    text-align: justify;
+  }
+  .title-main{
+      margin-top: 0px;
+  }
+  ul.feature-list li svg {
+    width: 25px;
+    height: auto;
+  }
+  .feature-list li {
+    font-size: 14px;
+  }
+  .highlight {
+    color: #9c3d6d;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .detail-btn-100 {
+    padding: 9px 14px;
+    height: 38px;
+  }
+  .btn-cont-detail {
+    height: 37px;
+    padding: 0px 20px;
+    margin-top: 0px;
+  }
+  .ggle-box{
+    display: none;
+  }
+  .bg-service-detail {
+    min-height: 72vh;
+  }
+  .main-hero-content {
+    padding: 0px 10px;
+  }
+  p.med-2 {
+    font-size: 14px;
+    margin: 6px 0px 10px;
+  }
+  h4.mdcl-headng {
+    font-size: 24px;
+    margin: 0px;
+    line-height: 29px;
+  }
+  .txt-box-1 p {
+    font-size: 14px;
+    line-height: 24px;
+    width: auto;
+    margin-top: 5px;
+  }
+  .text-purple {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0px 0px 12px;
+  }
+  h4.fw-bold {
+    font-size: 19px;
+    margin: 0px 0px 10px;
+    line-height: 32px;
+  }
+  .ircm-para {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 0px;
+  }
+  .ue_pbullet_graphicel {
+    padding: 2px 11px;
+    display: flex;
+    width: 54px;
+  }
+  .circle-line {
+    width: 33px;
+    height: 2px;
+    margin-right: 8px;
+    margin-left: 10px;
+  }
+  .circle-line::before {
+    left: -17px;
+    top: 50%;
+    width: 10px;
+    height: 10px;
+  }
+  .circle-heading {
+    font-weight: 600;
+    font-size: 15px;
+    width: auto;
+  }
+  .text-part p {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    width: auto;
+  }
+  .box-txt-mdle h4 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  a.cnt-btn-11 {
+    padding: 6px 11px;
+    font-weight: 600;
+    font-size: 15px;
+    border: 1px solid #4254a4;
+  }
+  p.paid-fstr {
+    font-size: 14px;
+    margin: 0px 0px 0px;
+  }
+  .head-spe {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0px;
+    line-height: 32px;
+  }
+  div#hexagon a img {
+    width: 42px;
+    height: 42px;
+  }
+  .hex {
+    height: 80px;
+    width: 72px;
+  }
+  .hex-layer-3 {
+    margin: -18px 0px;
+  }
+  .hero-text-box p {
+    font-size: 14px;
+  }
+  .hero-text-box h4 {
+    font-size: 19px;
+    margin-bottom: 10px;
+    margin-top: 7px;
+  }
+  .chsng-para {
+    font-size: 15px !important;
+    font-weight: 300 !important;
+    line-height: 28px !important;
+  }
+  .cnt-btn {
+    padding: 4px 13px;
+    font-weight: 500;
+    border: 1px solid #ffffff;
+    font-size: 14px;
+  }
+  input.custom-input.form-control {
+    margin-bottom: 5px;
+    padding: 7px 20px;
+    height: 50px !important;
+    font-weight: 400;
+    font-size: 13px;
+  }
+  .custom-textarea {
+    padding: 9px 20px;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+  .custom-btn {
+    padding: 8px 14px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .desktop-frm-xx{
+    display: none;
+  }
 }

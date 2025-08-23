@@ -272,20 +272,33 @@
               <li class="bp-item active">
                   <a class="bp-link" href="#">Home</a>
               </li>
-              <li class="bp-item">
-                  <a class="bp-link" href="#">Our Company</a>
+              <li class="bp-item dropdown bp-specialities">
+              <a class="bp-link dropdown-toggle" href="#" id="bpSpecialitiesDropdown"
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Our Company
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="bpSpecialitiesDropdown">
+                <li><a class="dropdown-item inner-resp" href="{{ route('about-us')}}">About Us</a></li>
+                <li><a class="dropdown-item inner-resp" href="{{route('privacy-policy')}}"> privacy-policy</a></li>
+                <li><a class="dropdown-item inner-resp" href="#">Terms and Conditions</a></li>
+              </ul>
               </li>
-              <li class="bp-item">
-                  <a class="bp-link" href="#">Services</a>
-              </li>
-              <li class="bp-item">
-                  <a class="bp-link" href="#">Specialities</a>
-              </li>
-              <li class="bp-item">
-                  <a class="bp-link" href="#">Resources</a>
-              </li>
-              <li class="bp-item">
-                  <a class="bp-link" href="#">Contact</a>
+               <li class="bp-item dropdown bp-specialities">
+                <a class="bp-link dropdown-toggle" href="#" id="bpSpecialitiesDropdown"
+                  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="bpSpecialitiesDropdown">
+                  <li><a class="dropdown-item inner-resp" href="{{ route('services.medical-billing') }}"> Medical Billing</a></li>
+                  <li><a class="dropdown-item inner-resp" href="{{ route('services.medical-credentialing') }}">Medical Credentialing</a></li>
+                  <li><a class="dropdown-item inner-resp" href="{{ route('services.medical-coding') }}"> Medical Coding</a></li>
+                  <li><a class="dropdown-item inner-resp" href="{{route('services.denial-management')}}">Denial Management</a></li>
+                  <li><a class="dropdown-item inner-resp" href="{{route('services.out-of-network-billing')}}">Out of Network</a></li>
+                  <li><a class="dropdown-item inner-resp" href="{{route('services.revenue-cycle-management')}}">Revenue Cycle</a> </li>
+                  <li><a class="dropdown-item inner-resp" href="{{route('services.medical-billing-consulting')}}">Medical Consulting</a></li>
+                  <li><a class="dropdown-item inner-resp" href="{{route('services.medical-transcription-service')}}">Medical Transcription Services</a></li>
+                  <li><a class="dropdown-item inner-resp" href="{{route('services.ar-follow-up')}}"> A/R Follow Up</a></li>
+                </ul>
               </li>
               <li class="bp-item dropdown bp-specialities">
                 <a class="bp-link dropdown-toggle" href="#" id="bpSpecialitiesDropdown"
@@ -293,10 +306,29 @@
                   Specialities
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="bpSpecialitiesDropdown">
-                  <li><a class="dropdown-item inner-resp" href="#">Web Development</a></li>
-                  <li><a class="dropdown-item inner-resp" href="#">App Development</a></li>
-                  <li><a class="dropdown-item inner-resp" href="#">UI/UX Design</a></li>
+                  <li><a class="dropdown-item inner-resp" href="{{ route('specialities', 'orthopedic') }}"> Orthopedic Billing</a></li>
+                  <li><a class="dropdown-item inner-resp" href="{{ route('specialities', 'urology') }}">Urology Billing</a></li>
+                  <li><a class="dropdown-item inner-resp" href="{{ route('specialities', 'MentalHealth') }}">Mental Health</a></li>
+                  <li><a class="dropdown-item inner-resp" href="{{ route('specialities', 'urgentcare') }}">Urgent Care</a></li>
+                  <li><a class="dropdown-item inner-resp" href="{{ route('specialities', 'dental') }}">Dental Billing</a></li>
+                  <li><a class="dropdown-item inner-resp" href="{{ route('specialities', 'RadiologyBilling') }}">Radiology Billing</a></li>
+                  <li><a class="dropdown-item inner-resp" href="{{ route('specialities', 'CardiologyBilling') }}">Cardiology Billing</a></li>
+                  <li><a class="dropdown-item inner-resp" href="{{ route('specialities', 'NeurologyBilling') }}">Neurology Billing</a></li>
+                  <li><a class="dropdown-item inner-resp" href="{{ route('specialities', 'NeurosurgeryBilling') }}">Neurosurgery Billing</a></li>
+                  <li><a class="dropdown-item inner-resp" href="{{ route('specialities', 'DermatologyBilling') }}">Dermatology Billing</a></li>
+                  <li><a class="dropdown-item inner-resp" href="{{ route('specialities', 'RehabBilling') }}">Rehab Billing</a></li>
+                  <li><a class="dropdown-item inner-resp" href="{{ route('specialities', 'Allergy & Immunology') }}">Allergy & Immunology</a></li>
+                  <li><a class="dropdown-item inner-resp" href="{{ route('specialities', 'PediatricBilling') }}">Pediatric Billing</a></li>
+                  <li><a class="dropdown-item inner-resp" href="{{ route('specialities', 'NephrologyBilling') }}">Nephrology Billing</a></li>
+                  <li><a class="dropdown-item inner-resp" href="{{ route('specialities', 'InternalMedicine') }}">Internal Medicine</a></li>
+                  <li><a class="dropdown-item inner-resp" href="{{ route('specialities', 'HospitalBilling') }}">Hospital Billing</a></li>
                 </ul>
+              </li>
+              <li class="bp-item">
+                  <a class="bp-link" href="#">Resources</a>
+              </li>
+              <li class="bp-item">
+                  <a class="bp-link" href="{{route('contact-us')}}">Contact</a>
               </li>
           </ul>
       </div>

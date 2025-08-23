@@ -31,7 +31,7 @@
                         </ul>
 
                         <div class="btn-group mt-4">
-                        <a href="#" class="detail-btn-100">
+                        <a data-toggle="modal" data-target="#uniqueModal" class="detail-btn-100">
                             Get Free Audit
                             <span class="icon"><i class="fas fa-arrow-right icon-arrow"></i></span>
                         </a>
@@ -44,11 +44,19 @@
                 </div>
 
                 <!-- Right Form -->
-                @include('components.bnrForm')
+                <div class="col-lg-6">
+                    <div class="fxed-p-f">
+                        <div class="desktop-frm-xx">
+                        @include('components.bnrForm')
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
+
+@include('components.serviceHomeModal')
 
 <div class="ggle-box">
   <div class="ggle-left">
