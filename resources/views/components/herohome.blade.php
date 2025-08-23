@@ -1,6 +1,13 @@
 <!-- Hero Section -->
 <section class="hero-section">
   <div id="particles-js"></div>
+    <img 
+      src="{{ asset('assets/appImg/home-hero.webp') }}" 
+      alt="Revive Health Partners" 
+      fetchpriority="high"
+      decoding="async"
+      class="hero-bg-img"
+    />
   <div class="container hero-content">
     <h1 class="display-4 font-weight-bold">Smart Option For A Healthier Revenue Cycle </h1>
     <p class="lead">Intelligent Technology to Improve Your Financial Health</p>
@@ -20,12 +27,6 @@
     </a>
 
   </div>
-
-   <img src="{{ asset('assets/appImg/home-hero.webp') }}" 
-       alt="Revive Health Partners" 
-       fetchpriority="high" 
-       decoding="async" 
-       style="display:none;" />
 
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 <script>
