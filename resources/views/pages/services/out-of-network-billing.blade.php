@@ -156,8 +156,13 @@
                     </div>
                 </div>
 
-                <!-- Right Form -->
-                @include('components.bnrForm')
+                <div class="col-lg-6">
+                    <div class="fxed-p-f">
+                        <div class="desktop-frm-xx">
+                        @include('components.bnrForm')
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

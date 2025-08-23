@@ -253,25 +253,18 @@
     </div>
 </div>
 
-<div class="row">
-    <div class="col-lg-12 p-0">
-        <div class="bg-mix-1">
-            <div class="hero-text-box">
-                <h4 class="hdz-new">
-                   Why do practitioners choose and stay with <br />Certified Healthcare Billing?
-                </h4>
-                <p class="mix-mdz">
-                    We understand the importance of prompt communication. Our team is always just a phone call away, ensuring you receive quick responses. We have been providing medical billing services for over 15 years. Our team is renowned for being methodical, organized, and notably kind and easy to work with. We’ve designed our processes with your needs in mind, prioritizing clear communication, effortless collaboration, and prompt payment processing. Expect an onboarding experience as smooth as a summer breeze. When you partner with us, you’re assigned a dedicated account manager who will be your primary point of contact, ensuring personalized service tailored to your needs.
-                </p>
-                <div class="box-mdle-btn">
-                    <a class="cnt-btn-audit">Get Free Audit <i class="fas fa-arrow-right"></i></a>
-                    <a class="cnt-btn-11">Contact Us <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </div>
+<div class="bg-dark-img">
+    <div class="hero-text-box">
+        <h4>C  Why do practitioners choose and stay with <br />Certified Healthcare Billing?</h4>
+        <p class="chsng-para">We understand the importance of prompt communication. Our team is always just a phone call away, ensuring you receive quick responses. We have been providing medical billing services for over 15 years. Our team is renowned for being methodical, organized, and notably kind and easy to work with. We’ve designed our processes with your needs in mind, prioritizing clear communication, effortless collaboration, and prompt payment processing. Expect an onboarding experience as smooth as a summer breeze. When you partner with us, you’re assigned a dedicated account manager who will be your primary point of contact, ensuring personalized service tailored to your needs.
+        </p>
+        <p class="chsng-para">Transparency and collaboration define our approach. We manage billing intricacies and provide revenue cycle insights. Our advanced systems secure your practice’s data. iRCM Inc offers more than billing – we’re your dedicated partner for financial success.</p>
+        <div class="box-mdle-btn">
+            <a class="cnt-btn">Get Free Audit <i class="fas fa-arrow-right"></i></a>
+            <a href="{{route('contact-us')}}" class="cnt-btn-11">Contact Us <i class="fas fa-arrow-right"></i></a>
         </div>
     </div>
 </div>
-
 <div class="container">
   <div class="row mr-xxx">
       <div class="col-lg-4 pr-0">
@@ -309,8 +302,6 @@
       </div>
   </div>
 </div>
-
-@include('components.testimonial')
 
 <link href="{{ asset('assets/css/medical-service.css') }}" rel="stylesheet">
 
