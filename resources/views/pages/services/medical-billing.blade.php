@@ -47,7 +47,7 @@
                 <div class="col-lg-6">
                     <div class="fxed-p-f">
                         <div class="desktop-frm-xx">
-                        @include('components.bnrForm')
+                            @include('components.bnrForm')
                         </div>
                     </div>
                 </div>
@@ -570,7 +570,7 @@
         </p>
         <p class="chsng-para">Transparency and collaboration define our approach. We manage billing intricacies and provide revenue cycle insights. Our advanced systems secure your practice’s data. iRCM Inc offers more than billing – we’re your dedicated partner for financial success.</p>
         <div class="box-mdle-btn">
-            <a class="cnt-btn">Get Free Audit <i class="fas fa-arrow-right"></i></a>
+            <a data-toggle="modal" data-target="#uniqueModal" class="cnt-btn">Get Free Audit <i class="fas fa-arrow-right"></i></a>
             <a href="{{route('contact-us')}}" class="cnt-btn-11">Contact Us <i class="fas fa-arrow-right"></i></a>
         </div>
     </div>

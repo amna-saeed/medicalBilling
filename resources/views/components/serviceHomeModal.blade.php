@@ -1,21 +1,76 @@
 
 <!-- Modal -->
-<div class="d-md-none">
-<div class="modal fade custom-modal" id="uniqueModal" tabindex="-1" role="dialog" aria-labelledby="uniqueModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content custom-modal-content">
-        
-            <div class="modal-header custom-modal-header">
-                <button type="button" class="close 120-cls" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body custom-modal-body">
-                @include('components.bnrForm')
+<div class="">
+    <div class="modal fade custom-modal" id="uniqueModal" tabindex="-1" role="dialog" aria-labelledby="uniqueModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content custom-modal-content">
+            
+                <div class="modal-header custom-modal-header">
+                    <button type="button" class="close 120-cls" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body custom-modal-body">
+                    <div class="bg-gradient-xx mx-auto p-4">
+                        <form>
+                            <!-- Row 1 -->
+                            <div class="row mrgnz-btm-frm">
+                                <div class="col-md-12 pdng-rmve service-modal">
+                                    <select class="form-select frm-input-wdth" required>
+                                        <option value="" disabled selected hidden>Select Service Type</option>
+                                        <option>Medical Billing</option>
+                                        <option>Medical Credentialing</option>
+                                        <option>Medical Coding</option>
+                                        <option>Denial Management</option>
+                                        <option>Out of Network</option>
+                                        <option>Revenue Cycle</option>
+                                        <option>Medical Consulting</option>
+                                        <option>Medical Transcription Services</option>
+                                        <option>A/R Follow Up</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <!-- Row 2 -->
+                            <div class="row mrgnz-btm-frm">
+                                <div class="col-md-12 pdng-rmve service-modal">
+                                    <select class="form-select frm-input-wdth" required>
+                                        <option value="" disabled selected hidden>Select Healthcare Type</option>
+                                        <option>Individual Practice</option>
+                                        <option>Group Practice</option>
+                                        <option>Hospital</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <!-- Row 3 -->
+                            <div class="row mrgnz-btm-frm">
+                                <div class="col-md-6 pdng-rmve-rght service-modal">
+                                    <input type="text" class="form-control frm-input-wdth" placeholder="Your Name" required />
+                                </div>
+                                <div class="col-md-6 pdng-rmve-lft service-modal">
+                                    <input type="email" class="form-control frm-input-wdth" placeholder="Email Address" required />
+                                </div>
+                            </div>
+
+                            <!-- Row 4 -->
+                            <div class="row mrgnz-btm-frm">
+                                <div class="col-md-6 pdng-rmve-rght service-modal">
+                                    <input type="tel" class="form-control frm-input-wdth" placeholder="Phone Number" required />
+                                </div>
+                                <div class="col-md-6 pdng-rmve-lft service-modal">
+                                    <input type="url" class="form-control frm-input-wdth" placeholder="Website (optional)" />
+                                </div>
+                            </div>
+                            <div class="text-center w-100 service-modal">
+                                <button type="submit" class="frm-btn-10">Get Started</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
 </div>
 
 <style>
@@ -29,13 +84,59 @@ button.close.\31 20-cls{
     font-size: 51px;
     top: -59px;
 }
-.transparent-form {
+div#uniqueModal
+ {
+    background: #100906e0 !important;
+}
+select.form-select.frm-input-wdth {
+    border-radius: 6px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    height: 50px !important;
+    margin-bottom: 10px;
+    padding: 2px 10px;
+    width: 100%;
+}
+.row.mrgnz-btm-frm
+ {
+    margin-bottom: 10px !important;
+}
+.col-md-6.pdng-rmve-lft {
+    padding-right: 0px;
+}
+.bg-gradient-xx {
     background-color: rgb(16 9 6 / 35%) !important;
     border-radius: 0px !important;
     margin-right: 0px !important;
     padding: 30px 23px !important;
     margin: 0px !important;
     border: 0px solid #bebebe96 !important;
+    border-radius: 14px !important;
+}
+.service-modal ::placeholder{
+    color: #101010 !important;
+}
+.col-md-6.pdng-rmve-rght {
+    padding-left: 0px;
+}
+.custom-modal-body{
+    background-color: rgb(16 9 6 / 35%) !important;
+    border: 0px solid #bebebe96 !important;
+    border-radius: 10px !important;
+    margin: 0px !important;
+    box-shadow: rgb(156 39 176 / 28%) 0px 5px 15px !important;
+}
+input.form-control.frm-input-wdth{
+    background-color: #fff;
+    color: #101010 !important;
+    border: 1px solid #ccc;
+    width: 100%;
+    padding: 4px 13px;
+    height: 48px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 600;
 }
 .btn-custom {
   background-color: #6f42c1;
@@ -54,13 +155,13 @@ button.close.\31 20-cls{
     border: 1px solid #411537fa !important;
     background: linear-gradient(0deg, #140d15 0%, #2a0b27 35%) !important;
 }
-.col-md-6.p-rmve {
+.col-md-6.pdng-rmve {
     padding: 0px 0px !important;
 }
-.col-md-12.p-rmve {
+.col-md-12.pdng-rmve {
     padding: 0px 0px !important;
 }
-.col-md-6.p-rmve, .mb-3
+.col-md-6.pdng-rmve, .mrgnz-btm-frm
  {
     padding: 0px 0px !important;
     margin-bottom: 0px !important;
@@ -69,13 +170,14 @@ button.close.\31 20-cls{
     padding: 7px 20px;
     font-size: 14px;
 }
-select.form-select.custm-input-bnr {
+select.form-select.frm-input-wdth {
     border-radius: 6px !important;
     font-size: 14px !important;
     font-weight: 600 !important;
     height: 47px !important;
     margin-bottom: 10px;
     padding: 2px 10px;
+    width: 100%;
 }
 .custom-modal-header {
     padding: 0px;
@@ -92,7 +194,16 @@ select.form-select.custm-input-bnr {
 }
 
 @media (min-width: 320px) and (max-width: 525px) {
-   
+    .col-md-6.pdng-rmve-rght {
+        padding: 0px;
+        margin-bottom: 8px;
+    }
+    .col-md-6.pdng-rmve-lft {
+        padding: 0px;
+    }
+    select.form-select.frm-input-wdth{
+        margin-bottom: 6px !important;
+    }
 }
 </style>
 

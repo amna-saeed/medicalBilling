@@ -2,7 +2,7 @@
 <section class="hero-section">
   <div id="particles-js"></div>
     <img 
-      src="{{ asset('assets/appImg/home-hero.webp') }}" 
+      src="{{ asset('assets/appImg/HomeBanner.webp') }}" 
       alt="Revive Health Partners" 
       fetchpriority="high"
       decoding="async"
