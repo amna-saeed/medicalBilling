@@ -144,7 +144,7 @@
                         </ul>
 
                         <div class="btn-group mt-4">
-                            <a href="#" class="detail-btn-100">
+                            <a data-toggle="modal" data-target="#uniqueModal" class="detail-btn-100">
                                 Get Free Audit
                                 <span class="icon"><i class="fas fa-arrow-right icon-arrow"></i></span>
                             </a>
@@ -156,10 +156,11 @@
                     </div>
                 </div>
 
+                <!-- Right Form -->
                 <div class="col-lg-6">
                     <div class="fxed-p-f">
                         <div class="desktop-frm-xx">
-                        @include('components.bnrForm')
+                            @include('components.bnrForm')
                         </div>
                     </div>
                 </div>
@@ -167,6 +168,8 @@
         </div>
     </div>
 </div>
+
+@include('components.serviceHomeModal')
 
 <div class="ggle-box">
   <div class="ggle-left">
@@ -197,7 +200,7 @@
                     <p>
                         This makes them think about investing in medical billing companies for out of network providers who can help them get rid of these problems. You don’t need to look for multiple choices when you can partner with ReviveHP, which is providing industry-leading out of network reimbursement services.
                     </p>
-                    <a class="expert-call">Talk to an expert<i class="fas fa-arrow-right"></i></a>
+                    <a href="{{route('contact-us')}}" class="expert-call">Talk to an expert<i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
@@ -211,11 +214,11 @@
 
 <div class="bg-light-2 pt-4">
     <div class="container">
-        <div class="text-center mb-5">
+        <div class="text-center">
             <h4 class="fw-bold">Our Proven Process to collect 100%<br /> of Billed Charges</h4>
         </div>
-        <div class="row mr-top">
-            <div class="col-lg-4">
+        <div class="row custom-row">
+            <div class="col-lg-4 col-md-6 col-12">
                 <div class="sqre-icnz">
                     <div class="icn-rotated-box">
                         <svg xmlns="http://www.w3.org/2000/svg" width="50" height="49" viewBox="0 0 50 49" fill="none">
@@ -274,7 +277,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6 col-12">
                 <div class="sqre-icnz">
                     <div class="icn-rotated-box">
                         <svg xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
@@ -312,7 +315,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6 col-12">
                 <div class="sqre-icnz">
                     <div class="icn-rotated-box">
                        <svg xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
@@ -354,7 +357,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6 col-12">
                 <div class="sqre-icnz">
                     <div class="icn-rotated-box">
                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
@@ -430,7 +433,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6 col-12">
                 <div class="sqre-icnz">
                     <div class="icn-rotated-box">
                         <svg xmlns="http://www.w3.org/2000/svg" width="54" height="49" viewBox="0 0 54 49" fill="none">
@@ -456,7 +459,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6 col-12">
                 <div class="sqre-icnz">
                     <div class="icn-rotated-box">
                        <svg xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">

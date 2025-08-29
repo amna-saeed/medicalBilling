@@ -1795,7 +1795,7 @@ p.para-sldr-200{
     margin: 6px 0px 10px;
   }
   h4.mdcl-headng {
-    font-size: 24px;
+    font-size: 23px;
     margin: 0px;
     line-height: 29px;
   }
@@ -1985,4 +1985,132 @@ p.para-sldr-200{
     margin-bottom: 14px;
     margin-top: 0px;
   }
+  .bg-service-detail-deni{
+      min-height: 89vh;
+  }
+  .bg-service-detail-network{
+    min-height: 85vh;
+  }
+  .bg-service-detail-revenue{
+    min-height: 78vh;
+  }
+  .crcle-fnt::before {
+      width: 21px;
+      font-size: 12px;
+      height: 23px;
+    } 
+  .crcle-fnt {
+    padding-left: 29px;
+    margin-bottom: 12px;
+    font-size: 14px;
+  }
+  .row.align-items-center {
+    margin-top: 20px;
+  }
+  ul.timeline {
+    padding-left: 4px;
+  }
+  .timeline li {
+    padding: 10px 17px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  .rnve-fnt {
+    padding-left: 37px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  p.rvnue-para {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  h4.rvnu-mngmnt{
+    margin: 0px 0px 13px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .bg-light-2Img {
+    min-height: 125vh;
+  }
+  .bg-service-detail-conslting{
+    min-height: 68vh;
+  }
+  .bg-light-22Img{
+    min-height: 174vh;
+  }
+  .timeline li::before{
+    top: 12px;
+  }
+  h4.rcp-hos {
+    font-size: 22px;
+    margin: 2px 0px 10px;
+  }
+  a.billing-bg {
+    padding: 9px 11px;
+    font-size: 13px;
+    margin-bottom: 15px !important;
+  }
+  .mdle-xxx h4 {
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .mdle-xxx p {
+    font-size: 14px;
+    margin-bottom: 40px;
+    line-height: 23px;
+  }
+  .bg-dark-1 {
+    padding: 20px 5px;
+  }
+  .row.md-tr .col-lg-6 {
+    padding: 0px !important;
+  }
+  .img-svg {
+    width: 45px;
+    height: auto;
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 15px !important;
+  }
+  .svg-contnt h4 {
+    margin: 0px 0px 10px;
+    font-size: 15px;
+  }
+  .svg-contnt p {
+    font-size: 14px;
+  }
+  .svg-wrapper{
+    margin-bottom: 15px;
+  }
+  .mrgn-left-100 {
+    margin-left: 0px;
+  }
+  .svg-contnt{
+    text-align: left;
+    margin-left: 14px;
+  }
+  .bg-service-source{
+    min-height: 77vh;
+  }
+  .circle-heading22 {
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 6px;
+    text-align: left;
+    line-height: 18px;
+    width: auto;
+  }
+  .line-wrap {
+    margin: 0px 0px 15px;
+  }
+  .bg-light-1 {
+    margin-bottom: 25px;
+  }
+  
+
+
+
+
 }

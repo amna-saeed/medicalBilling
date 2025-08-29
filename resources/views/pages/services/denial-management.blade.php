@@ -145,7 +145,7 @@
                         </ul>
 
                         <div class="btn-group mt-4">
-                            <a href="#" class="detail-btn-100">
+                            <a data-toggle="modal" data-target="#uniqueModal" class="detail-btn-100">
                                 Get Free Audit
                                 <span class="icon"><i class="fas fa-arrow-right icon-arrow"></i></span>
                             </a>
@@ -156,12 +156,20 @@
                         </div>
                     </div>
                 </div>
-                <!-- Right Form -->
-                @include('components.bnrForm')
+               <!-- Right Form -->
+                <div class="col-lg-6">
+                    <div class="fxed-p-f">
+                        <div class="desktop-frm-xx">
+                            @include('components.bnrForm')
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
+
+@include('components.serviceHomeModal')
 
 <div class="ggle-box">
   <div class="ggle-left">
@@ -203,12 +211,12 @@
 
 <div class="bg-light-2 pt-4">
     <div class="container">
-        <div class="text-center mb-5">
+        <div class="text-center">
             <p class="text-purple fw-semibold">Redefining Denial Management</p>
             <h4 class="fw-bold">ReviveHP Proven Healthcare Denial<br /> Management Process</h4>
         </div>
-        <div class="row mr-top">
-            <div class="col-lg-4">
+        <div class="row custom-row">
+            <div class="col-lg-4 col-md-6 col-12">
                 <div class="sqre-icnz">
                     <div class="icn-rotated-box">
                         
@@ -222,7 +230,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6 col-12">
                 <div class="sqre-icnz">
                     <div class="icn-rotated-box">
                          <img src="{{asset('assets/appImg/Denial-Resolution.webp')}}" alt="" loading="lazy" class="iconz-arrow-100" />
@@ -235,7 +243,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6 col-12">
                 <div class="sqre-icnz">
                     <div class="icn-rotated-box">
                         <img src="{{asset('assets/appImg/Follow-up-&-Negotiations.webp')}}" alt="" loading="lazy" class="iconz-arrow-100" />
@@ -248,7 +256,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6 col-12">
                 <div class="sqre-icnz">
                     <div class="icn-rotated-box">
                         <img src="{{asset('assets/appImg/Expert-Team-Support.webp')}}" alt="" loading="lazy" class="iconz-arrow-100" />
@@ -261,7 +269,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6 col-12">
                 <div class="sqre-icnz">
                     <div class="icn-rotated-box">
                        <img src="{{asset('assets/appImg/Follow-up-&-Negotiations.webp')}}" alt="" loading="lazy" class="iconz-arrow-100" />
@@ -274,7 +282,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6 col-12">
                 <div class="sqre-icnz">
                     <div class="icn-rotated-box">
                         <img src="{{asset('assets/appImg/End-to-End-Solutions.webp')}}" alt="" loading="lazy" class="iconz-arrow-100" />

@@ -143,7 +143,7 @@
                         </ul>
 
                         <div class="btn-group mt-4">
-                            <a href="#" class="detail-btn-100">
+                            <a data-toggle="modal" data-target="#uniqueModal" class="detail-btn-100">
                                 Get Free Audit
                                 <span class="icon"><i class="fas fa-arrow-right icon-arrow"></i></span>
                             </a>
@@ -155,11 +155,20 @@
                     </div>
                 </div>
                 <!-- Right Form -->
-                @include('components.bnrForm')
+                <div class="col-lg-6">
+                    <div class="fxed-p-f">
+                        <div class="desktop-frm-xx">
+                            @include('components.bnrForm')
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
+
+@include('components.serviceHomeModal')
+
 
 <div class="ggle-box">
   <div class="ggle-left">
@@ -251,12 +260,12 @@
 
 <div class="bg-light-2 pt-4">
     <div class="container">
-        <div class="text-center mb-5">
+        <div class="text-center">
             <h4 class="fw-bold">The Process Behind Our Revenue Cycle<br /> Management Services</h4>
             <p class="text-purple fw-semibold">We ensure every stage of patient care is optimized to improve revenue collection.</p>
         </div>
-        <div class="row mr-top">
-            <div class="col-lg-4">
+        <div class="row custom-row">
+            <div class="col-lg-4 col-md-6 col-12">
                 <div class="sqre-icnz">
                     <div class="icn-rotated-box">
                          <img src="{{asset('assets/appImg/Provider-Education-and-Webinars.webp')}}" alt="" loading="lazy" class="iconz-arrow-100" />
@@ -266,7 +275,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6 col-12">
                 <div class="sqre-icnz">
                     <div class="icn-rotated-box">
                           <img src="{{asset('assets/appImg/Improved-Patient-Experience.webp')}}" alt="" loading="lazy" class="iconz-arrow-100" />
@@ -276,7 +285,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6 col-12">
                 <div class="sqre-icnz">
                     <div class="icn-rotated-box">
                           <img src="{{asset('assets/appImg/Provider-Education-and-Webinars.webp')}}" alt="" loading="lazy" class="iconz-arrow-100" />
@@ -287,7 +296,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6 col-12">
                 <div class="sqre-icnz">
                     <div class="icn-rotated-box">
                          <img src="{{asset('assets/appImg/medical-coding.webp')}}" alt="" loading="lazy" class="iconz-arrow-100" />
@@ -297,7 +306,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6 col-12">
                 <div class="sqre-icnz">
                     <div class="icn-rotated-box">
                          <img src="{{asset('assets/appImg/Independent-Coding-Assessment.webp')}}" alt="" loading="lazy" class="iconz-arrow-100" />
@@ -307,7 +316,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6 col-12">
                 <div class="sqre-icnz">
                     <div class="icn-rotated-box">
                           <img src="{{asset('assets/appImg/Audits-for-External-Coding.webp')}}" alt="" loading="lazy" class="iconz-arrow-100" />
@@ -459,6 +468,13 @@
 <link href="{{ asset('assets/css/medical-service.css') }}" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
+<style>
+@media (min-width: 320px) and (max-width: 525px) {
+    .bg-light-2 {
+        height: 87vh;
+    }
+}
+</style>
 <script>
   function showRow(type) {
     document.getElementById('hospital-row').classList.add('d-none');
