@@ -28,16 +28,17 @@
 <div class="main-hero-content">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-12 resp-0">
                 <div class="topr-about">
                   <div class="text-box-cont-about">
                       <p class="about-para">
-                          UNIFYMD is a leading provider of healthcare IT services and solutions that transform the clinical and administrative functioning of healthcare institutions of all sizes.
+                          <b>UNIFYMD</b> is a leading provider of healthcare IT services and solutions that transform the clinical and administrative functioning of healthcare institutions of all sizes.
                           Our cutting edge solutions , Reduce errors and denials, expedite processes, and simplify decision-making. WE ensure best industry standards and practices, thereby maximising value and returns while saving time and effort.
                       </p>
                       <p class="about-para">
                           This means you don't have to hire expert billers or spend time training your staff to handle complex billing queries—we handle it all for you. <br/>
-                          With nearly 10 years of medical billing experience, we streamline the claims process and make it easier to manage, so you can focus on delivering quality care to your patients. From claim creation and submission to denial management, appeals, payment posting, and reporting, our experienced team moves your billing operations forward, whether you are a multispecialty group or a solo practice. At-------------, we are committed to guiding your practice staff and helping them get you paid 4 to 10% more and 35% faster
+                          With nearly <b>10 years</b> of medical billing experience, we streamline the claims process and make it easier to manage, so you can focus on delivering quality care to your patients. From claim creation and submission to denial management, appeals, payment posting, and reporting, our experienced team moves your billing operations forward, whether you are a multispecialty group or a solo practice. At-------------, we are committed to guiding your practice staff and helping them get you 
+                          <b>paid 4 to 10% more and 35% faster.</b>
 
                       </p>
                   </div>

@@ -2108,8 +2108,86 @@ p.para-sldr-200{
   .bg-light-1 {
     margin-bottom: 25px;
   }
-  
-
+  .bg-spcialities-shades{
+    min-height: 300px;
+  }
+  .gridz-boxes {
+   gap: 10px;
+    padding: 25px;
+  }
+  .box-mdz-halfz-head-200 h4{
+    margin: 10px 0px 15px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+  }
+  .one-xx p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 23px;
+    margin-top: 10px;
+  }
+  img.spec-100-icons {
+    width: 19%;
+  }
+  .bg-black-shadesxx {
+      height: 784vh;
+  }
+  p.fnts-pra {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .submit-icon-btn {
+    top: 34%;
+  }
+  .user-formz {
+    padding: 4px 37px 8px 15px;
+    font-size: 16px;
+    height: 54px;
+    margin-top: 10px;
+  }
+  .center-cntnt-100 h4 {
+    margin: 10px 0px 5px;
+    font-size: 24px;
+    color: #502e6d;
+  }
+  .center-cntnt-100 p {
+    font-size: 15px;
+  }
+  .bg-service-about {
+    min-height: 28vh;
+  }
+  p.about-para {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  .topr-about {
+    margin-top: 15px;
+  }
+  .resp-0{
+    padding: 0px; 
+  }
+  .text-box-cont-about {
+    width: auto;
+    max-width: 100%;
+    margin-left: 0px;
+  }
+  .bg-service-privacy {
+    min-height: 25vh;
+  }
+  .privacy-list li {
+    padding-left: 30px;
+    font-size: 15px;
+    line-height: 23px;
+    margin-bottom: 9px;
+  }
+  .privacy-list li::before {
+    top: 8px;
+    left: 0;
+    width: 11px;
+    height: 11px;
+  }
 
 
 

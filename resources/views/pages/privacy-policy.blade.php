@@ -28,7 +28,7 @@
 <div class="main-hero-content">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-12 resp-0">
                 <div class="topr-about">
                     <div class="text-box-cont-about">
                         <p class="about-para">
