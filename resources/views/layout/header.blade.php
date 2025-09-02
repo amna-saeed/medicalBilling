@@ -1,7 +1,7 @@
 <header class="main-header">
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="navbar-container d-flex w-100 align-items-center justify-content-between">
-        <a class="navbar-brand text-white mb-0" href="#">
+        <a class="navbar-brand text-white mb-0" href="{{ route('home') }}">
           <img src="{{asset('assets/appImg/white.svg')}}" alt="" loading="lazy" class="logo-web" />
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
@@ -257,7 +257,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top bp-navbar">
   <div class="container">
-      <a class="bp-brand" href="#">
+      <a class="bp-brand" href="/">
          <img src="{{asset('assets/appImg/white.svg')}}" alt="" loading="lazy" />
       </a>
       <button class="navbar-toggler bp-toggler" type="button" data-toggle="collapse" data-target="#bpNav" aria-controls="bpNav" aria-expanded="false" aria-label="Toggle navigation">

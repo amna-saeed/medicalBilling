@@ -27,212 +27,212 @@
           <div class="gridz-boxes">
             <div class="one-xx">
               <p>Allergy and Asthma</p>
-              <img src={{asset('assets/appImg/AllergyandAsthema.webp')}} class="spec-100-icons" alt="" loading="lazy" />
+              <img src="{{asset('assets/appImg/AllergyandAsthema.webp')}}" class="spec-100-icons" alt="" loading="lazy" />
               <div class="show-xx">
-                  <h4>Asthma & Allergy Billing Services in California</h4>
+                  <h4>Asthma & Allergy Billing Services </h4>
               </div>
             </div>
             <div class="one-xx">
               <p>Cardiology</p>
-             <img src={{asset('assets/appImg/cardialogy.webp')}} class="spec-100-icons" alt="" loading="lazy" />
+             <img src="{{asset('assets/appImg/cardialogy.webp')}}" class="spec-100-icons" alt="" loading="lazy" />
               <div class="show-xx">
-                <h4>Cardiology billing services in California		</h4>
+                <h4>Cardiology billing services </h4>
               </div>
             </div>
             <div class="one-xx">
               <p>Colorectal</p>
-             <img src={{asset('assets/appImg/colorctal.webp')}} class="spec-100-icons" alt="" loading="lazy" />
+             <img src="{{asset('assets/appImg/colorctal.webp')}}" class="spec-100-icons" alt="" loading="lazy" />
               <div class="show-xx">
                 <h4>Colorectal billing services in California</h4>
               </div>
             </div>
             <div class="one-xx">
               <p>Dermatology</p>
-             <img src={{asset('assets/appImg/dermatology.webp')}} class="spec-100-icons" alt="" loading="lazy" />
+             <img src="{{asset('assets/appImg/dermatology.webp')}}" class="spec-100-icons" alt="" loading="lazy" />
               <div class="show-xx">
-                <h4>Dermatology billing services in California</h4>
+                <h4>Dermatology billing services</h4>
               </div>
             </div>
             <div class="one-xx">
               <p>ECM</p>
-             <img src={{asset('assets/appImg/ecm.webp')}} class="spec-100-icons" alt="" loading="lazy" />
+             <img src="{{asset('assets/appImg/ecm.webp')}}" class="spec-100-icons" alt="" loading="lazy" />
               <div class="show-xx">
-                <h4>ECM Billing Services in California</h4>
+                <h4>ECM Billing Services </h4>
               </div>
             </div>
             <div class="one-xx">
               <p>ER</p>
-             <img src={{asset('assets/appImg/Urgent-Care.webp')}} class="spec-100-icons" alt="" loading="lazy" />
+             <img src="{{asset('assets/appImg/Urgent-Care.webp')}}" class="spec-100-icons" alt="" loading="lazy" />
               <div class="show-xx">
-                <h4>Emergency medical services billing in California</h4>
+                <h4>Emergency medical services billing</h4>
               </div>
             </div>
             <div class="one-xx">
               <p>Endocrinology</p>
-             <img src={{asset('assets/appImg/endocrinology.webp')}} class="spec-100-icons" alt="" loading="lazy" />
+             <img src="{{asset('assets/appImg/endocrinology.webp')}}" class="spec-100-icons" alt="" loading="lazy" />
               <div class="show-xx">
-                <h4>Endocrinology Billing Services in California</h4>
+                <h4>Endocrinology Billing Services</h4>
               </div>
             </div>
             <div class="one-xx">
               <p>ENT</p>
-             <img src={{asset('assets/appImg/ent.webp')}} class="spec-100-icons" alt="" loading="lazy" />
+             <img src="{{asset('assets/appImg/ent.webp')}}" class="spec-100-icons" alt="" loading="lazy" />
               <div class="show-xx">
-                <h4>ENT billing services in California</h4>
+                <h4>ENT billing services</h4>
               </div>
             </div>
             <div class="one-xx">
               <p>Family medicine</p>
-             <img src={{asset('assets/appImg/family-medicine.webp')}} class="spec-100-icons" alt="" loading="lazy" />
+             <img src="{{asset('assets/appImg/family-medicine.webp')}}" class="spec-100-icons" alt="" loading="lazy" />
               <div class="show-xx">
-                <h4>Family medicine billing services in California	</h4>
+                <h4>Family medicine billing services</h4>
               </div>
             </div>
             <div class="one-xx">
               <p>Gastroenterology</p>
-             <img src={{asset('assets/appImg/gastroenterologist.webp')}} class="spec-100-icons" alt="" loading="lazy" />
+             <img src="{{asset('assets/appImg/gastroenterologist.webp')}}" class="spec-100-icons" alt="" loading="lazy" />
               <div class="show-xx">
-                <h4>Gastroenterology Billing Services in California</h4>
+                <h4>Gastroenterology Billing Services</h4>
               </div>
             </div>
             <div class="one-xx">
               <p>Surgical</p>
-             <img src={{asset('assets/appImg/surgical.webp')}} class="spec-100-icons" alt="" loading="lazy" />
+             <img src="{{asset('assets/appImg/surgical.webp')}}" class="spec-100-icons" alt="" loading="lazy" />
               <div class="show-xx">
-                <h4>General Surgery Billing Services in California</h4>
+                <h4>General Surgery Billing Services</h4>
               </div>
             </div>
             <div class="one-xx">
               <p>Hepatology</p>
-             <img src={{asset('assets/appImg/hepatology.webp')}} class="spec-100-icons" alt="" loading="lazy" />
+             <img src="{{asset('assets/appImg/hepatology.webp')}}" class="spec-100-icons" alt="" loading="lazy" />
               <div class="show-xx">
-                <h4>Hepatology Billing Services in California</h4>
+                <h4>Hepatology Billing Services</h4>
               </div>
             </div>
             <div class="one-xx">
               <p>Hospital</p>
-             <img src={{asset('assets/appImg/primarycare.webp')}} class="spec-100-icons" alt="" loading="lazy" />
+             <img src="{{asset('assets/appImg/primarycare.webp')}}" class="spec-100-icons" alt="" loading="lazy" />
               <div class="show-xx">
-                <h4>Hospital Billing Services in California</h4>
+                <h4>Hospital Billing Services</h4>
               </div>
             </div>
             <div class="one-xx">
               <p>Internal Medicine</p>
-             <img src={{asset('assets/appImg/family-medicine.webp')}} class="spec-100-icons" alt="" loading="lazy" />
+             <img src="{{asset('assets/appImg/family-medicine.webp')}}" class="spec-100-icons" alt="" loading="lazy" />
               <div class="show-xx">
                 <h4>Internal Medicine Billing Services in California</h4>
               </div>
             </div>
             <div class="one-xx">
               <p>Mental Health</p>
-             <img src={{asset('assets/appImg/mentalhealth.webp')}} class="spec-100-icons" alt="" loading="lazy" />
+             <img src="{{asset('assets/appImg/mentalhealth.webp')}}" class="spec-100-icons" alt="" loading="lazy" />
               <div class="show-xx">
-                <h4>Mental Health Billing Services in California</h4>
+                <h4>Mental Health Billing Services</h4>
               </div>
             </div>
             <div class="one-xx">
               <p>Nephrology</p>
-             <img src={{asset('assets/appImg/nephrology.webp')}} class="spec-100-icons" alt="" loading="lazy" />
+             <img src="{{asset('assets/appImg/nephrology.webp')}}" class="spec-100-icons" alt="" loading="lazy" />
               <div class="show-xx">
-                <h4>Nephrology Billing Services in California</h4>
+                <h4>Nephrology Billing Services</h4>
               </div>
             </div>
             <div class="one-xx">
               <p>Neurology</p>
-             <img src={{asset('assets/appImg/neurology.webp')}} class="spec-100-icons" alt="" loading="lazy" />
+             <img src="{{asset('assets/appImg/neurology.webp')}}" class="spec-100-icons" alt="" loading="lazy" />
               <div class="show-xx">
-                <h4>Neurology billing services in California</h4>
+                <h4>Neurology billing services</h4>
               </div>
             </div>
             <div class="one-xx">
               <p>Neurosurgery</p>
-             <img src={{asset('assets/appImg/neurosurgery.webp')}} class="spec-100-icons" alt="" loading="lazy" />
+             <img src="{{asset('assets/appImg/neurosurgery.webp')}}" class="spec-100-icons" alt="" loading="lazy" />
               <div class="show-xx">
-                <h4>Neurosurgery billing services in California</h4>
+                <h4>Neurosurgery billing services</h4>
               </div>
             </div>
             <div class="one-xx">
               <p>OB/GYM</p>
-             <img src={{asset('assets/appImg/OB-GYN.webp')}} class="spec-100-icons" alt="" loading="lazy" />
+             <img src="{{asset('assets/appImg/OB-GYN.webp')}}" class="spec-100-icons" alt="" loading="lazy" />
               <div class="show-xx">
-                <h4>OBGYN billing services in California</h4>
+                <h4>OBGYN billing services</h4>
               </div>
             </div>
             <div class="one-xx">
               <p>Oncology</p>
-             <img src={{asset('assets/appImg/OB-GYN.webp')}} class="spec-100-icons" alt="" loading="lazy" />
+             <img src="{{asset('assets/appImg/OB-GYN.webp')}}" class="spec-100-icons" alt="" loading="lazy" />
               <div class="show-xx">
-                <h4>Oncology medical billing services in California</h4>
+                <h4>Oncology medical billing services</h4>
               </div>
             </div>
             <div class="one-xx">
               <p>Eyecare</p>
-             <img src={{asset('assets/appImg/oncology.webp')}} class="spec-100-icons" alt="" loading="lazy" />
+             <img src="{{asset('assets/appImg/oncology.webp')}}" class="spec-100-icons" alt="" loading="lazy" />
               <div class="show-xx">
-                <h4>Optometry Billing Services in California</h4>
+                <h4>Optometry Billing Services</h4>
               </div>
             </div>
             <div class="one-xx">
               <p>Maxillofacial Surgery</p>
-             <img src={{asset('assets/appImg/Maxillofacial.webp')}} class="spec-100-icons" alt="" loading="lazy" />
+             <img src="{{asset('assets/appImg/Maxillofacial.webp')}}" class="spec-100-icons" alt="" loading="lazy" />
               <div class="show-xx">
-                <h4>Oral and Maxillofacial Surgery Billing Services in California</h4>
+                <h4>Oral and Maxillofacial Surgery Billing Services</h4>
               </div>
             </div>
             <div class="one-xx">
               <p>Orthopedics</p>
-             <img src={{asset('assets/appImg/Orthopedics.webp')}} class="spec-100-icons" alt="" loading="lazy" />
+             <img src="{{asset('assets/appImg/ophathamology_.webp')}}" class="spec-100-icons" alt="" loading="lazy" />
               <div class="show-xx">
-                <h4>Orthopedics Billing Services in California</h4>
+                <h4>Orthopedics Billing Services</h4>
               </div>
             </div>
             <div class="one-xx">
               <p>Pediatrics</p>
-             <img src={{asset('assets/appImg/Pediatrics.webp')}} class="spec-100-icons" alt="" loading="lazy" />
+             <img src="{{asset('assets/appImg/Pediatrics.webp')}}" class="spec-100-icons" alt="" loading="lazy" />
               <div class="show-xx">
-                <h4>Pediatrics Billing Services in California</h4>
+                <h4>Pediatrics Billing Services</h4>
               </div>
             </div>
             <div class="one-xx">
               <p>Physical therapy</p>
-             <img src={{asset('assets/appImg/Physical-therapy.webp')}} class="spec-100-icons" alt="" loading="lazy" />
+             <img src="{{asset('assets/appImg/Physical-therapy.webp')}}" class="spec-100-icons" alt="" loading="lazy" />
               <div class="show-xx">
-                <h4>Physical therapy billing services in California	</h4>
+                <h4>Physical therapy billing services</h4>
               </div>
             </div>
             <div class="one-xx">
               <p>Podiatry</p>
-             <img src={{asset('assets/appImg/Podiatry.webp')}} class="spec-100-icons" alt="" loading="lazy" />
+             <img src="{{asset('assets/appImg/Podiatry.webp')}}" class="spec-100-icons" alt="" loading="lazy" />
               <div class="show-xx">
-                <h4>Podiatry Billing Services in California</h4>
+                <h4>Podiatry Billing Services</h4>
               </div>
             </div>
             <div class="one-xx">
               <p>Primary Care</p>
-             <img src={{asset('assets/appImg/primarycare.webp')}} class="spec-100-icons" alt="" loading="lazy" />
+             <img src="{{asset('assets/appImg/primarycare.webp')}}" class="spec-100-icons" alt="" loading="lazy" />
               <div class="show-xx">
-                <h4>Primary Care Billing Services in California	</h4>
+                <h4>Primary Care Billing Services</h4>
               </div>
             </div>
             <div class="one-xx">
               <p>Thoracic Medicine</p>
-             <img src={{asset('assets/appImg/Thoracic.webp')}} class="spec-100-icons" alt="" loading="lazy" />
+             <img src="{{asset('assets/appImg/Thoracic.webp')}}" class="spec-100-icons" alt="" loading="lazy" />
               <div class="show-xx">
                 <h4>Thoracic Medicine Billing Services</h4>
               </div>
             </div>
             <div class="one-xx">
               <p>Urgent Care</p>
-             <img src={{asset('assets/appImg/Urgent-Care.webp')}} class="spec-100-icons" alt="" loading="lazy" />
+             <img src="{{asset('assets/appImg/Urgent-Care.webp')}}" class="spec-100-icons" alt="" loading="lazy" />
               <div class="show-xx">
-                <h4>Urgent Care Billing Services in California</h4>
+                <h4>Urgent Care Billing Services</h4>
               </div>
             </div>
             <div class="one-xx">
               <p>Urology</p>
-             <img src={{asset('assets/appImg/Urology.webp')}} class="spec-100-icons" alt="" loading="lazy" />
+             <img src="{{asset('assets/appImg/Urology.webp')}}" class="spec-100-icons" alt="" loading="lazy" />
               <div class="show-xx">
-                <h4>Urology Billing Services in California</h4>
+                <h4>Urology Billing Services</h4>
               </div>
             </div>
           </div>
