@@ -406,6 +406,12 @@ h6.financial-head {
   margin: 0px 0px 10px;
   color: rgb(80 46 109);
 }
+.bg-green-100.text-green-800.p-3.rounded.mb-4 {
+    background: green;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
 p.financial-txt {
     width: 470px;
     text-align: justify;

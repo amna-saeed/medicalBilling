@@ -50,10 +50,6 @@ class HomeController extends Controller
     {
         return view('pages.specialities');
     }
-    public function ContactHome()
-    {
-        return view('pages.contact-us');
-    }
     public function aboutHome()
     {
         return view('pages.about-us');

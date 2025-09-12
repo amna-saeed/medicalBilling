@@ -76,7 +76,7 @@ button.btn.sbmt-xx {
     background-position: center;
     border: 2px solid #502e6d;
     border-radius: 12px;
-    padding: 12px 20px;
+    padding: 14px 20px;
     box-shadow: 0px 2px 18px -4px #502E6D;
     
 }
@@ -2190,7 +2190,49 @@ p.para-sldr-200{
     width: 11px;
     height: 11px;
   }
-
-
-
+  .bg-service-contact{
+    min-height: 26vh;
+  }
+  .row.tp-1.blackis-xx{
+    margin-top: 0px;
+  }
+  .text-box-cont p {
+    font-size: 15px;
+    line-height: 23px;
+    width: auto;
+    margin-top: 13px;
+  }
+  h4.cont-headngzz {
+    font-size: 22px;
+    margin: 10px 0px 0px;
+    line-height: 18px;
+  }
+  .sngle-box {
+    margin: 10px 0px;
+  }
+  .sngle-box i {
+    font-size: 17px;
+  }
+  .cont-para-xx {
+    font-size: 15px;
+    padding-left: 9px;
+  }
+  .pd-l-zro{
+    padding-left: 0px;
+  }
+  input.form-control.usr-xx {
+    height: 45px;
+    padding: 2px 15px;
+    font-size: 14px;
+  }
+  label.form-label {
+    font-size: 14px;
+  }
+  .form-box-1 {
+    padding: 15px 5px;
+  }
+  iframe{
+    width: 330px !important;
+    height: 250px !important;
+  }
 }

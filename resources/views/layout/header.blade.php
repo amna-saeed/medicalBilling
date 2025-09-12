@@ -28,13 +28,13 @@
                         </span>
                         privacy-policy
                       </a>
-                      <a href="booking.html" class="dropdown-item-custom pd-rmve">
+                      <!-- <a href="booking.html" class="dropdown-item-custom pd-rmve">
                         <span class="icon-wrapper">
                           <img src="{{ asset('assets/appImg/terms.png') }}" class="icon-default" alt="" loading="lazy">
                           <img src="{{ asset('assets/appImg/terms_.png') }}" class="icon-hover" alt="" loading="lazy">
                         </span>
                        Terms and Conditions
-                      </a>
+                      </a> -->
                     </div>
                   </div>
               </div>
@@ -279,7 +279,7 @@
               <ul class="dropdown-menu" aria-labelledby="bpSpecialitiesDropdown">
                 <li><a class="dropdown-item inner-resp" href="{{ route('about-us')}}">About Us</a></li>
                 <li><a class="dropdown-item inner-resp" href="{{route('privacy-policy')}}"> privacy-policy</a></li>
-                <li><a class="dropdown-item inner-resp" href="#">Terms and Conditions</a></li>
+                <!-- <li><a class="dropdown-item inner-resp" href="#">Terms and Conditions</a></li> -->
               </ul>
               </li>
                <li class="bp-item dropdown bp-specialities">

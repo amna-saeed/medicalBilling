@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\SpecialityController;
+use App\Http\Controllers\ContactController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -24,11 +25,13 @@ Route::get('/services.revenue-cycle-management', [HomeController::class, 'Revenu
 Route::get('/services.medical-billing-consulting', [HomeController::class, 'CounsltngHome'])->name('services.medical-billing-consulting');
 Route::get('/services.medical-transcription-service', [HomeController::class, 'OutsourceHome'])->name('services.medical-transcription-service');
 Route::get('/services.ar-follow-up', [HomeController::class, 'ArHome'])->name('services.ar-follow-up');
-Route::get('/contact-us', [HomeController::class, 'ContactHome'])->name('contact-us');
 Route::get('/about-us', [HomeController::class, 'aboutHome'])->name('about-us');
 Route::get('/privacy-policy', [HomeController::class, 'privacyHome'])->name('privacy-policy');
 
 // dynamic routes
 Route::get('/specialities/{slug}', [SpecialityController::class, 'show'])->name('specialities');
+
+Route::get('/contact-us', [ContactController::class, 'show'])->name('contact-us');
+Route::post('/contact-us', [ContactController::class, 'submit'])->name('contact.submit');
 
 

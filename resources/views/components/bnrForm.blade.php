@@ -58,9 +58,9 @@
         </form>
     </div>
 
-<style>
-    .form-box ::placeholder{
-        color: #000 !important;
-    }
-</style>
+    <style>
+        .form-box ::placeholder{
+            color: #000 !important;
+        }
+    </style>
 

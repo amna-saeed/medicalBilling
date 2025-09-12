@@ -16,7 +16,7 @@
             <div class="set-phonez">
                 <i aria-hidden="true" class="fa fa-phone fx-xx"></i>
                 <div class="right-cont-11">
-                    <span class="elementskit-info-box-title">(800) 516-5234</span>
+                    <span class="elementskit-info-box-title">+914-505-6665</span>
                     <p>Talk To An Expert</p>
                 </div>
             </div>      
@@ -39,11 +39,11 @@
                 <div class="left-cont-box">
                     <div class="sngle-box d-flex align-items-center gap-2">
                         <i aria-hidden="true" class="fas fa-map-marker-alt"></i>
-                        <a class="cont-para-xx" href="">134 N 4Th St, Brooklyn, NY 11249</a>
+                        <a class="cont-para-xx" href="">1561 N central Ave, valley stream, NY, 11580, united states</a>
                     </div>
                     <div class="sngle-box">
                         <i aria-hidden="true" class="fas fa-phone-alt"></i>
-                        <a class="cont-para-xx" href="">(800) 516-5234</a>
+                        <a class="cont-para-xx" href="">+914-505-6665</a>
                     </div>
                     <div class="sngle-box">
                         <i aria-hidden="true" class="fas fa-envelope"></i>
@@ -51,53 +51,76 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-7" style="padding-right: 0px;">
+            <div class="col-lg-7 pd-l-zro" style="padding-right: 0px;">
+                @if(session('success'))
+                    <div class="bg-green-100 text-green-800 p-3 rounded mb-4">
+                        {{ session('success') }}
+                    </div>
+                @endif
+
+                @if($errors->any())
+                  <div class="bg-red-100 text-red-800 p-3 rounded mb-4">
+                    <ul>
+                      @foreach($errors->all() as $err)
+                        <li>{{ $err }}</li>
+                      @endforeach
+                    </ul>
+                  </div>
+                @endif
+
                 <div class="form-box-1">
-                    <form id="contactForm">
+                    <form action="{{ route('contact.submit') }}" method="POST" id="contactForm">
+                       @csrf
                         <div class="row g-3">
                             <!-- Name -->
                             <div class="col-md-6 fotm-mr-all">
                                 <label for="name" class="form-label">Full Name <span class="text-danger">*</span></label>
-                                <input type="text" class="form-control usr-xx" id="name" required>
+                                <input type="text" class="form-control usr-xx" id="name" name="name" required>
                             </div>
 
                             <!-- Email -->
                             <div class="col-md-6 fotm-mr-all">
                                 <label for="email" class="form-label">Email Address <span class="text-danger">*</span></label>
-                                <input type="email" class="form-control usr-xx" id="email" required>
+                                <input type="email" class="form-control usr-xx" id="email" name="email" required>
                             </div>
 
                             <!-- Phone -->
                             <div class="col-md-6 fotm-mr-all">
                                 <label for="phone" class="form-label">Phone Number <span class="text-danger">*</span></label>
-                                <input type="tel" class="form-control usr-xx" id="phone" required>
+                                <input type="tel" class="form-control usr-xx" id="phone" name="phone" required>
                             </div>
 
                             <!-- Address -->
                             <div class="col-md-6 fotm-mr-all">
                                 <label for="address" class="form-label">Address <span class="text-danger">*</span></label>
-                                <input type="text" class="form-control usr-xx" id="address" required>
+                                <input type="text" class="form-control usr-xx" id="address" name="address" required>
                             </div>
 
                             <!-- Service Type -->
                             <div class="col-md-6 fotm-mr-all">
                                 <label for="serviceType" class="form-label">Service Type <span class="text-danger">*</span></label>
-                                <select class="form-select usr-xx" id="serviceType" required>
-                                    <option value="" disabled selected>Select a service</option>
-                                    <option>Consultation</option>
-                                    <option>Home Visit</option>
-                                    <option>Telehealth</option>
+                                <select class="form-select usr-xx" id="serviceType" name="service_type" required>
+                                    <option value="" disabled selected hidden>Select Service Type</option>
+                                    <option>Medical Billing</option>
+                                    <option>Medical Credentialing</option>
+                                    <option>Medical Coding</option>
+                                    <option>Denial Management</option>
+                                    <option>Out of Network</option>
+                                    <option>Revenue Cycle</option>
+                                    <option>Medical Consulting</option>
+                                    <option>Medical Transcription Services</option>
+                                    <option>A/R Follow Up</option>
                                 </select>
                             </div>
 
                             <!-- Healthcare Type -->
                             <div class="col-md-6 fotm-mr-all">
                                 <label for="healthcareType" class="form-label">Healthcare Type <span class="text-danger">*</span></label>
-                                <select class="form-select usr-xx" id="healthcareType" required>
-                                    <option value="" disabled selected>Select healthcare type</option>
-                                    <option>Primary Care</option>
-                                    <option>Specialist</option>
-                                    <option>Emergency</option>
+                                <select class="form-select usr-xx" id="healthcareType" name="healthcare_type" required>
+                                    <option value="" disabled selected hidden>Select Healthcare Type</option>
+                                    <option>Individual Practice</option>
+                                    <option>Group Practice</option>
+                                    <option>Hospital</option>
                                 </select>
                             </div>
 
@@ -111,8 +134,8 @@
             </div>
         </div>
         <div class="row">
-          <div class="col-lg-12">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13610.344461855575!2d74.38383534295772!3d31.48056963731725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391905fd549278bb%3A0x555638325551aad1!2sD.H.A.%20Phase%201%2C%20Lahore%2C%20Pakistan!5e0!3m2!1sen!2s!4v1751884390269!5m2!1sen!2s" width="1100" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="col-lg-12 pd-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.824398443437!2d-73.71277812483521!3d40.67783793970766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c26387a2e82b43%3A0x22dd2f677811b6d4!2s1561%20N%20Central%20Ave%2C%20Valley%20Stream%2C%20NY%2011580%2C%20USA!5e0!3m2!1sen!2s!4v1757679866516!5m2!1sen!2s" width="1100" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
     </div>
@@ -126,11 +149,11 @@ h4.cont-headngzz {
   font-size: 30px;
   font-weight: 700;
   color: #502e6d;
-  margin: 45px 0px 0px;
+  margin: 10px 0px 0px;
   line-height: 37px;
 }
 .fotm-mr-all{
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 .text-box-cont p {
     color: #434343;
@@ -208,6 +231,16 @@ label.form-label {
 }
 .cont-para-xx:hover {
     color: #502E6D;
+}
+
+@media (min-width: 320px) and (max-width: 525px) {
+    iframe {
+        width: 330px !important;
+        height: 250px !important;
+    }
+    .pd-map{
+      padding: 0px;
+    }
 }
 </style>
 <link href="{{ asset('assets/css/medical-service.css') }}" rel="stylesheet">
