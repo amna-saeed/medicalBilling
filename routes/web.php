@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\SpecialityController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\BgFormController;
+use App\Http\Controllers\TransparentFormController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -30,7 +32,8 @@ Route::get('/privacy-policy', [HomeController::class, 'privacyHome'])->name('pri
 
 // dynamic routes
 Route::get('/specialities/{slug}', [SpecialityController::class, 'show'])->name('specialities');
-
+Route::post('/bg-form-submit', [BgFormController::class, 'submit'])->name('bgform.submit');
+Route::post('/transparent-form-submit', [TransparentFormController::class, 'submit'])->name('transparentform.submit');
 Route::get('/contact-us', [ContactController::class, 'show'])->name('contact-us');
 Route::post('/contact-us', [ContactController::class, 'submit'])->name('contact.submit');
 

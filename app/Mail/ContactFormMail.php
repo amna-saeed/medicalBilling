@@ -19,7 +19,7 @@ class ContactFormMail extends Mailable
 
     public function build()
     {
-        return $this->subject('New Contact Request')
+        return $this->subject('Client Contact Request')
                     ->markdown('emails.contact') // uses resources/views/emails/contact.blade.php
                     ->with('data', $this->data);
     }

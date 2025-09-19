@@ -1,5 +1,5 @@
 @component('mail::message')
-# New Contact Request
+# Client Contact Request
 
 **Service Type:** {{ $data['service_type'] }}  
 **Healthcare Type:** {{ $data['healthcare_type'] }}  

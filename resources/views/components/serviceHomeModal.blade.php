@@ -12,11 +12,12 @@
                 </div>
                 <div class="modal-body custom-modal-body">
                     <div class="bg-gradient-xx mx-auto p-4">
-                        <form>
+                        <form method="POST" action="{{ route('transparentform.submit') }}">
+                            @csrf
                             <!-- Row 1 -->
                             <div class="row mrgnz-btm-frm">
                                 <div class="col-md-12 pdng-rmve service-modal">
-                                    <select class="form-select frm-input-wdth" required>
+                                    <select class="form-select frm-input-wdth" name="service_type" required>
                                         <option value="" disabled selected hidden>Select Service Type</option>
                                         <option>Medical Billing</option>
                                         <option>Medical Credentialing</option>
@@ -34,7 +35,7 @@
                             <!-- Row 2 -->
                             <div class="row mrgnz-btm-frm">
                                 <div class="col-md-12 pdng-rmve service-modal">
-                                    <select class="form-select frm-input-wdth" required>
+                                    <select class="form-select frm-input-wdth" name="healthcare_type" required>
                                         <option value="" disabled selected hidden>Select Healthcare Type</option>
                                         <option>Individual Practice</option>
                                         <option>Group Practice</option>
@@ -46,20 +47,20 @@
                             <!-- Row 3 -->
                             <div class="row mrgnz-btm-frm">
                                 <div class="col-md-6 pdng-rmve-rght service-modal">
-                                    <input type="text" class="form-control frm-input-wdth" placeholder="Your Name" required />
+                                    <input type="text" class="form-control frm-input-wdth" placeholder="Your Name" name="name" required />
                                 </div>
                                 <div class="col-md-6 pdng-rmve-lft service-modal">
-                                    <input type="email" class="form-control frm-input-wdth" placeholder="Email Address" required />
+                                    <input type="email" class="form-control frm-input-wdth" placeholder="Email Address" name="email" required />
                                 </div>
                             </div>
 
                             <!-- Row 4 -->
                             <div class="row mrgnz-btm-frm">
                                 <div class="col-md-6 pdng-rmve-rght service-modal">
-                                    <input type="tel" class="form-control frm-input-wdth" placeholder="Phone Number" required />
+                                    <input type="number" class="form-control frm-input-wdth" placeholder="Phone Number" name="phone" required />
                                 </div>
                                 <div class="col-md-6 pdng-rmve-lft service-modal">
-                                    <input type="url" class="form-control frm-input-wdth" placeholder="Website (optional)" />
+                                    <input type="url" class="form-control frm-input-wdth" placeholder="Website (optional)" name="website" />
                                 </div>
                             </div>
                             <div class="text-center w-100 service-modal">
@@ -74,6 +75,16 @@
 </div>
 
 <style>
+ .bg-grdark-600.text-green-800.p-3.rounded.mb-4 {
+            background: green;
+            color: #fff;
+            font-size: 15px;
+            font-weight: 500;
+            width: 96%;
+            text-align: center;
+            margin-left: 2%;
+            border-radius: 15px;
+        }    
 button.close.\31 20-cls{
     position: absolute;
     right: -11px;   

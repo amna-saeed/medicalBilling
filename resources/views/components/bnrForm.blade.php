@@ -1,11 +1,27 @@
 <!-- Right Form -->
 
     <div class="transparent-form mx-auto p-4">
-        <form>
+        @if(session('success'))
+        <div class="bg-grdark-600 text-green-800 p-3 rounded mb-4">
+            {{ session('success') }}
+        </div>
+        @endif
+
+        @if($errors->any())
+            <div class="bg-red-100 text-red-800 p-3 rounded mb-4">
+            <ul>
+                @foreach($errors->all() as $err)
+                <li>{{ $err }}</li>
+                @endforeach
+            </ul>
+            </div>
+        @endif
+        <form method="POST" action="{{ route('transparentform.submit') }}">
+            @csrf
             <!-- Row 1 -->
             <div class="row mb-3">
                 <div class="col-md-12 p-rmve form-box">
-                    <select class="form-select custm-input-bnr" required>
+                    <select class="form-select custm-input-bnr" name="service_type" required>
                         <option value="" disabled selected hidden>Select Service Type</option>
                         <option value="" disabled selected hidden>Select Service Type</option>
                         <option>Medical Billing</option>
@@ -24,7 +40,7 @@
             <!-- Row 2 -->
             <div class="mb-3">
                 <div class="col-md-12 p-rmve form-box">
-                    <select class="form-select custm-input-bnr" required>
+                    <select class="form-select custm-input-bnr" name="healthcare_type" required>
                         <option value="" disabled selected hidden>Select Healthcare Type</option>
                         <option>Individual Practice</option>
                         <option>Group Practice</option>
@@ -36,20 +52,20 @@
             <!-- Row 3 -->
             <div class="row mb-3">
                 <div class="col-md-6 p-rmve form-box">
-                    <input type="text" class="form-control custm-input-bnr" placeholder="Your Name" required />
+                    <input type="text" class="form-control custm-input-bnr" placeholder="Your Name" name="name" required />
                 </div>
                 <div class="col-md-6 p-rmve form-box">
-                    <input type="email" class="form-control custm-input-bnr" placeholder="Email Address" required />
+                    <input type="email" class="form-control custm-input-bnr" placeholder="Email Address" name="email" required />
                 </div>
             </div>
 
             <!-- Row 4 -->
             <div class="row mb-3">
                 <div class="col-md-6 p-rmve form-box">
-                    <input type="tel" class="form-control custm-input-bnr" placeholder="Phone Number" required />
+                    <input type="number" class="form-control custm-input-bnr" name="phone" placeholder="Phone Number" required />
                 </div>
                 <div class="col-md-6 p-rmve form-box">
-                    <input type="url" class="form-control custm-input-bnr" placeholder="Website (optional)" />
+                    <input type="url" class="form-control custm-input-bnr" placeholder="Website (optional)"  name="website" />
                 </div>
             </div>
             <div class="text-center w-100 form-box">
@@ -61,6 +77,16 @@
     <style>
         .form-box ::placeholder{
             color: #000 !important;
+        }
+        .bg-grdark-600.text-green-800.p-3.rounded.mb-4 {
+            background: green;
+            color: #fff;
+            font-size: 15px;
+            font-weight: 500;
+            width: 96%;
+            text-align: center;
+            margin-left: 2%;
+            border-radius: 15px;
         }
     </style>
 
