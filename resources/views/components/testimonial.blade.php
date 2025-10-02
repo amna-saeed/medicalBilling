@@ -25,7 +25,7 @@
                 </div>
 
                 <p class="testimonial-text">
-                    I recently had the pleasure of working with iRCM (shout out to Jenny, Emma, Sarah) and I highly recommend them without reservation. From start to finish,...
+                    I recently had the pleasure of working with ReviveHealth (shout out to Jenny, Emma, Sarah) and I highly recommend them without reservation. From start to finish,...
                 </p>
                 <a href="#" class="read-more">Read more</a>
             </div>

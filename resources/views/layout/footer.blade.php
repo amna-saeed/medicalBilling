@@ -31,7 +31,7 @@
         <div class="copyright">
             <div class="row">
                 <div class="col-md-12 text-center text-md-center footer-policy">
-                    © 2025 CorroHealth, Inc. All rights reserved. | Privacy Policy
+                    © 2022 ReviveHealth Partners, Inc. All rights reserved. | Privacy Policy
                 </div>
             </div>
         </div>

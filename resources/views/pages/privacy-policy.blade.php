@@ -33,15 +33,14 @@
                     <div class="text-box-cont-about">
                         <p class="about-para">
                           Thank you for choosing SybridMD <b>(Official Business Name: MD Syhealth LLC) </b>to handle all of your medical billing needs. We care about our customers and aim to provide the best services in the industry. For the sake of clarity and to promote transparency on our end, we have prepared the following privacy policy to help you understand the way our company handles your information and how your security is ensured.
-
                         </p>
                         <p class="about-para">
-                           Being in the medical billing industry, we require that all of our customers provide us with the relevant insurance and medical information that we request, so that we can begin pursuing claims on your behalf. By opting to use our services, you are consenting to our requirements and are agreeing to provide us with this information. Additionally, you are also consenting to the use of your details in accordance with the SybridMD Privacy Policy. We are aware that this information is extremely private and can be identifying, which is why, to that end, we can guarantee that it will not be compromised or exploited in any malicious way.
+                          Being in the medical billing industry, we require that all of our customers provide us with the relevant insurance and medical information that we request, so that we can begin pursuing claims on your behalf. By opting to use our services, you are consenting to our requirements and are agreeing to provide us with this information. Additionally, you are also consenting to the use of your details in accordance with the SybridMD Privacy Policy. We are aware that this information is extremely private and can be identifying, which is why, to that end, we can guarantee that it will not be compromised or exploited in any malicious way.
                         </p>
-                         <p class="about-para">
-                            Introduced in <b>August 1996,</b> the Health Insurance Portability and Accountability Act <b>(HIPAA)</b> was implemented in order to improve standards for healthcare by guaranteeing greater security for personal information. In the process of handling all medical billing, we will handle your information in line with the standards described in this act.
-                            The details and information you provide us will be handled in the manner stated below:
-                         </p>
+                        <p class="about-para">
+                          Introduced in <b>August 1996,</b> the Health Insurance Portability and Accountability Act <b>(HIPAA)</b> was implemented in order to improve standards for healthcare by guaranteeing greater security for personal information. In the process of handling all medical billing, we will handle your information in line with the standards described in this act.
+                          The details and information you provide us will be handled in the manner stated below:
+                        </p>
                          <p class="about-para">
                             <ul class="privacy-list">
                                 <li>

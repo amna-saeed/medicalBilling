@@ -286,8 +286,8 @@
                 <a class="bp-link dropdown-toggle" href="#" id="bpSpecialitiesDropdown"
                   role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Services
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="bpSpecialitiesDropdown">
+                </a> 
+                <ul class="dropdown-menu specialities-fix-h" aria-labelledby="bpSpecialitiesDropdown">
                   <li><a class="dropdown-item inner-resp" href="{{ route('services.medical-billing') }}"> Medical Billing</a></li>
                   <li><a class="dropdown-item inner-resp" href="{{ route('services.medical-credentialing') }}">Medical Credentialing</a></li>
                   <li><a class="dropdown-item inner-resp" href="{{ route('services.medical-coding') }}"> Medical Coding</a></li>
@@ -304,7 +304,7 @@
                   role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Specialities
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="bpSpecialitiesDropdown">
+                <ul class="dropdown-menu specialities-fix-h" aria-labelledby="bpSpecialitiesDropdown">
                   <li><a class="dropdown-item inner-resp" href="{{ route('specialities', 'orthopedic') }}"> Orthopedic Billing</a></li>
                   <li><a class="dropdown-item inner-resp" href="{{ route('specialities', 'urology') }}">Urology Billing</a></li>
                   <li><a class="dropdown-item inner-resp" href="{{ route('specialities', 'MentalHealth') }}">Mental Health</a></li>
@@ -691,6 +691,10 @@ a.dropdown-item-custom.pd-rmve{
 @media (min-width: 320px) and (max-width: 525px) {
   header.main-header{
     display: none;
+  }
+  ul.dropdown-menu.specialities-fix-h.show{
+    height: 160px;
+    overflow-y: scroll;
   }
   nav.navbar.navbar-expand-lg.navbar-dark.fixed-top.bp-navbar{
     display: block;
